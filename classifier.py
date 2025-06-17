@@ -14,19 +14,6 @@ with open("data/cso-matrix.txt", "r", encoding="utf-8") as f:
 def classify_provision(provision_text):
     prompt = f"""
     Classify the following provision: {provision_text}
-    Use the CSO Matrix to find the closest matching concept and classify the provision accordingly.
-    If no exact match exists, choose the conceptually closest one, but flag it.
-
-    Return a JSON object like this:
-
-    {{
-    "provision": "{provision_text}",
-    "interpretation": "ADICO syntax breakdown of the provided provision.",
-    "matched_matrix_provision": "Closest concept from matrix, exactly as it appears in the matrix.",
-    "subgroup": "Formation | Governance | Operations | Resources",
-    "type": "Restrictive | Permissive",
-    "explanation": "Brief legal reasoning and justification based on the matrix."
-    }}
     """
 
     system_instructions = f"""
@@ -68,6 +55,18 @@ def classify_provision(provision_text):
     
     Once assigned, do not change the category.
     Do not speculate beyond the matrix provided, and always return a JSON object with the specified structure.
+
+    Always return a JSON object like this:
+
+    {{
+    "provision": "Provided provision text, exactly as it appears in the input.",
+    "interpretation": "ADICO syntax breakdown of the provided provision.",
+    "matched_matrix_provision": "Closest concept from matrix, exactly as it appears in the matrix.",
+    "subgroup": "Formation | Governance | Operations | Resources",
+    "type": "Restrictive | Permissive",
+    "is_exact_match": "true | false",
+    "explanation": "Brief legal reasoning and justification based on the matrix."
+    }}
     """
 
     start_time = time.time()
@@ -148,6 +147,18 @@ def classify_provision_with_file_search(provision_text, matrix_path):
             
             Once assigned, do not change the category.
             Do not speculate beyond the matrix provided, and always return a JSON object with the specified structure.
+                      
+            Always return a JSON object like this:
+
+            {{
+            "provision": "Provided provision text, exactly as it appears in the input.",
+            "interpretation": "ADICO syntax breakdown of the provided provision.",
+            "matched_matrix_provision": "Closest concept from matrix, exactly as it appears in the matrix.",
+            "subgroup": "Formation | Governance | Operations | Resources",
+            "type": "Restrictive | Permissive",
+            "is_exact_match": "true | false",
+            "explanation": "Brief legal reasoning and justification based on the matrix."
+            }}
             """
         ),
         tools=[{
@@ -156,19 +167,6 @@ def classify_provision_with_file_search(provision_text, matrix_path):
         }],
         input=( f"""
             Classify the following provision: {provision_text}
-            Use the CSO Matrix to find the closest matching concept and classify the provision accordingly.
-            If no exact match exists, choose the conceptually closest one, but flag it.
-
-            Return a JSON object like this:
-
-            {{
-            "provision": "{provision_text}",
-            "interpretation": "ADICO syntax breakdown of the provided provision.",
-            "matched_matrix_provision": "Closest concept from matrix, exactly as it appears in the matrix.",
-            "subgroup": "Formation | Governance | Operations | Resources",
-            "type": "Restrictive | Permissive",
-            "explanation": "Brief legal reasoning and justification based on the matrix."
-            }}
             """
         ),
         temperature=0.2

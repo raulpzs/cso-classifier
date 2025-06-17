@@ -9,10 +9,10 @@ if __name__ == "__main__":
         sys.exit(1)
 
     provision_text = sys.argv[1]
-    ###Uncomment this line with # to use the original classifier, which uses the matrix directly
+    ### Direct prompting classifer
     result = classify_provision(provision_text)
 
-    #Uses the file search tool to classify the provision
+    ### File search (RAG) based classifier
     #result = classify_provision_with_file_search(provision_text, matrix_path)
 
     print("Classification Result:\n", result)
