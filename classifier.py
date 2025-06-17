@@ -132,7 +132,6 @@ def classify_provision_with_file_search(provision_text, matrix_path):
             CONDITIONS [at all times and in all places unless they are exempted] 
             OR ELSE [or else face imprisonment, a ﬁne, or both].
 
-            This is the matrix you will use to classify the provision: {matrix_typology}
             You fill find the closest matching concept in the matrix and classify the provideded provision accordingly.
             If no match exists, choose the conceptually closest one, but flag it.
 
