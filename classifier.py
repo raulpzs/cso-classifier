@@ -1,11 +1,16 @@
 import os
 from openai import OpenAI
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import time
 
 # Load .env variables (to keep the API key secure)
-load_dotenv()
-client = OpenAI(api_key=os.getenv("api_key"))
+#load_dotenv()
+
+if os.getenv("HF_SPACE") != "true":
+    from dotenv import load_dotenv
+    load_dotenv()
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Load the CSO Matrix typology from file
 with open("data/cso-matrix.txt", "r", encoding="utf-8") as f:

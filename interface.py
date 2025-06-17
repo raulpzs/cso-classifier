@@ -7,7 +7,7 @@ def run_classifier(provision_text):
 
 gr.Interface(
     fn=run_classifier,
-    inputs=gr.Textbox(lines=10, placeholder="Paste legal provision here..."),
+    inputs=gr.Textbox(lines=10, placeholder="Paste legal provision here:"),
     outputs="json",
     title="CSO Provision Classifier",
     description="Paste a legal provision to classify it using the CSO Matrix. Result includes ADICO interpretation, match, subgroup, and restrictiveness."
