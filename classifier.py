@@ -25,26 +25,7 @@ def classify_provision(provision_text):
     You are a legal classification expert trained in civil society regulation. 
     Your task is to classify civil society regulations using the ADICO grammar and the CSO Regulatory Regime Matrix.
 
-    From the provided legal provision, you will:
-    1. Classify the provision as either:
-    - Restrictive: if it imposes barriers or burdens on CSO activity.
-    - Permissive: if it enables, supports, or simplifies CSO activity.
-    Consider a two-step reasoning process to classify:
-        First, a provision is permissive if its reasonable and impartial enforcement improves trust, accountability, or resolves “voluntary failures”. 
-        Classification advances to the second stage if there is no clear demand-side prediction. Here, a provision is restrictive if its reasonable and impartial enforcement limits organizational autonomy or stifles organizational emergence.
-    2. Assign the provision to one of the four CSO Matrix subgroups: Formation, Governance, Operations, Resources.
-    When matching to the matrix, prefer provisions that align not just linguistically but functionally and grammatically using the ADICO structure
-    - Formation: Refers to the legal rules governing how CSOs come into legal existence, including registration, minimum founders, and procedures to gain formal recognition. It defines who is allowed to form a CSO and under what conditions.
-    - Governance: Encompasses rules that shape how CSOs are managed internally, including leadership structures, decision-making, member rights, and reporting obligations. It regulates accountability and transparency within the organization.
-    - Operations: Regulates what CSOs are allowed to do in public life, including advocacy, service provision, protest, and communication with authorities. It directly affects the scope of their day-to-day actions and voice in civic space.
-    - Resources: Pertains to CSO's ability to secure, manage, and use financial or material support, both domestic and international. This includes rules on fundraising, foreign funding, taxation, and ownership of assets.
-    3. Provide a brief legal reasoning and justification.
-    
-    Use the following matrix to classify the provision by matching the closest listed concept: {matrix_typology}
-    Remember concepts in the matrix are already classified into these subgroups, so the subgroup must always be in accordance to the one matched in the matrix, as well as its permissive or restrictive nature.
-    If no exact match exists, select the conceptually closest one, and include a note in the explanation indicating that the match is approximate.
-
-    Each provision in the matrix is structured using the ADICO grammar as follows: 
+    You will break down the provided provision using the ADICO grammar as follows: 
     [ATTRIBUTES] identify to whom the statement applies, with the default assumption being all members of the group;
     [DEONTIC] identifies the expectation of behavior identified by the qualifiers 'may' (permitted), 'must' (obliged), and 'must not' (forbidden);
     [AIM] specifies the particular action or outcome prescribed, or those actions or outcomes that are forbidden;
@@ -61,10 +42,32 @@ def classify_provision(provision_text):
     CONDITIONS [at all times and in all places unless they are exempted] 
     OR ELSE [or else face imprisonment, a ﬁne, or both].
 
-    Once assigned, do not change the category.
-    Do not speculate beyond the matrix provided, and always return a JSON object with the specified structure.
+    Not every provisison will have all components, especially [conditons] and [or else].
+    If a component is not present, you can use "N/A" to indicate its absence, but you should always try to identify them before identifying as absent.
 
-    Always return a JSON object like this:
+    From the broken-down legal legal provision, you will then:
+    1. Classify the provision as either:
+    - Restrictive: if it imposes barriers or burdens on CSO activity.
+    - Permissive: if it enables, supports, or simplifies CSO activity.
+    Consider a two-step reasoning process to classify:
+        First, a provision is permissive if its reasonable and impartial enforcement improves trust, accountability, or resolves “voluntary failures”. 
+        Classification advances to the second stage if there is no clear demand-side prediction. Here, a provision is restrictive if its reasonable and impartial enforcement limits organizational autonomy or stifles organizational emergence.
+    2. Assign the provision to one of the four CSO Matrix subgroups: Formation, Governance, Operations, Resources.
+    When matching to the matrix, prefer provisions that align not just linguistically but functionally and grammatically using the ADICO structure
+    - Formation: Refers to the legal rules governing how CSOs come into legal existence, including registration, minimum founders, and procedures to gain formal recognition. It defines who is allowed to form a CSO and under what conditions.
+    - Governance: Encompasses rules that shape how CSOs are managed internally, including leadership structures, decision-making, member rights, and reporting obligations. It regulates accountability and transparency within the organization.
+    - Operations: Regulates what CSOs are allowed to do in public life, including advocacy, service provision, protest, and communication with authorities. It directly affects the scope of their day-to-day actions and voice in civic space.
+    - Resources: Pertains to CSO's ability to secure, manage, and use financial or material support, both domestic and international. This includes rules on fundraising, foreign funding, taxation, and ownership of assets.
+    3. Provide a brief legal reasoning and justification.
+
+    Use the following CSO Regulatory Regime Matrix to match the closest listed concept and aid your provision classification: {matrix_typology}
+    Remember concepts in the matrix are already classified into these subgroups, so the subgroup must always be in accordance to the one matched in the matrix, as well as its permissive or restrictive nature.
+    If no exact match exists, select the conceptually closest one, and include a note in the explanation indicating that the match is approximate.
+
+    Once assigned, do not change the category.
+    Make sure there is not speculating beyond the matrix provided, the matched provision should alwasy exist in the CSO Regulatory Regime Matrix.
+
+    Always return a JSON object with the following structure:
 
     {{
     "provision": "Provided provision text, exactly as it appears in the input.",
