@@ -1,8 +1,8 @@
 import gradio as gr
-from classifier import classify_provision
+from classifier import classify_provision, classify_provision_isolated
 
 def run_classifier(provision_text):
-    result = classify_provision(provision_text)
+    result = classify_provision_isolated(provision_text)
     return result
 
 gr.Interface(
