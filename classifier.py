@@ -255,7 +255,7 @@ def classify_provision_isolated(provision_text):
     Governance, Formation, Operations, Resources.
     Provide brief legal reasoning and justification of why it regulates in the chosen subgroup and type.
 
-    4. You will use the CSO Regulatory Regime Matrix to match the closest listed concept. You may only match to one provision.
+    4. You will use the CSO Regulatory Regime Matrix to match the closest listed concept.
     {{
     "provision": "Provided provision text, exactly as it appears in the input.",
     "ADICO": "ADICO syntax breakdown of the provided provision.",
