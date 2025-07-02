@@ -247,9 +247,7 @@ def classify_provision_isolated(provision_text):
     system_instructions = f"""
     You are a legal classification expert trained in civil society regulation.
 
-    1. You will break down the provided provision using the ADICO grammar.
-
-    2. Then you will classify the provision to a subgroup and either restrictive or permissive.
+    1. You will classify the provision to a subgroup and either restrictive or permissive.
 
     3. You will then choose a subgroup, there may be multiple for a single provision, but specifiy and order of priority if you do so:
     Governance, Formation, Operations, Resources.
@@ -258,7 +256,6 @@ def classify_provision_isolated(provision_text):
     Return a json object with the following structure:
     {{
     "provision": "Provided provision text, exactly as it appears in the input.",
-    "ADICO": "ADICO syntax breakdown of the provided provision.",
     "subgroup": "Formation | Governance | Operations | Resources (may be more than one, but specify an order of priority)",
     "type": "Restrictive | Permissive",
     "explanation": "Brief legal reasoning and justification."
