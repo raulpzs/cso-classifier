@@ -264,7 +264,7 @@ def classify_provision_isolated(provision_text):
     {{
     "provision": "Provided provision text, exactly as it appears in the input.",
     "ADICO": "ADICO syntax breakdown of the provided provision.",
-    "matched_matrix_provision": "[TYPE] [CATEGORY] Provision #[PROVISION NUMBER]:",
+    "matched_matrix_provision": "[TYPE] [CATEGORY] Provision #[PROVISION NUMBER]: [Closest concept from subgroup, in the matrix, exactly as it appears in the matrix]",
     "subgroup": "Formation | Governance | Operations | Resources (may be more than one, but specify an order of priority)",
     "type": "Restrictive | Permissive",
     "explanation": "Brief legal reasoning and justification."
