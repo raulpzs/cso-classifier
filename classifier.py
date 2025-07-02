@@ -255,17 +255,14 @@ def classify_provision_isolated(provision_text):
     Governance, Formation, Operations, Resources.
     Provide brief legal reasoning and justification of why it regulates in the chosen subgroup and type.
 
-    4. You will use the CSO Regulatory Regime Matrix to match the closest listed concept.
+    Return a json object with the following structure:
     {{
     "provision": "Provided provision text, exactly as it appears in the input.",
     "ADICO": "ADICO syntax breakdown of the provided provision.",
-    "matched_matrix_provision": "[TYPE] [CATEGORY] Provision #[PROVISION NUMBER]: [Closest concept in the matrix, exactly as it appears in the matrix, if any]",
     "subgroup": "Formation | Governance | Operations | Resources (may be more than one, but specify an order of priority)",
     "type": "Restrictive | Permissive",
-    "explanation": "Brief legal reasoning and justification based on the matrix."
+    "explanation": "Brief legal reasoning and justification."
     }}
-
-    The CSO Regulatory Regime Matrix is as follows: {matrix_typology}
     """
 
     start_time = time.time()
