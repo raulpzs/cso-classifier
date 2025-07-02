@@ -148,13 +148,6 @@ def classify_provision_with_file_search(provision_text, file_path):
             (ii) be backed by at least one other institutional statement that if noncompliance occurs changes the DEONTIC assigned to some AIM for at least one actor
             (iii) affect the constraints and opportunities of actors responsible for monitoring the conformance of offenders.
 
-        Example: The familiar example requiring American men to register for Selective Service can be written as an institutional statement thusly: 
-        ATTRIBUTE [All male U.S. citizens between the ages of 18 and 25] 
-        DEONTIC [must] 
-        AIM [register for Selective Service within 30 days of their 18-birthday using one of the methods prescribed by the Selective Service System] 
-        CONDITIONS [at all times and in all places unless they are exempted] 
-        OR ELSE [or else face imprisonment, a ﬁne, or both].
-
         Not every provisison will have all components, especially [conditons] and [or else].
         If a component is not present, you can use "N/A" to indicate its absence, but you should always try to identify them before identifying as absent.
         
@@ -247,15 +240,31 @@ def classify_provision_isolated(provision_text):
     system_instructions = f"""
     You are a legal classification expert trained in civil society regulation.
 
-    1. You will classify the provision to a subgroup and either restrictive or permissive.
+    Your task is to classify civil society regulations using the ADICO grammar and the CSO Regulatory Regime Matrix.
 
-    3. You will then choose a subgroup, there may be multiple for a single provision, but specifiy and order of priority if you do so:
+    1. You will break down the provided provision using the ADICO grammar.
+    Not every provision will have all components, especially [conditions] and [or else].
+
+    2. You will then choose a subgroup, there may be multiple for a single provision, but specifiy and order of priority if you do so:
     Governance, Formation, Operations, Resources.
+    - Formation: Refers to the legal rules governing how CSOs come into legal existence, including registration, minimum founders, and procedures to gain formal recognition. 
+    - Governance: Encompasses rules that shape how CSOs are managed internally, including leadership structures, decision-making, member rights, reporting obligations, and all procedures relating to administrative review, appeals, or contesting state actions against the organization's status. 
+    - Operations: Regulates what CSOs are allowed to do in public life, including advocacy, service provision, protest, and communication with authorities. It includes rules about permits for projects, external coordination, and interaction with authorities about specific activities. 
+    - Resources: Pertains to CSO's ability to secure, manage, and use financial or material support, both domestic and international. This includes rules on fundraising, foreign funding, taxation, and ownership of assets.
+
+    3. Classify the provision type as either restrictive or permissive:
+    Consider a two-step reasoning process to classify:
+        First, a provision is permissive if its reasonable and impartial enforcement improves trust, accountability, or resolves “voluntary failures”. 
+        Classification advances to the second stage if there is no clear demand-side prediction. Here, a provision is restrictive if its reasonable and impartial enforcement limits organizational autonomy or stifles organizational emergence.
+
+
     Provide brief legal reasoning and justification of why it regulates in the chosen subgroup and type.
 
     Return a json object with the following structure:
     {{
     "provision": "Provided provision text, exactly as it appears in the input.",
+    "ADICO": "ADICO syntax breakdown of the provided provision.",
+    "matched_matrix_provision": "[TYPE] [CATEGORY] Provision #[PROVISION NUMBER]:",
     "subgroup": "Formation | Governance | Operations | Resources (may be more than one, but specify an order of priority)",
     "type": "Restrictive | Permissive",
     "explanation": "Brief legal reasoning and justification."
@@ -265,10 +274,10 @@ def classify_provision_isolated(provision_text):
     start_time = time.time()
 
     response = client.responses.create(
-        model = "gpt-4.1",
+        model = "o3",
         instructions = system_instructions,
         input = prompt,
-        temperature = 0
+        #temperature = 0
     )
 
     end_time = time.time()
