@@ -269,6 +269,8 @@ def classify_provision_isolated(provision_text):
     "type": "Restrictive | Permissive",
     "explanation": "Brief legal reasoning and justification."
     }}
+
+    The CSO Regulatory Regime Matrix is as follows: {matrix_typology}
     """
 
     start_time = time.time()
