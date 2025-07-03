@@ -238,48 +238,57 @@ def classify_provision_isolated(provision_text):
     """
 
     system_instructions = f"""
-    You are a legal classification expert trained in civil society regulation.
+    You are a legal classification expert trained in civil society regulation. 
+    Your task is to classify civil society regulations using the ADICO grammar.
 
-    Your task is to classify civil society regulations using the ADICO grammar and the CSO Regulatory Regime Matrix.
+    1. You will break down the provided provision using the ADICO grammar as follows: 
+    [ATTRIBUTES] identify to whom the statement applies, with the default assumption being all members of the group;
+    [DEONTIC] identifies the expectation of behavior identified by the qualifiers 'may' (permitted), 'must' (obliged), and 'must not' (forbidden);
+    [AIM] specifies the particular action or outcome prescribed, or those actions or outcomes that are forbidden;
+    [CONDITIONS] explains when and where the institutional applies with the default assumption being all times and all places;
+    [OR ELSE] assigns consequences for noncompliance. This component must have three qualifications: 
+        (i) sanctioning provision is the result of an explicit collective-choice decision that is separate from any internal or social penalty
+        (ii) be backed by at least one other institutional statement that if noncompliance occurs changes the DEONTIC assigned to some AIM for at least one actor
+        (iii) affect the constraints and opportunities of actors responsible for monitoring the conformance of offenders.
+        It is important to note that the enforcing authority if always impartial and reasonable under the law.
 
-    1. You will break down the provided provision using the ADICO grammar.
-    Not every provision will have all components, especially [conditions] and [or else].
+    Not every provisison will have all components, especially [conditons] and [or else].
+    If a component is not present, you can use "N/A" to indicate its absence, but you should always try to identify them before identifying as absent.
 
-    2. You will then choose a subgroup, there may be multiple for a single provision, but specifiy and order of priority if you do so:
-    Governance, Formation, Operations, Resources.
-    - Formation: Refers to the legal rules governing how CSOs come into legal existence, including registration, minimum founders, and procedures to gain formal recognition. 
-    - Governance: Encompasses rules that shape how CSOs are managed internally, including leadership structures, decision-making, member rights, reporting obligations, and all procedures relating to administrative review, appeals, or contesting state actions against the organization's status. 
-    - Operations: Regulates what CSOs are allowed to do in public life, including advocacy, service provision, protest, and communication with authorities. It includes rules about permits for projects, external coordination, and interaction with authorities about specific activities. 
-    - Resources: Pertains to CSO's ability to secure, manage, and use financial or material support, both domestic and international. This includes rules on fundraising, foreign funding, taxation, and ownership of assets.
+    2. Classify the provision to a subgroup and either restrictive or permissive according to the following:
 
-    3. Classify the provision type as either restrictive or permissive:
-    Consider a two-step reasoning process to classify:
-        First, a provision is permissive if its reasonable and impartial enforcement improves trust, accountability, or resolves “voluntary failures”. 
-        Classification advances to the second stage if there is no clear demand-side prediction. Here, a provision is restrictive if its reasonable and impartial enforcement limits organizational autonomy or stifles organizational emergence.
+    2.1. You will classify provisions as either restrictive or permissive using a two-step process. First, a provision is permissive if the demand-side theory predicts the provision improves trust, accountability, or resolves “voluntary failures”. 
+    Classification advances to the second stage if there is no clear demand-side prediction. Here, a provision is restrictive if the supply-side theory predicts it limits organizational autonomy or stifles organizational emergence.
+    
+    Restrictive provisions are those that deteriorate society's trust in CSOs thus decrease demand for such organizations, or they repress and intimidate organizations and their members and thus decrease the supply of CSOs. In the vernacular of transaction cost economics, restrictive provisions increase transaction costs and make it more costly to operate and create such organizations. In extreme instances, these policies legalize corrosive state action such as harassment and seizure of property, impose excessive burdens, restrict the freedom to associate, limit pluralism and stoke intolerance, and remove legal protections and due process.
+    Permissive provisions are those that protect society and thus increase demand for CSOs, or they create and preserve CSOs and thereby increase the stock of CSOs overtime. Permissive provisions facilitate accountability and transparency that reduce transaction costs for users of nonprofit services. These policies encourage the development of a country's voluntary sector, allow CSOs to self-regulate and appeal regulators' decisions, provide legal rights and protections, permit access to funds and incentivize private donations, and facilitate practices thought to build trust and protect against misconduct by those that seek to abuse the rights and privileges of the legal form. Permissive provisions help to build trust for CSOs among the public and to prevent unscrupulous actors from abusing the legal form for private gain.
 
+    2.2. You will then choose a subgroup, there may be multiple for a single provision, but specifiy and order of priority if you do so:
+    - Governance provisions structure the amendment and enforcement of provisions contained in other subgroups. These provisions create and empower institutional actors such as government agencies, private self-regulators, and dispute resolution forums that affect CSOs externally. Laws that restrict constitutionally protected freedoms, such as the right to associate, are governance provisions because they relate to constitutional provisions that supersede legislative laws and policies. In effect, this category is superior to others because governance provisions control the creation, enforcement, and amendment of other regulatory provisions. 
+    - Formation provisions are primarily concerned with the legal status and processes of voluntary associations that choose to incorporate as formalized CSOs. Whether informal associations must incorporate with the government is also a formation provision. These provisions stipulate the requirements for registration (e. g. membership, financial capital), how the registration process unfolds, and whether registrations expire. As a legal matter, the status of a CSO and the decision to become a formal organization may determine which provisions apply to it (e. g. lobbying, tax-deductible donations). As a political matter, these policies have a legitimizing effect on organizations and failure to secure/renew the proper status might lead to decreased assets from donors and suspicion from citizens.
+    - Operations provisions regulate how CSOs deploy assets in pursuit of their organizational goals. At a high level, these provisions stipulate issue areas and establish what CSOs can or cannot do. Legal definitions and funding sources often define this operational space. For example, American 501(c)(3)s are limited in their ability to lobby, while nonprofit 501(c)(4)s have no such restriction. These provisions also outline whether and how CSOs must receive permission to conduct operations. The highest burden appears to be provisions that require CSOs to obtain a permit to perform specific projects, but less burdensome is the requirement that CSOs obtain a license to perform a general task. These provisions communicate what (if any) reporting CSOs are expected to make available and to whom.
+    - Resources provisions govern the financial and non-financial assets of CSOs. Some studies consider only provisions that regulate if and how CSOs can receive foreign funding, or what refers to as “philanthropic protectionism". These include provisions that prohibit specific legal forms from engaging in fundraising altogether and others that permit CSOs to raise funds through business activities unrelated to their charitable missions. This subgroup includes provisions governing taxable activities, whether a CSO receives a tax-exemption, whether individuals who donate to a CSO receive a tax-deduction, and other similar matters. These provisions also discuss requirements for auditing and financial reporting, ownership of non-financial resources such as property and equipment, and expectations for working with local partners.
 
     Provide brief legal reasoning and justification of why it regulates in the chosen subgroup and type.
 
-    Return a json object with the following structure:
+    Always return a JSON object with the following structure:
+
     {{
     "provision": "Provided provision text, exactly as it appears in the input.",
     "ADICO": "ADICO syntax breakdown of the provided provision.",
-    "matched_matrix_provision": "[TYPE] [CATEGORY] Provision #[PROVISION NUMBER]: [Closest concept from subgroup, in the matrix, exactly as it appears in the matrix]",
     "subgroup": "Formation | Governance | Operations | Resources (may be more than one, but specify an order of priority)",
     "type": "Restrictive | Permissive",
-    "explanation": "Brief legal reasoning and justification."
+    "explanation": "Brief legal reasoning and justification based on the matrix."
     }}
-
-    The CSO Regulatory Regime Matrix is as follows: {matrix_typology}
     """
 
     start_time = time.time()
 
     response = client.responses.create(
-        model = "o3",
+        model = "gpt-4.1",
         instructions = system_instructions,
         input = prompt,
-        #temperature = 0
+        temperature = 0
     )
 
     end_time = time.time()
