@@ -13,6 +13,38 @@ client = OpenAI(api_key=os.getenv("api_key"))
 with open("data/cso-matrix.txt", "r", encoding="utf-8") as f:
     matrix_typology = f.read()
 
+schema = {
+    "type": "object",
+    "properties": {
+        "Name":         {"type": "string"},
+        "Jurisdiction": {"type": "string"},
+        "Year":         {"type": ["integer", "null"]},
+        "Language":     {"type": "string"},
+        "Objective":    {"type": "string"},
+        "Provisions": {
+            "type": "array",
+            "minItems": 56,
+            "maxItems": 56,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "Provision":  {"type": "string"},
+                    "Code":       {"type": "integer", "enum": [-1, 0, 1]},
+                    "Explanation":{"type": ["string", "null"]}
+                },
+                "required": ["Provision", "Code"],
+                "additionalProperties": False
+            }
+        }
+    },
+    "required": [
+        "Name", "Jurisdiction", "Year",
+        "Language", "Objective", "Provisions"
+    ],
+    "additionalProperties": False
+}
+
+
 def code_law(law_text):
     prompt = f"""
     Code the following law: {law_text}
@@ -84,7 +116,14 @@ def code_law(law_text):
         model = "gpt-4.1",
         instructions = system_instructions,
         input = prompt,
-        temperature = 0
+        text={
+                "format": {
+                    "type": "json_schema",
+                    "strict": True,
+                    "schema": schema
+                }
+            },
+        temperature = 0.0
     )
 
     end_time = time.time()
@@ -97,4 +136,4 @@ def code_law(law_text):
     print(f"Total tokens: {usage.total_tokens}")
     print(f"Execution time: {duration} seconds\n")
 
-    return response.output_text
+    return json.loads(response.output_text)

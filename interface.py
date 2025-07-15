@@ -13,8 +13,10 @@ def run_coder(law_text):
 gr.Interface(
     #fn=run_classifier,
     fn=run_coder,
-    inputs=gr.Textbox(lines=10, placeholder="Paste legal provision here:"),
+    inputs=gr.Textbox(lines=10, placeholder="Paste here:"),
     outputs="json",
-    title="CSO Provision Classifier",
-    description="Paste a legal provision to classify it using the CSO Matrix. Result includes ADICO interpretation, match, subgroup, and restrictiveness."
+    #title="CSO Provision Classifier",
+    #description="Paste a legal provision to classify it using the CSO Matrix. Result includes ADICO interpretation, match, subgroup, and restrictiveness."
+    title="CSO Law Coder",
+    description="Paste a legal text to code it using the CSO Matrix. Result includes law metadata and provision codings."
 ).launch()
