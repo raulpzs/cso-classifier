@@ -119,6 +119,7 @@ def code_law(law_text):
         text={
                 "format": {
                     "type": "json_schema",
+                    "name": "CSO Law Coding",
                     "strict": True,
                     "schema": schema
                 }
