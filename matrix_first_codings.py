@@ -7,7 +7,7 @@ if os.getenv("HF_SPACE") != "true":
     from dotenv import load_dotenv
     load_dotenv()
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=os.getenv("api_key"))
 
 # Load the CSO Matrix typology from file
 with open("data/cso-matrix.txt", "r", encoding="utf-8") as f:
