@@ -32,7 +32,7 @@ schema = {
                     "Code":       {"type": "integer", "enum": [-1, 0, 1]},
                     "Explanation":{"type": ["string", "null"]}
                 },
-                "required": ["Provision", "Code"],
+                "required": ["Provision", "Code", "Explanation"],
                 "additionalProperties": False
             }
         }
