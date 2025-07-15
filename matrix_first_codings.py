@@ -46,27 +46,32 @@ def code_law(law_text):
         Code: 1, 0, or -1
         Brief explanation (1-2 sentences, only if ambiguous or partial)
 
-        Example Output:
+        Example Output: All in a JSON file with the following structure:
 
-        (Only at first)
-        Name: Ley 39
-        Jurisdiction: Panama
-        Year: 2018
-        Language: Spanish
-        Objective: The law is intended to regulate the creation of “public interest associations”, which directly affects the formation and thus activity of CSOs.
-
-        (Then each provision)
-        1. PERMISSIVE RESOURCES 1 [CSOs] [must] [report their finances for public access] [after law's commencement] [or else face penalty for non-compliance] 
-        Code: 1  
-        Explanation: Section 4, Article 3 requires all CSOs to publish books of accounts for the public annually.
-
-        2. RESTRICTIVE OPERATIONS 3. [CSOs] [must not] [exceed specific threshold of budget spent on overhead] such as a certain percentage of budgets spent on administrative costs [after law’s commencement] [or else face penalty for non-compliance] 
-        Code: 0  
-        Explanation: No provision found establishing a threshold of overhead spending.
-
-        3. PERMISSIVE FORMATION 3. [Agency] [must not] [reject registration for reasons other than those explicitly stated] [after law's commencement] [or else it is overstepping its authority]
-        Code: -1  
-        Explanation: Section VI, Article 8 states that the government reserves the right to reject registration for any cause it deems necessary.
+        {{
+        "Name": "Ley 39",
+        "Jurisdiction": "Panama",
+        "Year": 2018,
+        "Language": "Spanish",
+        "Objective": "The law is intended to regulate the creation of “public interest associations”, which directly affects the formation and thus activity of CSOs.",
+        "Provisions": [
+            {{
+            "Provision": "1. PERMISSIVE RESOURCES 1 [CSOs] [must] [report their finances for public access] [after law's commencement] [or else face penalty for non-compliance]",
+            "Code": 1,
+            "Explanation": "The Public Benefit Organizations Act, Section X, requires all CSOs to publish books of accounts for the public annually."
+            }},
+            {{
+            "Provision": "2. RESTRICTIVE OPERATIONS 3. [CSOs] [must not] [exceed specific threshold of budget spent on overhead] such as a certain percentage of budgets spent on administrative costs [after law's commencement] [or else face penalty for non-compliance]",
+            "Code": 0,
+            "Explanation": "No provision found establishing a threshold of overhead spending."
+            }},
+            {{
+            "Provision": "3. PERMISSIVE FORMATION 3. [Agency] [must not] [reject registration for reasons other than those explicitly stated] [after law's commencement] [or else it is overstepping its authority]",
+            "Code": -1,
+            "Explanation": "Section Y, Article 8 states that the government reserves the right to reject registration for any cause it deems necessary."
+            }}
+        ]
+        }}
 
         Repeat this process for every matrix provision. If the code is 1 or -1, ALWAYS cite the specific provision in the law where the provision from the matrix is found to be implemented or negated.
         Important: Remember to code 1 ONLY when the provision is EXPLICITLY IMPLEMENTED in the law, and -1 ONLY when it's EXPLICITLY NEGATED. If it's only inferred through lack of regulation or something else, it's a 0.
