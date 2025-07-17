@@ -113,7 +113,7 @@ def code_law(law_text):
     start_time = time.time()
 
     response = client.responses.create(
-        model = "gpt-4.1",
+        model = "o3",
         instructions = system_instructions,
         input = prompt,
         text={
@@ -123,8 +123,8 @@ def code_law(law_text):
                     "strict": True,
                     "schema": schema
                 }
-            },
-        temperature = 0.0
+            }#,
+        #temperature = 0.2
     )
 
     end_time = time.time()
