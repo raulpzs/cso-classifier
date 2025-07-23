@@ -13,18 +13,21 @@ def extract_nonzero_provisions(record: dict) -> list[dict]:
     return [p for p in record.get("Provisions", []) if p.get("Code", 0) != 0]
 
 schema = {
-    "Provision": {"type": "string"},
-    "FirstRoundCoderLabel": {"type": "integer", "enum": [-1, 0, 1]},
-    "CorrectLabel": {"type": "integer", "enum": [-1, 0, 1]},
-    "Evidence": {"type": ["string", "null"]},
-    "Explanation": {"type": ["string", "null"]}
-    }
+    "type": "object",
+    "properties": {
+        "Provision": {"type": "string"},
+        "FirstRoundCoderLabel": {"type": "integer", "enum": [-1, 0, 1]},
+        "CorrectLabel": {"type": "integer", "enum": [-1, 0, 1]},
+        "Evidence": {"type": ["string", "null"]},
+        "Explanation": {"type": ["string", "null"]}
+    },
+    "required": ["Provision", "FirstRoundCoderLabel", "CorrectLabel", "Evidence", "Explanation"],
+    "additionalProperties": False
+}
 
 def verify_provision(provision, law_text):
     prompt = f"""
     You will see the law from where the first-round coder assinged its label, but pay special attention to where it cited from to assign said label.
-    The first-round coder usualy does a good job finding the section of the law that addreses the provison's topic, but it may be wrong, so aid yourself from the full law if uncertain.
-    It tends to overuse presence or negation instead of absence. 
     In order for a provision to be 1 or -1, it has to be explicitly implemented or negated, and all components of the ADICO from the matrix provision have to be present (except the 'or else' clause).
 
     You will see something like this:
