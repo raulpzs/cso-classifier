@@ -28,11 +28,12 @@ schema = {
             "items": {
                 "type": "object",
                 "properties": {
-                    "Provision":  {"type": "string"},
-                    "Code":       {"type": "integer", "enum": [-1, 0, 1]},
-                    "Explanation":{"type": ["string", "null"]}
+                    "Provision": {"type": "string"},
+                    "Code": {"type": "integer", "enum": [-1, 0, 1]},
+                    "Evidence": {"type": ["string", "null"]},
+                    "Explanation": {"type": ["string", "null"]}
                 },
-                "required": ["Provision", "Code", "Explanation"],
+                "required": ["Provision", "Code", "Evidence", "Explanation"],
                 "additionalProperties": False
             }
         }
@@ -51,7 +52,10 @@ def code_law(law_text):
     """
 
     system_instructions = f"""
-        You are a legal analyst trained to analyze civil society regulation. You will help code a legal regime by checking for the presence, absence, or negation of standard regulatory provisions.
+        You are a legal analyst trained to analyze civil society regulation. 
+        You will code a legal regime by checking for the presence, absence, or negation of standard regulatory provisions.
+        The provisions are from the CSO Regulatory Regime Matrix, which follow an ADICO syntax (Attributes, Deontic, Aim, Conditions, Or Else).
+
         TASK:
         1. Analyze the legal statute to understand its objective and what it regulates.
         2. For EACH of the 56 standardized provisions in the CSO Matrix (listed below):
@@ -59,61 +63,62 @@ def code_law(law_text):
         - Code as -1 if one or more sections of the law EXPLICITLY NEGATE or forbid the rule.
         - Code as 0 if the law is silent on the matter or does not clearly address the rule.
 
-        If partially present or ambiguous, explain your reasoning in a short note.
+        If a provision is 1 or -1, you MUST include “evidence”, a verbatim quotation (60 words max) from the statute proving your decision.
+        If no such quotation exists, you MUST label the provision 0, with a brief explanation when possible.
+        When uncertain, pick 0.
 
         Important: The law may use a different terminology, but the matrix uses CSO (Civil Society Organization) as an umbrella term that includes terms such as charity, foundation, non-profit organizations and other kinds of voluntary associations.
 
         Before coding the law, provide:
-        Name: Name of law (if available)
-        Jurisdiction: Where the law applies
-        Year: Year of enactment (if available)
-        Language: The language the provided statute is in
-        Objective: What the statute is intended to regulate, and if it's related to CSO activity
+            Name: Name of law (if available)
+            Jurisdiction: Where the law applies
+            Year: Year of enactment (if available)
+            Language: The language the provided statute is in
+            Objective: What the statute is intended to regulate, and if it's related to CSO activity
 
         Then, for each matrix provision, provide:
+            Matrix provision with ID (exactly as it appears in matrix)
+            Code: 1, 0, or -1
+            Evidence: Verbatim quotation from the statute (60 words max) if applicable
+            Brief explanation (1-2 sentences)
 
-        Output format:
-        Provision Number/ID
-        Text of matrix provision (exactly as it appears in matrix)
-        Code: 1, 0, or -1
-        Brief explanation (1-2 sentences, only if ambiguous or partial)
-
-        Example Output: All in a JSON file with the following structure:
+        Use this examples to guide your coding, the output shall be in a JSON file with the following structure:
 
         {{
-        "Name": "Ley 39",
-        "Jurisdiction": "Panama",
-        "Year": 2018,
-        "Language": "Spanish",
-        "Objective": "The law is intended to regulate the creation of “public interest associations”, which directly affects the formation and thus activity of CSOs.",
+        "Name": "Act No. 90-559",
+        "Jurisdiction": "France",
+        "Year": 1990,
+        "Language": "French",
+        "Objective": "This law establishes the legal framework for corporate foundations in France, allowing companies to create nonprofit entities to support public interest activities with defined governance and funding rules.",
         "Provisions": [
             {{
-            "Provision": "1. PERMISSIVE RESOURCES 1 [CSOs] [must] [report their finances for public access] [after law's commencement] [or else face penalty for non-compliance]",
-            "Code": 1,
-            "Explanation": "The Public Benefit Organizations Act, Section X, requires all CSOs to publish books of accounts for the public annually."
+            "Provision": "1. PERMISSIVE RESOURCES 4. [CSOs] [may] [engage in unrelated business activities] such as revenue generation [after law's commencement] [or else choose not to pursue those activities]",
+            "Code": 1,,
+            "Evidence": "Art. 19-8: 'The resources of the company Foundation include [...] the remuneration for services rendered.'",
+            "Explanation": "Art. 19-8 explicitly includes proceeds of services rendered under their resources, allowing them to participate in other business activities."
             }},
             {{
-            "Provision": "2. RESTRICTIVE OPERATIONS 3. [CSOs] [must not] [exceed specific threshold of budget spent on overhead] such as a certain percentage of budgets spent on administrative costs [after law's commencement] [or else face penalty for non-compliance]",
+            "Provision": "2. RESTRICTIVE FORMATION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
             "Code": 0,
-            "Explanation": "No provision found establishing a threshold of overhead spending."
+            "Evidence": null,
+            "Explanation": "While Art. 19-1 requires administrative authorization and publication for legal capacity, it does not explicitly forbid informal association, it only requires registration for legal recognition."
             }},
             {{
-            "Provision": "3. PERMISSIVE FORMATION 3. [Agency] [must not] [reject registration for reasons other than those explicitly stated] [after law's commencement] [or else it is overstepping its authority]",
+            "Provision": "3. PERMISSIVE OPERATIONS 4. [Agency] [must] [have reasonable cause and follow explicit rules when conducting inspections of CSOs] such as requesting specific documentation or investigating offenses [after law's commencement] [or else it is overstepping its authority] ",
             "Code": -1,
-            "Explanation": "Section Y, Article 8 states that the government reserves the right to reject registration for any cause it deems necessary."
+            "Evidence": "Art. 19-10: 'to this end, it can be given all documents and carry out any useful investigations.'",
+            "Explanation": "Article 19-10 states that the administrative authority may 'carry out any useful investigation', effectively removing the requirement for reasonable cause or specific rules."
             }}
         ]
         }}
 
-        Repeat this process for every matrix provision. If the code is 1 or -1, ALWAYS cite the specific provision in the law where the provision from the matrix is found to be implemented or negated.
-        Important: Remember to code 1 ONLY when the provision is EXPLICITLY IMPLEMENTED in the law, and -1 ONLY when it's EXPLICITLY NEGATED. If it's only inferred through lack of regulation or something else, it's a 0.
-
         The CSO Regulatory Regime Matrix is as follows: {matrix_typology}
+
     """
     start_time = time.time()
 
     response = client.responses.create(
-        model = "o3",
+        model = "gpt-4.1",
         instructions = system_instructions,
         input = prompt,
         text={
@@ -123,8 +128,8 @@ def code_law(law_text):
                     "strict": True,
                     "schema": schema
                 }
-            }#,
-        #temperature = 0.2
+            },
+        temperature = 0
     )
 
     end_time = time.time()
