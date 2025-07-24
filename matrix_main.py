@@ -6,8 +6,8 @@ from matrix_first_filter import extract_nonzero_provisions, verify_provision
 # Configuration
 LAW_PATH = "inputs/FrancecpENG.txt"
 OUTPUT_DIR = "outputs"
-FIRST_ROUND_OUTPUT = os.path.join(OUTPUT_DIR, "FrancecpENG_first_round_2.json")
-VERIFIED_OUTPUT = os.path.join(OUTPUT_DIR, "FrancecpENG_verified_2.json")
+FIRST_ROUND_OUTPUT = os.path.join(OUTPUT_DIR, "FrancecpENG_first_round_3.json")
+VERIFIED_OUTPUT = os.path.join(OUTPUT_DIR, "FrancecpENG_verified_3.json")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -33,7 +33,7 @@ def main():
 
     for provision in nonzero_provisions:
         print(f"Verifying: {provision['Provision'][:80]}...")
-        verified_result = verify_provision(provision, law_text)
+        verified_result = verify_provision(provision)
         verified.append(verified_result)
 
     # Save verified output

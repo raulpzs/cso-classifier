@@ -25,10 +25,10 @@ schema = {
     "additionalProperties": False
 }
 
-def verify_provision(provision, law_text):
+def verify_provision(provision):
     prompt = f"""
-    You will see the law from where the first-round coder assinged its label, but pay special attention to where it cited from to assign said label.
     In order for a provision to be 1 or -1, it has to be explicitly implemented or negated, and all components of the ADICO from the matrix provision have to be present (except the 'or else' clause).
+    The first-round coder usualy does a good job finding the section of the law that addreses the provison's topic, but it tends to overuse presence or negation instead of absence.
 
     You will see something like this:
     {{
@@ -44,7 +44,7 @@ def verify_provision(provision, law_text):
     "FirstRoundCoderLabel": 1,
     "CorrectLabel": 0,
     "Evidence": "Art. 19-1: 'The company Foundation enjoys the legal capacity from the publication in the Official Gazette of the administrative authorization that him confers it this status.'",
-    "Explanation": "The matrix provision is about prohibiting and establishing a penalty for informal operation. While Art. 19-1 requires administrative authorization and publication for legal capacity, it does not explicitly forbid informal association, it only requires registration for legal recognition."
+    "Explanation": "While Art. 19-1 requires administrative authorization and publication for legal capacity, the matrix provision is about prohibiting informal operation It does not explicitly forbid informal association, it only requires registration for legal recognition."
     }}
 
     === Matrix provision ===
@@ -58,9 +58,6 @@ def verify_provision(provision, law_text):
 
     === Explanation ===
     {provision.get('Explanation')}
-
-    === Law text ===
-    {law_text}
     
     """
     system_instructions = f"""
