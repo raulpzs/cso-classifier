@@ -1,8 +1,8 @@
 import pdfplumber
 import csv, os, re, unicodedata
 from typing import List
-from ftfy import fix_text        # pip install ftfy
-from unidecode import unidecode  # pip install Unidecode  (optional)
+from ftfy import fix_text    
+from unidecode import unidecode # 
 
 # ----------------------------------------------------------------------
 # 1)  Tiny, fast cleaner
