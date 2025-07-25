@@ -25,19 +25,42 @@ schema = {
     "additionalProperties": False
 }
 
-def verify_provision(provision):
+def verify_provision(provision, law_text):
     prompt = f"""
-    In order for a provision to be 1 or -1, it has to be explicitly implemented or negated, and all components of the ADICO from the matrix provision have to be present (except the 'or else' clause).
-    The first-round coder usualy does a good job finding the section of the law that addreses the provison's topic, but it tends to overuse presence or negation instead of absence.
+    The first-round coder usually does a good job finding the section of the law that addresses the provision's topic, but tends to overuse the presence (1) or negation (-1) label instead of absence (0).
+    In order for a provision to be labeled 1 or -1, it must be explicitly implemented or explicitly negated in the legal text, and all components of the ADICO structure from the matrix provision must be present (excluding the 'or else' clause, which is optional).
 
-    You will see something like this:
+    In some instances, the provisions in the matrix do not regulate CSOs directly, but rather the regulating body, government, or other entities.
+    In these cases, the provision can still be correctly labeled as 1 or -1 if the legal text itself fulfills the obligation—even if it is the legislature, not an agency, performing the act.
+
+    Here are a few examples to guide your coding:
+
+    a) INPUT:
     {{
-    "Provision": "2. RESTRICTIVE FORMATION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
+    "Provision": "PERMISSIVE FORMATION 2. [Agency] [must] [explain precise legal definitions of CSOs that it regulates] [at law's commencement] [or else it is negligent in its duties]",
+    "Code": 1,
+    "Evidence": "Art. 19: 'Civil or commercial companies, public establishments of an industrial and commercial nature, cooperatives or mutual funds may create, with a view to the realization of a work of general interest, a not-for-profit legal person, called the corporate Foundation.'",
+    "Explanation": "The law defines 'company Foundation' and its requirements."
+    }}
+
+    OUTPUT:
+    {{
+    "Provision": "PERMISSIVE FORMATION 2. [Agency] [must] [explain precise legal definitions of CSOs that it regulates] [at law's commencement] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 19: 'Civil or commercial companies, public establishments of an industrial and commercial nature, cooperatives or mutual funds may create, with a view to the realization of a work of general interest, a not-for-profit legal person, called the corporate Foundation.'",
+    "Explanation": "The legal text itself defines the concept of a 'corporate foundation' at the outset, fulfilling the matrix provision's requirement that precise definitions be provided. Although this duty is not assigned to a specific agency, the obligation is satisfied by the statute itself. Therefore, the correct label is 1."
+    }}
+
+    b) INPUT:
+    {{
+    "Provision": "RESTRICTIVE FORMATION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
     "Code": 1,
     "Evidence": "Art. 19-1: 'The company Foundation enjoys the legal capacity from the publication in the Official Gazette of the administrative authorization that him confers it this status.'",
     "Explanation": "Legal capacity is only granted upon publication of administrative authorization."
     }}
-
+    
+    OUTPUT
     And your output should be a JSON file that looks like this:
     {{
     "Provision": "2. RESTRICTIVE FORMATION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
@@ -58,7 +81,10 @@ def verify_provision(provision):
 
     === Explanation ===
     {provision.get('Explanation')}
-    
+
+    === Legal text ===
+    {law_text}
+
     """
     system_instructions = f"""
     You are a legal analyst trained to analyze civil society regulation.

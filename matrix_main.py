@@ -33,7 +33,7 @@ def main():
 
     for provision in nonzero_provisions:
         print(f"Verifying: {provision['Provision'][:80]}...")
-        verified_result = verify_provision(provision)
+        verified_result = verify_provision(provision, law_text)
         verified.append(verified_result)
 
     # Save verified output
