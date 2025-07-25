@@ -11,7 +11,7 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("api_key"))
 
 # Load extracted provisions
-df = pd.read_csv("outputs/provisions_from_spacing_3.csv")
+df = pd.read_csv("outputs/provisions_from_spacing_france.csv")
 df["label"] = ""
 df["explanation"] = ""
 
@@ -34,7 +34,7 @@ schema = {
 # Instructions for GPT
 instructions = """
     You are a legal assistant tasked with identifying whether a paragraph from a legal document is a standalone legal provision.
-    You will receive fragments of text from a legal document, and your job is to classify each paragraph based on its content.
+    You will receive fragments of text from a legal document, and your job is to classify each paragraph based on its content, whether it regulates legal matters or not.
 
     Classify each paragraph as:
     "provision": if it establishes a legal rule, right, obligation, restriction, or process. It must contain enforceable or actionable content
@@ -55,7 +55,7 @@ for i, row in df.iterrows():
 
     try:
         response = client.responses.create(
-            model="gpt-4o",
+            model="gpt-4.1",
             instructions=instructions,
             input=text,
             text={

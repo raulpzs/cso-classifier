@@ -54,5 +54,4 @@ def extract_provisions_by_spacing(pdf_path: str, output_csv: str, y_threshold: f
 
 # Example usage
 if __name__ == "__main__":
-    extract_provisions_by_spacing("inputs/StateofMexicoCSOLaw.pdf", "outputs/provisions_from_spacing_mexico.csv")
-
+    extract_provisions_by_spacing("inputs/FranceCP1990ENG.pdf", "outputs/provisions_from_spacing_france.csv")
