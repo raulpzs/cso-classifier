@@ -6,8 +6,8 @@ from matrix_first_filter import extract_nonzero_provisions, verify_provision
 # Configuration
 LAW_PATH = "inputs/FrancecpENG.txt"
 OUTPUT_DIR = "outputs"
-FIRST_ROUND_OUTPUT = os.path.join(OUTPUT_DIR, "FrancecpENG_first_round_3.json")
-VERIFIED_OUTPUT = os.path.join(OUTPUT_DIR, "FrancecpENG_verified_3.json")
+FIRST_ROUND_OUTPUT = os.path.join(OUTPUT_DIR, "FrancecpENG_first_round_4.json")
+VERIFIED_OUTPUT = os.path.join(OUTPUT_DIR, "FrancecpENG_verified_4.json")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
