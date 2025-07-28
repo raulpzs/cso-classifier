@@ -1,0 +1,345 @@
+{
+  "Name": "Федеральный закон от 11.08.1995 г. № 135-ФЗ О благотворительной деятельности и добровольчестве (волонтерстве)",
+  "Jurisdiction": "Российская Федерация",
+  "Year": 1995,
+  "Language": "Russian",
+  "Objective": "This law establishes the legal framework for charitable and volunteer (voluntary) activities in Russia, defines the forms of support by state and local authorities, and sets the rules for the creation, operation, and dissolution of charitable organizations to promote and develop charitable and volunteer activities.",
+  "Provisions": [
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 1. [Government] [must] [create or appoint agency to implement and enforce the law] [at law’s commencement] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Статья 19: Орган, принявший решение о государственной регистрации благотворительной организации, осуществляет контроль за соответствием ее деятельности целям...",
+      "Explanation": "The law assigns oversight and enforcement to the registration authority, fulfilling the requirement to appoint an agency."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 1. [Agency] [must] [explain penalty for particular offenses, or explain a ‘general penalty’ for offenses where no penalty is expressly provided] [before commencement of the law] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Статья 20: В случаях нарушения настоящего Федерального закона благотворительная организация и участники добровольческой (волонтерской) деятельности несут ответственность в соответствии с законодательством Российской Федерации.",
+      "Explanation": "The law provides for general liability for violations, referencing applicable penalties in Russian law."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 2. [CSOs] [must] [accept restricted freedoms on certain matters] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Статья 12(5): Благотворительная организация не вправе расходовать свои средства и использовать свое имущество для поддержки политических партий, движений, групп и кампаний.",
+      "Explanation": "The law restricts CSOs from supporting political parties and campaigns."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 2. [Government and agency] [must] [create or empower a dispute resolution forum] such as a court [before commencement of the law] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Статья 9(3): Решение об отказе в государственной регистрации ... могут быть обжалованы в судебном порядке.",
+      "Explanation": "The law allows for judicial appeal of registration decisions, providing a dispute resolution forum."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 3. [Government] [may] [create or empower cabinet minister to make new rules regulating CSOs on certain matters] [after law’s commencement] [or else leave the regulatory regime unchanged]",
+      "Code": 1,
+      "Evidence": "Статья 173: Правительство Российской Федерации осуществляет ... полномочия в сфере добровольчества (волонтерства)... утверждает общие требования...",
+      "Explanation": "The government is empowered to set rules and requirements for the sector."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 3. [CSOs] [may] [adopt standards for self-regulation through associations] [after law’s commencement] [or else choose not to be self-regulated]",
+      "Code": 1,
+      "Evidence": "Статья 7(1): ...могут объединяться в ассоциации и союзы, создаваемые на договорной основе...",
+      "Explanation": "CSOs may form associations for self-regulation and mutual support."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 4. [Agency] [may] [publish certain information about a CSO, or seize CSO property and documents] [with or without reasonable cause after law’s commencement] [or else choose other tactics to receive information from CSOs]",
+      "Code": 1,
+      "Evidence": "Статья 19(4): ...обеспечивает открытый доступ, включая доступ средств массовой информации, к полученным им ежегодным отчетам...",
+      "Explanation": "The agency must provide public access to annual reports, including to the media."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 4. [Government and agency] [must] [create or empower self-regulation forum for CSO self-governance] [after law’s commencement] [or else it is negligent in its duties]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "The law allows but does not require the creation of a self-regulation forum."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 5. [Government] [may] [use unorthodox process to pass new CSO laws] [after law’s commencement] [or else follow normal pathway to change regulatory regime]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision for unorthodox lawmaking processes."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 5. [CSO self-regulator] [must] [create a code of conduct] to license, supervise, or sanction members if such actions are warranted [after law’s commencement] [or else use other legal means of self-regulation]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement for a code of conduct by self-regulators."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 6. [Non-state actors] [must not] [create new CSOs] because only the state may do so [or else face penalty for non-compliance]",
+      "Code": -1,
+      "Evidence": "Статья 4(2): Граждане и юридические лица вправе свободно осуществлять ... деятельность индивидуально или объединившись, с образованием или без образования организации.",
+      "Explanation": "Non-state actors are explicitly allowed to create CSOs."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 6. [Agency] [must not] [regulate CSOs without oversight] such as an oversight board of CSO participants, a nomination & approval process, or clear accountability to elected officials [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision for oversight of the agency by CSO participants or elected officials."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
+      "Code": -1,
+      "Evidence": "Статья 4(2): ...вправе свободно осуществлять ... деятельность индивидуально или объединившись, с образованием или без образования организации.",
+      "Explanation": "The law allows informal, unregistered associations to operate."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 1. [Agency] [must] [follow explicit termination and dissolution provisions] [when attempting to cancel or suspended a CSO] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Статья 11(1): Реорганизация и ликвидация благотворительной организации осуществляются в установленном законом порядке.",
+      "Explanation": "Dissolution must follow legal procedures."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 2. [CSOs] [must not] [appeal the registration denial or deregistration order] [after such a decision has been communicated] [or else face penalty for non-compliance]",
+      "Code": -1,
+      "Evidence": "Статья 9(3): ...могут быть обжалованы в судебном порядке.",
+      "Explanation": "The law allows appeals of registration denials."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 2. [Agency] [must] [explain precise legal definitions of CSOs that it regulates] [at law’s commencement] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Статья 6(1): Благотворительной организацией является неправительственная ... некоммерческая организация, созданная для реализации ... целей...",
+      "Explanation": "The law defines charitable organizations and their forms."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 3. [CSOs] [must] [reregister or otherwise apply for continuation of the organization] [on a certain day, after a fixed duration, or following meaningful changes to the organization] such as renaming the society, amending its constitution, or becoming a branch of another organization [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Статья 24: ...должны быть приведены в соответствие с настоящим Федеральным законом. ... не прошедшие перерегистрацию ... подлежат ликвидации...",
+      "Explanation": "The law requires reregistration for organizations created before the law."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 3. [Agency] [must not] [reject registration for reasons other than those explicitly stated] [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 1,
+      "Evidence": "Статья 9(2): Не допускается отказ ... в связи с предоставлением ей юридического адреса гражданином по месту его жительства.",
+      "Explanation": "The law limits grounds for registration refusal."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 4. [CSOs] [must] [identify minimum number of founders or members] [or else the CSO is ineligible for registration or reregistration]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit minimum number of founders stated in this law."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 4. [Agency] [must not] [make registration unnecessarily complex or burdensome] [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 1,
+      "Evidence": "Статья 9(2): Не допускается отказ ... в связи с предоставлением ей юридического адреса гражданином по месту его жительства.",
+      "Explanation": "The law prohibits certain burdensome requirements for registration."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 5. [CSOs] [must] [demonstrate minimum capital requirements] such as financial, non-financial, or expertise [or else it is ineligible for registration or reregistration]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit minimum capital requirement stated."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 5. [Agency] [must] [review and make registration decisions within specified time period] [if an application has been submitted as prescribed] [or else it is negligent in its duties]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit time period for registration decisions."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 6. [CSOs] [must] [have government agency partner] such as a sponsorship or memo of understanding [or else the CSO is ineligible for registration or reregistration]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No requirement for a government agency partner."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 6. [CSOs] [must] [produce governing document for self-management] such as bylaws minimally prescribed in policy [if they seek to be a formal organization] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Статья 10(1): ...в порядке, предусмотренном уставом благотворительной организации.",
+      "Explanation": "A charter (bylaws) is required for formal organizations."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 7. [CSOs] [must] [pay processing/application fee] [in addition to an application that must be completed as prescribed] [or else the registration or reregistration application will not be reviewed]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit mention of a required fee in this law."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 7. [Agency] [must] [provide written explanation of registration and reregistration decision] such as certificate of approval or justification for refusal [after a CSO has applied as prescribed] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Статья 9(3): Решение об отказе ... может быть обжаловано...",
+      "Explanation": "A written decision is implied by the right to appeal."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 1. [CSOs] [must] [obtain government permission, “permits”, for individual projects] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement for project-by-project permits."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 1. [CSOs] [must] [produce summary of operations and activities for public access] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Статья 19(5): Благотворительная организация обеспечивает открытый доступ ... к своим ежегодным отчетам.",
+      "Explanation": "Annual reports must be made publicly accessible."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 2. [CSOs] [must] [comply with agency’s interference regarding external operations or prescribed coordination across multiple CSOs] [when instructions are communicated with or without reasonable cause] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision for agency interference in external operations."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 2. [CSOs] [must not] [pursue certain operational activities due to their legal type and irrespective of other matters] such as when the activity is incongruent with the legal type—e.g., public charities shall not endorse political candidates; the organization is unlawful; or the CSO’s legal status has been legally revoked [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Статья 12(5): ...не вправе расходовать свои средства и использовать свое имущество для поддержки политических партий...",
+      "Explanation": "CSOs are restricted from supporting political parties."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 3. [CSOs] [must not] [exceed specific threshold of budget spent on overhead] such as a certain percentage of budgets spent on administrative costs [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Статья 16(3): ...не вправе использовать на оплату труда административно-управленческого персонала более 20 процентов финансовых средств...",
+      "Explanation": "There is a 20% cap on administrative personnel costs."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 3. [CSOs] [must] [obtain a license to repeatedly perform a general activity] as opposed to obtaining a permit each time it plans to perform the activity [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit mention of general activity licenses."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 4. [CSOs] [must not] [engage in specified activities] such as activism [if it receives foreign funds that exceed a threshold] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit restriction on activities based on foreign funding in this law."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 4. [Agency] [must] [have reasonable cause and follow explicit rules when conducting inspections of CSOs] such as requesting specific documentation or investigating offenses [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit procedural requirements for inspections."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 5. [CSOs] [must] [obtain operational approvals—i.e. general licenses or individual permits—from multiple government units] such as multiple agencies, administrative jurisdictions, or a combination of both [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement for multiple operational approvals."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 5. [CSO] [may] [use foreign funds for certain activities because its legal definition either expressly permits it or does not explicitly prohibit it] [after law’s commencement] [or else choose not to accept the funds]",
+      "Code": 1,
+      "Evidence": "Статья 21(4): ...имеет право на получение благотворительных пожертвований от иностранных граждан, лиц без гражданства, а также от иностранных и международных организаций.",
+      "Explanation": "CSOs may receive and use foreign funds."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 6. [CSOs] [must] [follow prescribed rules regarding internal administrative matters and/or activities] such keeping registry of members, holding membership meetings at minimal internals, or requiring international CSOs to consult local boards [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Статья 10: Высший орган управления ... формируется в порядке, предусмотренном уставом ...",
+      "Explanation": "Internal governance rules are required in the charter."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 6. [CSO] [may] [conduct activities without notifying local governments] [after law’s commencement] [or else notify government or not conduct activities]",
+      "Code": 1,
+      "Evidence": "Статья 4(1): ...вправе беспрепятственно осуществлять ... деятельность...",
+      "Explanation": "No notification requirement for general activities."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 7. [CSOs] [must] [surrender operational assets to government] [after a project is completed or CSO is dissolved] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement to surrender assets to government."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 7. [Agency] [must not] [hold CSOs to different requirements for staff than other employers] [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision on staff requirements compared to other employers."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 1. [CSOs] [must] [acquire one-time approval to receive foreign funding that is separate from formal registration] [after law’s commencement] [or else it cannot receive those resources without facing penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement for separate approval for foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 1. [CSOs] [must] [report their finances for public access] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Статья 19(5): ...обеспечивает открытый доступ ... к своим ежегодным отчетам.",
+      "Explanation": "Annual financial reports must be publicly accessible."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 2. [CSOs] [must not] [receive more than a specified threshold of foreign funding] such as a fixed value or percentage of its budget [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit threshold for foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 2. [Private entities] [may] [take a tax-deduction for supporting certain CSOs according to their legal type] such as donations to 501(c)(3)s but not contributions to political parties [after law’s commencement] [or else choose not to take the deduction]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "Tax deductions are not addressed in this law."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 3. [CSOs] [must] [acquire government approval for each financial transaction or project] [after law’s commencement] [or else it cannot receive those resources without facing penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement for approval of each transaction."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 3. [Government] [must] [ensure CSOs enjoy all the rights that accompany their legal type] such as a preferential treatment on property, sales, or payroll taxes [after law’s commencement] [or else it is negligent in its duties]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit guarantee of preferential treatment."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 4. [CSOs] [must] [use certain depository institutions] such as government banks [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement to use specific banks."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 4. [CSOs] [may] [engage in unrelated business activities] such as revenue generation [after law’s commencement] [or else choose not to pursue those activities]",
+      "Code": 1,
+      "Evidence": "Статья 12(3): ...вправе осуществлять предпринимательскую деятельность только для достижения целей, ради которых она создана...",
+      "Explanation": "CSOs may engage in business activities if aligned with their mission."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 5. [CSOs] [must] [provide information on its financial matters] such as financing agreements, contracts, or employee salaries [when the regulating agency requests] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Статья 19(2): ...ежегодно представляет ... отчет о своей деятельности, содержащий сведения о: финансово-хозяйственной деятельности...",
+      "Explanation": "CSOs must provide detailed financial information annually."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 5. [CSOs] [may] [engage in local fundraising or related business activities] such as soliciting donations or selling products/services related to their charitable mission [after law’s commencement] [or else choose not to pursue those activities]",
+      "Code": 1,
+      "Evidence": "Статья 15: ...поступления от деятельности по привлечению ресурсов ... проведение кампаний по сбору благотворительных пожертвований...",
+      "Explanation": "CSOs may fundraise and conduct related business activities."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 6. [CSOs] [must not] [receive foreign funding from certain sources] such as foreign governments or private sponsors explicitly stated [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit restriction on sources of foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 6. [CSOs] [may] [appeal decisions that disadvantage their positioning on financial and non-financial matters] such as orders regarding fines, taxes, foreign funding, and ownership of property [after such decisions are communicated] [or else accept the decision]",
+      "Code": 1,
+      "Evidence": "Статья 9(3): ...могут быть обжалованы в судебном порядке.",
+      "Explanation": "CSOs may appeal adverse decisions in court."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 7. [CSOs] [must] [pay taxes on foreign funding] [when similar funding from domestic sources would not be taxed] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision on taxation of foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 7. [International CSOs] [must not] [crowd-out local CSO from funding opportunities] such as winning grants or not partnering with domestic CSOs [when funding opportunities are announced] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision on crowding out local CSOs."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 8. [CSOs] [must not] [receive any foreign funding under any circumstances] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": -1,
+      "Evidence": "Статья 21(4): ...имеет право на получение благотворительных пожертвований от иностранных граждан, лиц без гражданства, а также от иностранных и международных организаций.",
+      "Explanation": "CSOs are explicitly allowed to receive foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 8. [CSOs] [must] [pay taxes on unrelated business activities] such as revenue earned on sales of products/services unrelated to their charitable mission [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision on taxation of unrelated business activities."
+    }
+  ]
+}

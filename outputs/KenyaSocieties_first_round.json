@@ -1,0 +1,345 @@
+{
+  "Name": "Societies Act (Chapter 108)",
+  "Jurisdiction": "Kenya",
+  "Year": 1968,
+  "Language": "English",
+  "Objective": "This Act provides for the registration, regulation, and control of societies (including non-profit associations and clubs) in Kenya, setting out requirements for formation, governance, administration, and dissolution, as well as penalties for non-compliance.",
+  "Provisions": [
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 1. [Government] [must] [create or appoint agency to implement and enforce the law] [at law’s commencement] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Section 8: 'The Minister shall, by notice in the Gazette, appoint a Registrar of Societies...'",
+      "Explanation": "The Act mandates the appointment of a Registrar of Societies to implement and enforce the law."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 1. [Agency] [must] [explain penalty for particular offenses, or explain a ‘general penalty’ for offenses where no penalty is expressly provided] [before commencement of the law] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Section 42: 'Where a society is guilty of an offence under this Act for which no penalty is expressly provided, the society shall be liable to a fine not exceeding five thousand shillings...'",
+      "Explanation": "Section 42 provides a general penalty for offenses where no specific penalty is provided."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 2. [CSOs] [must] [accept restricted freedoms on certain matters] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Section 4(1): 'Every society which is not a registered society or an exempted society is an unlawful society...'",
+      "Explanation": "Societies must register and comply with the Act's requirements or face penalties."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 2. [Government and agency] [must] [create or empower a dispute resolution forum] such as a court [before commencement of the law] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Section 15: 'Any society aggrieved by the Registrar’s refusal to register it... may appeal to the High Court...'",
+      "Explanation": "The Act provides for appeals to the High Court, establishing a dispute resolution forum."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 3. [Government] [may] [create or empower cabinet minister to make new rules regulating CSOs on certain matters] [after law’s commencement] [or else leave the regulatory regime unchanged]",
+      "Code": 1,
+      "Evidence": "Section 53: 'The Minister may make rules for prescribing anything which under this Act may be prescribed...'",
+      "Explanation": "The Minister is empowered to make rules regulating societies."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 3. [CSOs] [may] [adopt standards for self-regulation through associations] [after law’s commencement] [or else choose not to be self-regulated]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "The Act does not explicitly address or encourage CSO self-regulation through associations."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 4. [Agency] [may] [publish certain information about a CSO, or seize CSO property and documents] [with or without reasonable cause after law’s commencement] [or else choose other tactics to receive information from CSOs]",
+      "Code": 1,
+      "Evidence": "Section 32: 'The Registrar... may publish in the Gazette... any information received by him under section 20, section 21 or section 31...'",
+      "Explanation": "The Registrar may publish information about societies and seize property under certain circumstances."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 4. [Government and agency] [must] [create or empower self-regulation forum for CSO self-governance] [after law’s commencement] [or else it is negligent in its duties]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no provision for a self-regulation forum for CSO self-governance."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 5. [Government] [may] [use unorthodox process to pass new CSO laws] [after law’s commencement] [or else follow normal pathway to change regulatory regime]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "The Act does not specify unorthodox processes for passing new CSO laws."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 5. [CSO self-regulator] [must] [create a code of conduct] to license, supervise, or sanction members if such actions are warranted [after law’s commencement] [or else use other legal means of self-regulation]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "The Act does not mention CSO self-regulators or codes of conduct."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 6. [Non-state actors] [must not] [create new CSOs] because only the state may do so [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "Non-state actors may form societies, but must register; the state does not have exclusive authority to create CSOs."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 6. [Agency] [must not] [regulate CSOs without oversight] such as an oversight board of CSO participants, a nomination & approval process, or clear accountability to elected officials [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no explicit requirement for oversight of the Registrar or agency by CSO participants or elected officials."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Section 4(1): 'Every society which is not a registered society or an exempted society is an unlawful society...'",
+      "Explanation": "Societies must register or be exempted; otherwise, they are unlawful."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 1. [Agency] [must] [follow explicit termination and dissolution provisions] [when attempting to cancel or suspended a CSO] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Section 12: '...the Registrar shall, give written notice... calling upon the society to show cause... why its registration should not be cancelled...'",
+      "Explanation": "The Act requires due process before cancellation or suspension of registration."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 2. [CSOs] [must not] [appeal the registration denial or deregistration order] [after such a decision has been communicated] [or else face penalty for non-compliance]",
+      "Code": -1,
+      "Evidence": "Section 15: 'Any society aggrieved by the Registrar’s refusal to register it... may appeal to the High Court...'",
+      "Explanation": "The Act explicitly allows appeals against registration denial or deregistration."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 2. [Agency] [must] [explain precise legal definitions of CSOs that it regulates] [at law’s commencement] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Section 2: '“society” includes any club, company, partnership or other association of ten or more persons...'",
+      "Explanation": "The Act provides a detailed definition of 'society' and exclusions."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 3. [CSOs] [must] [reregister or otherwise apply for continuation of the organization] [on a certain day, after a fixed duration, or following meaningful changes to the organization] such as renaming the society, amending its constitution, or becoming a branch of another organization [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Section 20(1): 'No registered society shall— (a) amend its name, or its constitution or rules... except with the prior consent in writing of the Registrar...'",
+      "Explanation": "Societies must seek approval for significant changes, effectively requiring re-registration."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 3. [Agency] [must not] [reject registration for reasons other than those explicitly stated] [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 1,
+      "Evidence": "Section 11: 'The Registrar may refuse to register a society where— ...' and lists specific grounds.",
+      "Explanation": "The Act provides an exhaustive list of grounds for refusal, limiting arbitrary rejection."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 4. [CSOs] [must] [identify minimum number of founders or members] [or else the CSO is ineligible for registration or reregistration]",
+      "Code": 1,
+      "Evidence": "Section 2: '“society” includes any... association of ten or more persons...'",
+      "Explanation": "A minimum of ten persons is required to form a society."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 4. [Agency] [must not] [make registration unnecessarily complex or burdensome] [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "The Act prescribes procedures but does not explicitly prohibit unnecessary complexity."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 5. [CSOs] [must] [demonstrate minimum capital requirements] such as financial, non-financial, or expertise [or else it is ineligible for registration or reregistration]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no mention of minimum capital or financial requirements for registration."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 5. [Agency] [must] [review and make registration decisions within specified time period] [if an application has been submitted as prescribed] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Section 4(2): '...shall communicate his decision thereon to the society within one hundred and twenty days of receipt of the application.'",
+      "Explanation": "The Registrar must decide on applications within 120 days."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 6. [CSOs] [must] [have government agency partner] such as a sponsorship or memo of understanding [or else the CSO is ineligible for registration or reregistration]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no requirement for a government agency partner for registration."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 6. [CSOs] [must] [produce governing document for self-management] such as bylaws minimally prescribed in policy [if they seek to be a formal organization] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Section 19: 'The constitution or rules of every registered society... shall provide... for all the matters specified in the Schedule...'",
+      "Explanation": "Societies must have a constitution or rules covering specified matters."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 7. [CSOs] [must] [pay processing/application fee] [in addition to an application that must be completed as prescribed] [or else the registration or reregistration application will not be reviewed]",
+      "Code": 1,
+      "Evidence": "Section 53(2)(a): 'rules made thereunder may provide for... prescribing fees and forms...'",
+      "Explanation": "The Act allows for the prescription of application fees."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 7. [Agency] [must] [provide written explanation of registration and reregistration decision] such as certificate of approval or justification for refusal [after a CSO has applied as prescribed] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Section 10(3): '...the Registrar shall issue to the society a certificate of registration or exemption...'",
+      "Explanation": "The Registrar must issue a certificate or communicate the decision."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 1. [CSOs] [must] [obtain government permission, “permits”, for individual projects] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no requirement for project-specific permits; registration covers general operation."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 1. [CSOs] [must] [produce summary of operations and activities for public access] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no explicit requirement to produce a public summary of operations."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 2. [CSOs] [must] [comply with agency’s interference regarding external operations or prescribed coordination across multiple CSOs] [when instructions are communicated with or without reasonable cause] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Section 31: '...the Registrar may, by order in writing, require any registered society to furnish him with... such other accounts, returns and other information as may be prescribed.'",
+      "Explanation": "Societies must comply with information requests from the Registrar."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 2. [CSOs] [must not] [pursue certain operational activities due to their legal type and irrespective of other matters] such as when the activity is incongruent with the legal type—e.g., public charities shall not endorse political candidates; the organization is unlawful; or the CSO’s legal status has been legally revoked [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Section 4(1): '...a society shall not be an unlawful society where, within twentyeight days of its formation, it has applied for registration... unless... it is formed for an unlawful purpose...'",
+      "Explanation": "Societies may not pursue unlawful purposes or activities."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 3. [CSOs] [must not] [exceed specific threshold of budget spent on overhead] such as a certain percentage of budgets spent on administrative costs [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no mention of budgetary thresholds for overhead or administrative costs."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 3. [CSOs] [must] [obtain a license to repeatedly perform a general activity] as opposed to obtaining a permit each time it plans to perform the activity [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no mention of licenses for repeated activities; registration is the main requirement."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 4. [CSOs] [must not] [engage in specified activities] such as activism [if it receives foreign funds that exceed a threshold] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "The Act does not address restrictions on activities based on foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 4. [Agency] [must] [have reasonable cause and follow explicit rules when conducting inspections of CSOs] such as requesting specific documentation or investigating offenses [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 1,
+      "Evidence": "Section 28(1)(b): '...for inspection by the Registrar, or by any person authorized by him in writing in that behalf, at the office of the Registrar at any reasonable time specified by him, if so required in writing by the Registrar.'",
+      "Explanation": "Inspections must be conducted at reasonable times and with written notice."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 5. [CSOs] [must] [obtain operational approvals—i.e. general licenses or individual permits—from multiple government units] such as multiple agencies, administrative jurisdictions, or a combination of both [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no requirement for multiple operational approvals; only registration is required."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 5. [CSO] [may] [use foreign funds for certain activities because its legal definition either expressly permits it or does not explicitly prohibit it] [after law’s commencement] [or else choose not to accept the funds]",
+      "Code": 1,
+      "Evidence": "The Act is silent on foreign funding, neither prohibiting nor restricting it.",
+      "Explanation": "There is no prohibition on the use of foreign funds, so CSOs may use them."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 6. [CSOs] [must] [follow prescribed rules regarding internal administrative matters and/or activities] such keeping registry of members, holding membership meetings at minimal internals, or requiring international CSOs to consult local boards [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Section 25: 'Every registered society shall keep a register of its members...'; Section 29: 'Every registered society shall, at least once in every year, hold a general meeting...'",
+      "Explanation": "Societies must keep a member register and hold annual meetings."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 6. [CSO] [may] [conduct activities without notifying local governments] [after law’s commencement] [or else notify government or not conduct activities]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "Societies must notify the Registrar of certain changes and activities; silent on other activities."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 7. [CSOs] [must] [surrender operational assets to government] [after a project is completed or CSO is dissolved] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Section 33: 'The Minister may... appoint a person... to be the receiver of a society... and... vest in the receiver all property... of the society...'",
+      "Explanation": "Upon winding up, a receiver may be appointed and all assets vested in them."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 7. [Agency] [must not] [hold CSOs to different requirements for staff than other employers] [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "The Act does not address employment requirements for CSO staff."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 1. [CSOs] [must] [acquire one-time approval to receive foreign funding that is separate from formal registration] [after law’s commencement] [or else it cannot receive those resources without facing penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no requirement for separate approval to receive foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 1. [CSOs] [must] [report their finances for public access] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "Societies must keep accounts and submit returns to the Registrar, but public access is not required."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 2. [CSOs] [must not] [receive more than a specified threshold of foreign funding] such as a fixed value or percentage of its budget [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no restriction on the amount of foreign funding societies may receive."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 2. [Private entities] [may] [take a tax-deduction for supporting certain CSOs according to their legal type] such as donations to 501(c)(3)s but not contributions to political parties [after law’s commencement] [or else choose not to take the deduction]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "The Act does not address tax deductions for donations to societies."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 3. [CSOs] [must] [acquire government approval for each financial transaction or project] [after law’s commencement] [or else it cannot receive those resources without facing penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no requirement for government approval for each financial transaction."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 3. [Government] [must] [ensure CSOs enjoy all the rights that accompany their legal type] such as a preferential treatment on property, sales, or payroll taxes [after law’s commencement] [or else it is negligent in its duties]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "The Act does not provide for preferential treatment or rights for societies."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 4. [CSOs] [must] [use certain depository institutions] such as government banks [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no requirement to use specific depository institutions."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 4. [CSOs] [may] [engage in unrelated business activities] such as revenue generation [after law’s commencement] [or else choose not to pursue those activities]",
+      "Code": 1,
+      "Evidence": "Section 2: 'society' includes any club, company, partnership or other association... whatever its nature or object...",
+      "Explanation": "The Act does not prohibit societies from engaging in unrelated business activities."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 5. [CSOs] [must] [provide information on its financial matters] such as financing agreements, contracts, or employee salaries [when the regulating agency requests] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Section 31(1): '...the Registrar may, by order in writing, require any registered society to furnish him with... duly audited accounts... such other accounts, returns and other information as may be prescribed.'",
+      "Explanation": "Societies must provide financial information upon request."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 5. [CSOs] [may] [engage in local fundraising or related business activities] such as soliciting donations or selling products/services related to their charitable mission [after law’s commencement] [or else choose not to pursue those activities]",
+      "Code": 1,
+      "Evidence": "Section 2: 'society' includes any... association... whatever its nature or object...",
+      "Explanation": "There is no restriction on local fundraising or related business activities."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 6. [CSOs] [must not] [receive foreign funding from certain sources] such as foreign governments or private sponsors explicitly stated [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no restriction on the sources of foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 6. [CSOs] [may] [appeal decisions that disadvantage their positioning on financial and non-financial matters] such as orders regarding fines, taxes, foreign funding, and ownership of property [after such decisions are communicated] [or else accept the decision]",
+      "Code": 1,
+      "Evidence": "Section 15: 'Any society aggrieved by the Registrar’s refusal to register it, or by the cancellation or suspension of its registration... may appeal...'",
+      "Explanation": "Societies may appeal adverse decisions, including those affecting financial matters."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 7. [CSOs] [must] [pay taxes on foreign funding] [when similar funding from domestic sources would not be taxed] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "The Act does not address taxation of foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 7. [International CSOs] [must not] [crowd-out local CSO from funding opportunities] such as winning grants or not partnering with domestic CSOs [when funding opportunities are announced] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "There is no provision regarding international CSOs and local funding opportunities."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 8. [CSOs] [must not] [receive any foreign funding under any circumstances] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": -1,
+      "Evidence": "The Act is silent on foreign funding and does not prohibit it.",
+      "Explanation": "There is no prohibition on receiving foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 8. [CSOs] [must] [pay taxes on unrelated business activities] such as revenue earned on sales of products/services unrelated to their charitable mission [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "The Act does not address taxation of unrelated business activities."
+    }
+  ]
+}

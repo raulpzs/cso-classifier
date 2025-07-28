@@ -1,0 +1,345 @@
+{
+  "Name": "Federal Law No. 135-FZ of August 11, 1995 On Charitable Activities and Organizations (as amended)",
+  "Jurisdiction": "Russian Federation",
+  "Year": 1995,
+  "Language": "English (official translation)",
+  "Objective": "This law establishes the legal framework for charitable activities and organizations in Russia, defining their permissible forms, activities, state support, and the rights and obligations of participants, with the aim of promoting and regulating charitable work.",
+  "Provisions": [
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 1. [Government] [must] [create or appoint agency to implement and enforce the law] [at law’s commencement] [or else it is negligent in its duties] (14);",
+      "Code": 1,
+      "Evidence": "Art. 19(2): 'The body that has rendered a decision on state registration of a charitable organization shall exert control over the compliance of activity...'",
+      "Explanation": "The law assigns oversight and enforcement to the registration authority, fulfilling this requirement."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 1. [Agency] [must] [explain penalty for particular offenses, or explain a ‘general penalty’ for offenses where no penalty is expressly provided] [before commencement of the law] [or else it is negligent in its duties] (8);",
+      "Code": 1,
+      "Evidence": "Art. 20(1): 'In the cases of its violating the present Federal Law, the charitable organization shall be held responsible in conformity with the legislation of the Russian Federation.'",
+      "Explanation": "The law provides for general penalties for violations, referencing broader Russian legislation."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 2. [CSOs] [must] [accept restricted freedoms on certain matters] [after law’s commencement] [or else face penalty for non-compliance] (10);",
+      "Code": 1,
+      "Evidence": "Art. 2(2): 'The forwarding of the monetary and of the other kinds of the material means, as well as the other forms of rendering assistance to commercial organizations, and the support of the political parties, movements, groups and campaigns shall not be interpreted as the charity activity.'",
+      "Explanation": "CSOs are restricted from supporting political parties and commercial organizations."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 2. [Government and agency] [must] [create or empower a dispute resolution forum] such as a court [before commencement of the law] [or else it is negligent in its duties] (6);",
+      "Code": 1,
+      "Evidence": "Art. 20(5): 'The disputes... shall be considered in the court.'",
+      "Explanation": "The law provides for judicial resolution of disputes."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 3. [Government] [may] [create or empower cabinet minister to make new rules regulating CSOs on certain matters] [after law’s commencement] [or else leave the regulatory regime unchanged] (5);",
+      "Code": 1,
+      "Evidence": "Art. 25: 'To propose to the President... and to order to the Government... that they bring their legal acts into correspondence with the present Federal Law.'",
+      "Explanation": "The law contemplates further regulatory acts by the executive."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 3. [CSOs] [may] [adopt standards for self-regulation through associations] [after law’s commencement] [or else choose not to be self-regulated] (6);",
+      "Code": 1,
+      "Evidence": "Art. 14(1): 'The charitable organizations shall have the right to unite into associations and unions...'",
+      "Explanation": "CSOs may form associations for self-regulation."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 4. [Agency] [may] [publish certain information about a CSO, or seize CSO property and documents] [with or without reasonable cause after law’s commencement] [or else choose other tactics to receive information from CSOs] (4);",
+      "Code": 1,
+      "Evidence": "Art. 19(4): 'The body... shall provide for an open access, including for the mass media, to the given charitable organizations' annual reports it has received.'",
+      "Explanation": "The agency is empowered to publish information about CSOs."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 4. [Government and agency] [must] [create or empower self-regulation forum for CSO self-governance] [after law’s commencement] [or else it is negligent in its duties] (5);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "The law allows but does not require the creation of self-regulation forums."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 5. [Government] [may] [use unorthodox process to pass new CSO laws] [after law’s commencement] [or else follow normal pathway to change regulatory regime] (3);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision for unorthodox lawmaking processes."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 5. [CSO self-regulator] [must] [create a code of conduct] to license, supervise, or sanction members if such actions are warranted [after law’s commencement] [or else use other legal means of self-regulation] (4);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement for a code of conduct by self-regulators."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE PROVISION 6. [Non-state actors] [must not] [create new CSOs] because only the state may do so [or else face penalty for non-compliance] (3).",
+      "Code": -1,
+      "Evidence": "Art. 4(2): 'The citizens and the legal entities shall have the right to freely perform charitable activities, individually or in cooperation with or without setting up a charitable organization.'",
+      "Explanation": "Non-state actors are expressly permitted to create CSOs."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE PROVISION 6. [Agency] [must not] [regulate CSOs without oversight] such as an oversight board of CSO participants, a nomination & approval process, or clear accountability to elected officials [after law’s commencement] [or else it is overstepping its authority] (3).",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision for oversight of the agency regulating CSOs."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance] (14);",
+      "Code": -1,
+      "Evidence": "Art. 4(2): 'The citizens and the legal entities shall have the right to freely perform charitable activities, individually or in cooperation with or without setting up a charitable organization.'",
+      "Explanation": "Charitable activities may be conducted without formal registration."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 1. [Agency] [must] [follow explicit termination and dissolution provisions] [when attempting to cancel or suspended a CSO] [or else it is negligent in its duties] (14);",
+      "Code": 1,
+      "Evidence": "Art. 11(1): 'The reorganization and the liquidation of a charitable organization shall be effected in conformity with the law-stipulated procedure.'",
+      "Explanation": "Dissolution must follow legal procedures."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 2. [CSOs] [must not] [appeal the registration denial or deregistration order] [after such a decision has been communicated] [or else face penalty for non-compliance] (7);",
+      "Code": -1,
+      "Evidence": "Art. 9(3): 'The decision on the refusal of the state registration... may be appealed against with the court.'",
+      "Explanation": "The law allows appeals of registration denials."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 2. [Agency] [must] [explain precise legal definitions of CSOs that it regulates] [at law’s commencement] [or else it is negligent in its duties] (11);",
+      "Code": 1,
+      "Evidence": "Art. 6(1): 'The charitable organization shall be a nongovernment (nonstate and nonmunicipal) nonprofit organization, set up to realize the goals, stipulated by the present Federal Law...'",
+      "Explanation": "The law provides a clear definition of charitable organizations."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 3. [CSOs] [must] [reregister or otherwise apply for continuation of the organization] [on a certain day, after a fixed duration, or following meaningful changes to the organization] such as renaming the society, amending its constitution, or becoming a branch of another organization [or else face penalty for non-compliance] (7);",
+      "Code": 1,
+      "Evidence": "Art. 24: 'The reregistration of the charitable organizations, set up before the present Federal Law has come into force, shall be carried out before July 1, 1999...'",
+      "Explanation": "Reregistration is required for pre-existing organizations."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 3. [Agency] [must not] [reject registration for reasons other than those explicitly stated] [after law’s commencement] [or else it is overstepping its authority] (9);",
+      "Code": 1,
+      "Evidence": "Art. 9(2): 'The refusal of the state registration of a charitable organization in connection with its legal address being given to it by a citizen at the place of his residence shall be inadmissible.'",
+      "Explanation": "The law limits the grounds for registration refusal."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 4. [CSOs] [must] [identify minimum number of founders or members] [or else the CSO is ineligible for registration or reregistration] (5);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit minimum number of founders is stated."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 4. [Agency] [must not] [make registration unnecessarily complex or burdensome] [after law’s commencement] [or else it is overstepping its authority] (8);",
+      "Code": 1,
+      "Evidence": "Art. 9(2): 'The refusal... in connection with its legal address being given to it by a citizen at the place of his residence shall be inadmissible.'",
+      "Explanation": "The law prohibits certain burdensome registration requirements."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 5. [CSOs] [must] [demonstrate minimum capital requirements] such as financial, non-financial, or expertise [or else it is ineligible for registration or reregistration] (5);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit minimum capital requirement is stated."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 5. [Agency] [must] [review and make registration decisions within specified time period] [if an application has been submitted as prescribed] [or else it is negligent in its duties] (7);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit time period for registration decisions is stated."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 6. [CSOs] [must] [have government agency partner] such as a sponsorship or memo of understanding [or else the CSO is ineligible for registration or reregistration] (3);",
+      "Code": -1,
+      "Evidence": "Art. 8: 'The founders of a charitable organization, depending on its form, shall be the natural and (or) the legal persons. The state power bodies and the local self-government bodies... shall not be the founders...'",
+      "Explanation": "Government partnership is not required and is in fact prohibited."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 6. [CSOs] [must] [produce governing document for self-management] such as bylaws minimally prescribed in policy [if they seek to be a formal organization] [or else face penalty for non-compliance] (5);",
+      "Code": 1,
+      "Evidence": "Art. 10(1): 'The higher management body of a charitable organization shall be its collegiate body, formed in conformity with the procedure, stipulated by the Rules of the charitable organization.'",
+      "Explanation": "A governing document (Rules) is required for formal organizations."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION PROVISION 7. [CSOs] [must] [pay processing/application fee] [in addition to an application that must be completed as prescribed] [or else the registration or reregistration application will not be reviewed] (3).",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement for a processing/application fee is stated."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION PROVISION 7. [Agency] [must] [provide written explanation of registration and reregistration decision] such as certificate of approval or justification for refusal [after a CSO has applied as prescribed] [or else it is negligent in its duties] (2).",
+      "Code": 1,
+      "Evidence": "Art. 9(3): 'The decision on the refusal of the state registration... may be appealed against with the court.'",
+      "Explanation": "A written decision is implied as it is subject to appeal."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 1. [CSOs] [must] [obtain government permission, “permits”, for individual projects] [after law’s commencement] [or else face penalty for non-compliance] (10);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement for project-by-project permits."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 1. [CSOs] [must] [produce summary of operations and activities for public access] [after law’s commencement] [or else face penalty for non-compliance] (11);",
+      "Code": 1,
+      "Evidence": "Art. 19(5): 'The charitable organization shall provide for an open access, including for the mass media, to its annual reports.'",
+      "Explanation": "Annual reports must be made publicly accessible."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 2. [CSOs] [must] [comply with agency’s interference regarding external operations or prescribed coordination across multiple CSOs] [when instructions are communicated with or without reasonable cause] [or else face penalty for non-compliance] (10);",
+      "Code": -1,
+      "Evidence": "Art. 4(3): 'Nobody shall have the right to restrict the freedom of selecting the goals of the charitable activity and the forms of its implementation, stipulated by the present Federal Law.'",
+      "Explanation": "The law protects CSOs from arbitrary interference in their operations."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 2. [CSOs] [must not] [pursue certain operational activities due to their legal type and irrespective of other matters] such as when the activity is incongruent with the legal type—e.g., public charities shall not endorse political candidates; the organization is unlawful; or the CSO’s legal status has been legally revoked [after law’s commencement] [or else face penalty for non-compliance] (11);",
+      "Code": 1,
+      "Evidence": "Art. 2(2): '...the support of the political parties, movements, groups and campaigns shall not be interpreted as the charity activity.'",
+      "Explanation": "Charitable organizations are prohibited from supporting political parties."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 3. [CSOs] [must not] [exceed specific threshold of budget spent on overhead] such as a certain percentage of budgets spent on administrative costs [after law’s commencement] [or else face penalty for non-compliance] (7);",
+      "Code": 1,
+      "Evidence": "Art. 16(3): 'A charitable organization shall not have the right to use for the remuneration of the labour of the administrative-managerial personnel over 20 per cent of the financial means...'",
+      "Explanation": "There is a 20% cap on administrative expenses."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 3. [CSOs] [must] [obtain a license to repeatedly perform a general activity] as opposed to obtaining a permit each time it plans to perform the activity [after law’s commencement] [or else face penalty for non-compliance] (9);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit licensing requirement for general activities."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 4. [CSOs] [must not] [engage in specified activities] such as activism [if it receives foreign funds that exceed a threshold] [or else face penalty for non-compliance] (7);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit restriction on activities based on foreign funding threshold."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 4. [Agency] [must] [have reasonable cause and follow explicit rules when conducting inspections of CSOs] such as requesting specific documentation or investigating offenses [after law’s commencement] [or else it is overstepping its authority] (8);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit rules for inspections are stated."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 5. [CSOs] [must] [obtain operational approvals—i.e. general licenses or individual permits—from multiple government units] such as multiple agencies, administrative jurisdictions, or a combination of both [after law’s commencement] [or else face penalty for non-compliance] (3);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement for multiple operational approvals."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 5. [CSO] [may] [use foreign funds for certain activities because its legal definition either expressly permits it or does not explicitly prohibit it] [after law’s commencement] [or else choose not to accept the funds] (7);",
+      "Code": 1,
+      "Evidence": "Art. 21(4): 'A charitable organization shall have the right to accept charity donations from the foreign citizens, from the stateless persons, and also from the foreign and international organizations.'",
+      "Explanation": "CSOs may use foreign funds for their activities."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 6. [CSOs] [must] [follow prescribed rules regarding internal administrative matters and/or activities] such keeping registry of members, holding membership meetings at minimal internals, or requiring international CSOs to consult local boards [or else face penalty for non-compliance] (3);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit internal administrative requirements are stated."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 6. [CSO] [may] [conduct activities without notifying local governments] [after law’s commencement] [or else notify government or not conduct activities] (5);",
+      "Code": 1,
+      "Evidence": "Art. 4(1): 'The citizens and the legal entities shall have the right to freely engage in charitable activities, relying on the principle of the voluntary participation and the freedom in selecting its goals.'",
+      "Explanation": "No notification requirement is stated for activities."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS PROVISION 7. [CSOs] [must] [surrender operational assets to government] [after a project is completed or CSO is dissolved] [or else face penalty for non-compliance] (1).",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement to surrender assets to government."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS PROVISION 7. [Agency] [must not] [hold CSOs to different requirements for staff than other employers] [after law’s commencement] [or else it is overstepping its authority] (4).",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision on staff requirements."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 1. [CSOs] [must] [acquire one-time approval to receive foreign funding that is separate from formal registration] [after law’s commencement] [or else it cannot receive those resources without facing penalty for non-compliance] (10);",
+      "Code": -1,
+      "Evidence": "Art. 21(4): 'A charitable organization shall have the right to accept charity donations from the foreign citizens, from the stateless persons, and also from the foreign and international organizations.'",
+      "Explanation": "No separate approval is required for foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 1. [CSOs] [must] [report their finances for public access] [after law’s commencement] [or else face penalty for non-compliance] (15);",
+      "Code": 1,
+      "Evidence": "Art. 19(5): 'The charitable organization shall provide for an open access, including for the mass media, to its annual reports.'",
+      "Explanation": "Financial reporting for public access is required."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 2. [CSOs] [must not] [receive more than a specified threshold of foreign funding] such as a fixed value or percentage of its budget [after law’s commencement] [or else face penalty for non-compliance] (9);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No threshold for foreign funding is specified."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 2. [Private entities] [may] [take a tax-deduction for supporting certain CSOs according to their legal type] such as donations to 501(c)(3)s but not contributions to political parties [after law’s commencement] [or else choose not to take the deduction] (9);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit tax deduction provision in this law (may be in tax code)."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 3. [CSOs] [must] [acquire government approval for each financial transaction or project] [after law’s commencement] [or else it cannot receive those resources without facing penalty for non-compliance] (7);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement for approval of each transaction."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 3. [Government] [must] [ensure CSOs enjoy all the rights that accompany their legal type] such as a preferential treatment on property, sales, or payroll taxes [after law’s commencement] [or else it is negligent in its duties] (9);",
+      "Code": 1,
+      "Evidence": "Art. 18(1): 'Guaranteed and provided for shall be the protection of the rights and the legitimate interests of the citizens and of the legal entities participants in the charitable activity...'",
+      "Explanation": "The law guarantees the rights of CSOs."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 4. [CSOs] [must] [use certain depository institutions] such as government banks [after law’s commencement] [or else face penalty for non-compliance] (7);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit requirement to use specific banks."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 4. [CSOs] [may] [engage in unrelated business activities] such as revenue generation [after law’s commencement] [or else choose not to pursue those activities] (4);",
+      "Code": -1,
+      "Evidence": "Art. 12(3): 'A charitable organization shall have the right to engage in business activities only to achieve the goals, for the sake of which it was set up and which correspond to these goals.'",
+      "Explanation": "Business activities are only allowed if related to the organization's goals."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 5. [CSOs] [must] [provide information on its financial matters] such as financing agreements, contracts, or employee salaries [when the regulating agency requests] [or else face penalty for non-compliance] (7);",
+      "Code": 1,
+      "Evidence": "Art. 19(2): 'The charitable organization shall annually present to the body... a report on its activity, containing the information on: the financial and economic activity...'",
+      "Explanation": "CSOs must provide financial information to the agency."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 5. [CSOs] [may] [engage in local fundraising or related business activities] such as soliciting donations or selling products/services related to their charitable mission [after law’s commencement] [or else choose not to pursue those activities] (4);",
+      "Code": 1,
+      "Evidence": "Art. 15: 'The sources of formation of the property of a charitable organization may be the following: ... launching campaigns to collect charity donations, holding lotteries and auctions...'",
+      "Explanation": "Local fundraising and related activities are permitted."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 6. [CSOs] [must not] [receive foreign funding from certain sources] such as foreign governments or private sponsors explicitly stated [after law’s commencement] [or else face penalty for non-compliance] (5);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit restriction on sources of foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 6. [CSOs] [may] [appeal decisions that disadvantage their positioning on financial and non-financial matters] such as orders regarding fines, taxes, foreign funding, and ownership of property [after such decisions are communicated] [or else accept the decision] (2);",
+      "Code": 1,
+      "Evidence": "Art. 9(3): 'The decision on the refusal of the state registration... may be appealed against with the court.'",
+      "Explanation": "Appeals are allowed for adverse decisions."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 7. [CSOs] [must] [pay taxes on foreign funding] [when similar funding from domestic sources would not be taxed] [or else face penalty for non-compliance] (5);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision on taxation of foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 7. [International CSOs] [must not] [crowd-out local CSO from funding opportunities] such as winning grants or not partnering with domestic CSOs [when funding opportunities are announced] [or else face penalty for non-compliance] (1);",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision on crowding out local CSOs."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES PROVISION 8. [CSOs] [must not] [receive any foreign funding under any circumstances] [after law’s commencement] [or else face penalty for non-compliance] (4).",
+      "Code": -1,
+      "Evidence": "Art. 21(4): 'A charitable organization shall have the right to accept charity donations from the foreign citizens, from the stateless persons, and also from the foreign and international organizations.'",
+      "Explanation": "Foreign funding is expressly permitted."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES PROVISION 8. [CSOs] [must] [pay taxes on unrelated business activities] such as revenue earned on sales of products/services unrelated to their charitable mission [after law’s commencement] [or else face penalty for non-compliance] (1).",
+      "Code": 0,
+      "Evidence": null,
+      "Explanation": "No explicit provision on taxation of unrelated business activities."
+    }
+  ]
+}

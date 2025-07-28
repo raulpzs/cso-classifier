@@ -1,0 +1,198 @@
+[
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 1. [Government] [must] [create or appoint agency to implement and enforce the law] [at law’s commencement] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 8: “The Minister shall, by notice in the Gazette, appoint a Registrar of Societies to perform the duties and exercise the powers imposed and conferred on the Registrar by this Act, and may appoint a Deputy Registrar and any number of Assistant Registrars …”",
+    "Explanation": "The statute expressly requires the Minister (government) to appoint a Registrar of Societies, an agency charged with implementing and enforcing the Act. The deontic (“shall”) imposes a mandatory duty; the aim is the creation/appointment of an enforcement body. Although no explicit phrase states “at law’s commencement,” the appointment directive is embedded in the Act itself and therefore takes effect upon commencement of the law. Thus the provision is implemented, and the first-round label of 1 is correct."
+  },
+  {
+    "Provision": "PERMISSIVE GOVERNANCE PROVISION 1. [Agency] [must] [explain penalty for particular offenses, or explain a ‘general penalty’ for offenses where no penalty is expressly provided] [before commencement of the law] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 42: \"Where a society is guilty of an offence under this Act for which no penalty is expressly provided, the society shall be liable to a fine not exceeding five thousand shillings, and in addition every officer thereof shall be guilty of the like offence and be liable to the like fine or to imprisonment for a term not exceeding six months or to both such fine and such imprisonment.\"",
+    "Explanation": "The statute itself includes a general penalty clause that applies to any offence for which no specific penalty has been set. This satisfies the requirement that the regulating authority (here, the Act itself) explain a ‘general penalty’ before the law’s commencement. Therefore, the provision is present and the first-round coder’s label of 1 is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 2. [CSOs] [must] [accept restricted freedoms on certain matters] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 20(1) & (3): “No registered society shall—(a) amend its name, or its constitution or rules; … except with the prior consent in writing of the Registrar… (3) Any registered society which contravenes this section shall be guilty of an offence.”",
+    "Explanation": "The Act explicitly curtails a society’s freedom to amend its own governing documents unless it first secures the Registrar’s written consent. This is a post-formation governance restriction that CSOs must accept. Violation of the restriction is criminalised, satisfying the optional ‘or else’ component. Therefore the provision is present, so the first-round label of 1 is correct."
+  },
+  {
+    "Provision": "PERMISSIVE GOVERNANCE PROVISION 2. [Government and agency] [must] [create or empower a dispute resolution forum] such as a court [before commencement of the law] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 15(1): \"Any society aggrieved by the Registrar’s refusal to register it, or by the cancellation or suspension of its registration under section 12 may … appeal to the High Court…\"",
+    "Explanation": "The Act itself establishes a statutory right for societies to appeal Registrar decisions to the High Court. By expressly empowering an existing court to hear these disputes, the legislation creates the required dispute-resolution forum. Therefore the provision is present and the coder’s label of 1 is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 3. [Government] [may] [create or empower cabinet minister to make new rules regulating CSOs on certain matters] [after law’s commencement] [or else leave the regulatory regime unchanged]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 53(1): \"The Minister may make rules for prescribing anything which under this Act may be prescribed, and generally for the better carrying out of the provisions of this Act.\"",
+    "Explanation": "The statute expressly authorizes a cabinet-level official (the Minister) to issue subsidiary rules that regulate societies (CSOs) on matters specified in and arising after the Act’s commencement. This satisfies the matrix requirement that the Government may empower a cabinet minister to create new regulations. Hence the appropriate label is 1 (presence)."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 4. [Agency] [may] [publish certain information about a CSO, or seize CSO property and documents] [with or without reasonable cause after law’s commencement] [or else choose other tactics to receive information from CSOs]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 32: “The Registrar… may publish in the Gazette… any information received by him under section 20, section 21 or section 31 of this Act.”",
+    "Explanation": "The statute explicitly empowers the Registrar (agency) to publish information obtained from societies. This satisfies the matrix requirement that an agency ‘may publish certain information about a CSO.’ The deontic (“may”), the actor (Registrar), and the aim (publish information) are all present; the law makes this power available after the Act’s commencement and does not impose a prerequisite of reasonable cause, fitting the ‘with or without reasonable cause’ condition. Hence the provision is clearly present, so label 1 is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 4(1): \"Every society which is not a registered society or an exempted society is an unlawful society…\"  \nSections 5–6: managing or being a member of an unlawful society is an offence punishable by fine or imprisonment.",
+    "Explanation": "The Act explicitly declares any unregistered (or non-exempt) society to be an \"unlawful society.\" This is a direct prohibition on operating informally. Subsequent sections impose criminal penalties on managers and members of such unlawful societies, satisfying the \"or else\" element. Therefore the provision is fully present and the first-round label of 1 is correct."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 1. [Agency] [must] [follow explicit termination and dissolution provisions] [when attempting to cancel or suspended a CSO] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 12(1): \"the Registrar shall, give written notice in the prescribed form to the society calling upon the society to show cause, within such period as is specified in the notice, why its registration should not be cancelled or, as the case may be, suspended; and, if the society fails to show cause to the satisfaction of the Registrar within the time specified, the Registrar may cancel or suspend the registration of the society.\"",
+    "Explanation": "Section 12 lays down a mandatory, step-by-step procedure (written notice, show-cause period, decision based on the response) that the Registrar must follow before cancelling or suspending a society’s registration. These are explicit termination provisions that bind the agency. Therefore the provision is present, and the first-round coder’s label of 1 is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 2. [CSOs] [must not] [appeal the registration denial or deregistration order] [after such a decision has been communicated] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": -1,
+    "Evidence": "Section 15(1): \"Any society aggrieved by the Registrar’s refusal to register it, or by the cancellation or suspension of its registration under section 12 may … appeal…\"",
+    "Explanation": "The statute expressly grants societies the right to appeal both a refusal to register and a cancellation or suspension of registration. This directly contradicts (negates) the matrix provision that would forbid such appeals. Therefore the appropriate code is -1, matching the first-round coder’s label."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 2. [Agency] [must] [explain precise legal definitions of CSOs that it regulates] [at law’s commencement] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 2 (Interpretation): '“society” includes any club, company, partnership or other association of ten or more persons… but does not … include— (a) a company as defined by the Companies Act… (b) any corporation incorporated by or under any other written law; … (j) any combination or association which the Minister may, by order, declare not to be a society for the purposes of this Act.'",
+    "Explanation": "The Act opens with an Interpretation section that provides a detailed, exhaustive definition of the term “society,” specifying what entities are included and explicitly listing exclusions. These definitions are supplied at the outset of the statute itself, thereby meeting the matrix requirement that the law explain the precise legal definition of the CSOs it regulates at the commencement of the law. Therefore the presence label (1) assigned by the first-round coder is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 3. [CSOs] [must] [reregister or otherwise apply for continuation of the organization] [on a certain day, after a fixed duration, or following meaningful changes to the organization] such as renaming the society, amending its constitution, or becoming a branch of another organization [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 20(1)-(3): \"No registered society shall— (a) amend its name, or its constitution or rules; ... except with the prior consent in writing of the Registrar...\" and \"Any registered society which contravenes this section shall be guilty of an offence.\"",
+    "Explanation": "When a society wishes to amend its name, constitution/rules, affiliate with another body, or dissolve—i.e., after a meaningful organizational change—it must first apply to the Registrar for written consent. This application functions as a legal requirement to obtain continuation approval. Sub-section (3) criminalises non-compliance, supplying the ‘or else’ element. Hence the statutory text implements the matrix provision, making label 1 correct."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 3. [Agency] [must not] [reject registration for reasons other than those explicitly stated] [after law’s commencement] [or else it is overstepping its authority]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 11(1): \"The Registrar may refuse to register a society where— (a) he is satisfied that such society is a branch of, or is affiliated to or connected with, any organization or association of a political nature established outside Kenya; or (b) any of the proposed officers has been at any time an officer of a society which has been refused registration...\"  Section 11(2): \"The Registrar shall refuse to register a society where— (a) he has reasonable cause to believe that the society has among its objects, or is likely to pursue or to be used for, any unlawful purpose...; (b) the Minister has... declared it to be a society dangerous to the good government of the Republic; (c) the terms of the constitution or the rules of the society are in any respect repugnant to or inconsistent with any law; (d) he is satisfied that the application does not comply with the Act or any rules made there-under; (e) he is satisfied that the society does not exist; or (f) the name under which the society is to be registered— (i) is identical to that of any other society...; (ii) so nearly resembles the name of any other society as to be likely to deceive...; or (iii) is repugnant to or inconsistent with any law or is otherwise undesirable.\"",
+    "Explanation": "The statute lists a closed set of circumstances in which the Registrar may or must refuse registration. Outside these enumerated grounds the Act directs registration (s.10(1) \"shall register\" subject only to the Act). Because refusal authority is limited to the specific reasons spelled out in s.11, the agency is barred from rejecting applications for any other, unstated reason. This satisfies the matrix requirement that the agency \"must not reject registration for reasons other than those explicitly stated,\" so the correct label is 1 (presence)."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 4. [CSOs] [must] [identify minimum number of founders or members] [or else the CSO is ineligible for registration or reregistration]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 2, Interpretation: “society” includes any ... association of ten or more persons, whatever its nature or object, established in Kenya ...”.",
+    "Explanation": "The Act defines a “society” as an association of ten or more persons. A group with fewer than ten members therefore falls outside the statutory definition and cannot register under the Act, making the minimum-member requirement a condition for eligibility. This satisfies the matrix provision’s requirement that CSOs must meet a stated minimum number of founders/members or be ineligible for registration."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 5. [Agency] [must] [review and make registration decisions within specified time period] [if an application has been submitted as prescribed] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 4(2): \"The Registrar shall consider every application for registration of a society or for exemption from registration and shall communicate his decision thereon to the society within one hundred and twenty days of receipt of the application.\"",
+    "Explanation": "The provision requires the responsible agency to review applications and issue a registration decision within a set timeframe once a complete application has been filed. Section 4(2) expressly obliges the Registrar (agency) to consider each application and notify the society of his decision within 120 days of receiving it. All ADICO elements—actor (Registrar), deontic (shall), aim (consider and decide), condition (upon receipt of an application), and a specified time period—are present. Therefore, presence (1) is correctly assigned."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 6. [CSOs] [must] [produce governing document for self-management] such as bylaws minimally prescribed in policy [if they seek to be a formal organization] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 19(1) Societies Act: \"The constitution or rules of every registered society or exempted society, formed after the commencement of this Act shall provide, to the satisfaction of the Registrar, for all the matters specified in the Schedule to this Act and shall not be amended so that it ceases so to provide.\"",
+    "Explanation": "Any society that wishes to register (i.e., become a formal organization) is required to have a constitution or rules that cover the matters listed in the Schedule. This is an explicit legal duty (\"shall provide\") imposed on CSOs to produce a governing document, satisfying the matrix provision. Failure to do so results in refusal of registration and the society becoming unlawful, thereby meeting the enforcement element. Therefore, the provision is present (1) and the first-round coder’s label is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 7. [CSOs] [must] [pay processing/application fee] [in addition to an application that must be completed as prescribed] [or else the registration or reregistration application will not be reviewed]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Section 53(2)(a) merely states that rules \"may\" prescribe fees and forms; nowhere in the Act is there a clause that obligates applicants to pay a processing or application fee as a pre-condition for registration.",
+    "Explanation": "The statute only empowers the Minister to create subsidiary rules that *may* set application fees. An enabling provision does not itself impose a mandatory duty on CSOs to pay a fee with their application, nor does it indicate that an application will not be processed without such payment. Because the explicit \"must pay fee\" requirement is absent, the correct coding is 0 (absence), not 1."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 7. [Agency] [must] [provide written explanation of registration and reregistration decision] such as certificate of approval or justification for refusal [after a CSO has applied as prescribed] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 10(3): \"Upon registering a society or exempting it from registration, the Registrar shall issue to the society a certificate of registration or exemption from registration in the prescribed form.\"",
+    "Explanation": "The Act obliges the Registrar (the agency) to give the applicant society a written certificate once a decision to register or exempt has been made. This constitutes a written explanation of the decision (i.e., a certificate of approval) that is provided only after the society has applied. Hence the legal text explicitly implements the matrix requirement, so the provision is correctly coded as present (1)."
+  },
+  {
+    "Provision": "RESTRICTIVE OPERATIONS PROVISION 2. [CSOs] [must] [comply with agency’s interference regarding external operations or prescribed coordination across multiple CSOs] [when instructions are communicated with or without reasonable cause] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 7(1)–(3): “The Minister may, where it appears to him to be in the public interest … by order, prohibit any act specified therein—(a) by any person on behalf of or in relation to any society associated with such society; or (b) by any person on behalf of or in relation to any society which … has objects similar to … such society…. (3) Any person who contravenes an order made under subsection (1) … shall be guilty of an offence and be liable to a fine … or imprisonment….”",
+    "Explanation": "The Act empowers the Minister to issue binding orders that restrict or direct activities carried out on behalf of a society or on behalf of related/associated societies (i.e., coordination across multiple CSOs). Societies (and persons acting for them) therefore must comply with this governmental interference once the order is communicated. Non-compliance is criminally punishable, satisfying the ‘or else’ element. All ADICO components of the matrix rule are thus met, so the correct label remains 1. (The coder cited s.31, which also imposes mandatory compliance with Registrar orders, but s.7 more squarely addresses external operations/coordination.)"
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 2. [CSOs] [must not] [pursue certain operational activities due to their legal type and irrespective of other matters] such as when the activity is incongruent with the legal type—e.g., public charities shall not endorse political candidates; the organization is unlawful; or the CSO’s legal status has been legally revoked [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 4(1) defines an “unlawful society” as any society that is neither registered nor exempted (or that is formed for an unlawful purpose).  Section 5: “Any person who manages or assists in the management of an unlawful society shall be guilty of an offence and be liable to imprisonment for a term not exceeding three years or to a fine…”  Section 6 makes mere membership in, or hosting meetings of, an unlawful society an offence.",
+    "Explanation": "The Act explicitly prohibits a society whose legal type is ‘unlawful’ (i.e., not registered/exempted, or formed for an unlawful purpose, or whose registration has been cancelled) from operating.  Managing, assisting, or even belonging to such a society is criminalised with stated penalties.  This matches the matrix requirement that CSOs must not carry out operations when their legal status renders them unlawful, with sanctions for non-compliance.  Therefore the provision is present, so the first-round coder’s label of 1 is correct."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 4. [Agency] [must] [have reasonable cause and follow explicit rules when conducting inspections of CSOs] such as requesting specific documentation or investigating offenses [after law’s commencement] [or else it is overstepping its authority]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 31(1)–(2): \"Where the Registrar has reasonable cause to believe that circumstances have arisen which render it expedient for the proper performance of his functions under this Act so to do, he may, by order in writing, require any registered society to furnish him with … (lists of officers, audited accounts, etc.). An order … shall require compliance therewith within a specified period (not being less than twenty-one days …).\"  Section 28(1)(b): a society must make its books \"available … for inspection by the Registrar … if so required in writing by the Registrar.\"",
+    "Explanation": "Section 31 requires the Registrar to possess \"reasonable cause\" before demanding documents from a registered society and prescribes written orders with explicit compliance periods—clear procedural rules that limit inspections. Section 28 further requires a written request and confines inspection to the Registrar’s office at a time he specifies. Together these provisions satisfy the matrix requirement that the agency both (a) have reasonable cause and (b) follow explicit, written procedures when inspecting CSOs. Hence the presence label of 1 is correct."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 5. [CSO] [may] [use foreign funds for certain activities because its legal definition either expressly permits it or does not explicitly prohibit it] [after law’s commencement] [or else choose not to accept the funds]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": null,
+    "Explanation": "The Act contains no clause that expressly authorises CSOs to receive or use foreign funds, nor does it incorporate a definition of CSOs that affirmatively allows such funding. Because the text is completely silent on foreign funding, the requirement that the permission be stated in the law is not satisfied. Silence cannot be coded as an explicit permissive rule under the coding instructions, so the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "RESTRICTIVE OPERATIONS PROVISION 6. [CSOs] [must] [follow prescribed rules regarding internal administrative matters and/or activities] such keeping registry of members, holding membership meetings at minimal internals, or requiring international CSOs to consult local boards [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 25(1)-(2): \"Every registered society shall keep a register of its members … If a registered society contravenes … the society and every officer thereof shall each be guilty of an offence\"; Section 29(1)-(2): \"Every registered society shall, at least once in every year, hold a general meeting … Any registered society which contravenes … shall be guilty of an offence.\"",
+    "Explanation": "The Act explicitly requires registered societies (CSOs) to keep a member register and to hold an annual general meeting. Both provisions use mandatory language (\"shall\") and specify penalties for non-compliance, fulfilling the ADICO elements of the matrix provision. Hence the presence label (1) assigned by the first-round coder is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE OPERATIONS PROVISION 7. [CSOs] [must] [surrender operational assets to government] [after a project is completed or CSO is dissolved] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Section 33: \"The Minister may … appoint a person … to be the receiver of a society … and … vest in the receiver all property … of the society …\"",
+    "Explanation": "Section 33 does not impose a duty on the society to hand over its assets. Instead, it empowers the Minister to appoint a receiver and, by operation of law, vest the society’s property in that receiver when the society is unlawful or has had its registration cancelled. The assets are not required to be surrendered to the government by the CSO, nor is there any penalty stipulated for a CSO’s failure to do so. Therefore, the matrix requirement that CSOs ‘must surrender operational assets to government after dissolution’ is not expressly present in the statute."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 4. [CSOs] [may] [engage in unrelated business activities] such as revenue generation [after law’s commencement] [or else choose not to pursue those activities]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "The only passage cited (Section 2) merely defines “society” and is silent on business or revenue-generating activities; the Act contains no article that affirmatively authorises societies to carry on unrelated business.",
+    "Explanation": "To code a 1, the law must expressly state that CSOs are permitted to conduct revenue-generating or other unrelated business activities. The Societies Act neither grants this permission nor forbids such activities; it is simply silent. Silence constitutes absence (0), not presence (1). Therefore, the first-round label is incorrect."
+  },
+  {
+    "Provision": "RESTRICTIVE RESOURCES PROVISION 5. [CSOs] [must] [provide information on its financial matters] such as financing agreements, contracts, or employee salaries [when the regulating agency requests] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 31(1): \"...the Registrar may, by order in writing, require any registered society to furnish him with... duly audited accounts... such other accounts, returns and other information as may be prescribed.\"  Section 31(5): \"Any registered society, which fails to comply with an order given under subsection (1) of this section shall be guilty of an offence.\"",
+    "Explanation": "Registered societies (CSOs) are obligated to provide audited accounts and other financial information when the Registrar requests it. Failure to comply constitutes an offence, establishing a penalty. All ADICO elements are met; therefore the provision is present and correctly labeled 1."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 5. [CSOs] [may] [engage in local fundraising or related business activities] such as soliciting donations or selling products/services related to their charitable mission [after law’s commencement] [or else choose not to pursue those activities]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "The Act never contains a clause that affirmatively authorises registered societies to “solicit donations”, “collect subscriptions”, “sell products” or otherwise fund-raise.  The only relevant reference (s.4(3)) actually restricts unregistered or pending societies from collecting or inviting subscriptions or donations, and the remaining financial provisions (e.g. s.26 – duty to keep books of account; Schedule para.10 – custody of funds) merely assume that money may be received but do not expressly grant the permission required by the matrix provision.",
+    "Explanation": "To code PRESENCE (1) the statute must expressly state that CSOs are allowed to engage in local fundraising or related income-generating activities.  The cited definition in s.2, and other sections, only describe societies or impose duties (book-keeping, etc.); they do not directly confer the right to raise funds.  Because the permission is not explicitly articulated, the correct coding is ABSENCE (0)."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 6. [CSOs] [may] [appeal decisions that disadvantage their positioning on financial and non-financial matters] such as orders regarding fines, taxes, foreign funding, and ownership of property [after such decisions are communicated] [or else accept the decision]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section 15(1)–(3): “Any society aggrieved by the Registrar’s refusal to register it, or by the cancellation or suspension of its registration… may appeal…” (to the Minister or the High Court, within the stated time-limits).",
+    "Explanation": "The statute expressly grants societies (CSOs) the option (“may”) to appeal adverse administrative decisions—here, refusals, cancellations, or suspensions of registration—within a specified period after the decision is conveyed. These are clearly decisions that disadvantage the organisation’s ability to operate and, therefore, its resource position. The text includes the required ADICO elements (actor: society, deontic: may, aim: appeal such decisions, condition: within 30 days of the communicated decision). Hence the provision is present and the coder’s label of 1 is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE RESOURCES PROVISION 8. [CSOs] [must not] [receive any foreign funding under any circumstances] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": 0,
+    "Evidence": null,
+    "Explanation": "The Societies Act contains no clause that either prohibits foreign funding or affirmatively permits it. Because the text is entirely silent on the question, there is neither an explicit prohibition (required for a label of 1) nor an explicit statement allowing foreign funding (required for a label of -1). Therefore the correct coding is absence (0)."
+  }
+]

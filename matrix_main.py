@@ -4,10 +4,10 @@ from matrix_first_codings import code_law
 from matrix_first_filter import extract_nonzero_provisions, verify_provision
 
 # Configuration
-LAW_PATH = "inputs/FrancecpENG.txt"
+LAW_PATH = "inputs/RussiaOnCharActRUS.txt"
 OUTPUT_DIR = "outputs"
-FIRST_ROUND_OUTPUT = os.path.join(OUTPUT_DIR, "FrancecpENG_first_round_4.json")
-VERIFIED_OUTPUT = os.path.join(OUTPUT_DIR, "FrancecpENG_verified_4.json")
+FIRST_ROUND_OUTPUT = os.path.join(OUTPUT_DIR, "RussiaOnCharActRUS_first_round.json")
+VERIFIED_OUTPUT = os.path.join(OUTPUT_DIR, "RussiaOnCharActRUS_verified.json")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

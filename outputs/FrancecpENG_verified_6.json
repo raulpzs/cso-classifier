@@ -1,0 +1,219 @@
+[
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 1. [Government] [must] [create or appoint agency to implement and enforce the law] [at law’s commencement] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 19-10: \"L'autorité administrative s'assure de la régularité du fonctionnement de la fondation d'entreprise; à cette fin, elle peut se faire communiquer tous documents et procéder à toutes investigations utiles.\"",
+    "Explanation": "The statute itself designates (i.e., appoints) \"l’autorité administrative\" to supervise and enforce compliance with the law from the moment the act enters into force. This satisfies the matrix requirement that the government must appoint an agency to implement and enforce the law at its commencement. The deontic element is present (the authority \"s'assure\"—shall ensure), the actor is the government via the designated authority, and the aim is enforcement of the law; therefore, the correct label is 1."
+  },
+  {
+    "Provision": "PERMISSIVE GOVERNANCE PROVISION 1. [Agency] [must] [explain penalty for particular offenses, or explain a ‘general penalty’ for offenses where no penalty is expressly provided] [before commencement of the law] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 20: \"Les présidents, administrateurs ou directeurs des groupements qui enfreindront les dispositions du présent article seront punis d'une amende de 5 000 F à 15 000 F et, en cas de récidive, d'une amende de 10 000 F à 30 000 F.\"",
+    "Explanation": "The statute itself provides an explicit penalty (a fine) for a specified offense—misusing the designation \"fondation\" or \"fondation d’entreprise.\"  By setting out that sanction within the text of the law, the legislature has performed the explanatory function that the matrix provision requires (i.e., it explains the penalty for the offense) prior to the law’s commencement.  Although the matrix frames the obligation as resting on an \"Agency,\" the guidance permits satisfaction where the legislature directly fulfills the obligation.  Thus all required ADICO elements are met and the provision is correctly coded as present (1)."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 2. [CSOs] [must] [accept restricted freedoms on certain matters] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 19-8: \"Sous peine de retrait de l'autorisation administrative prévue à l'article 19-1, la fondation d'entreprise ne peut faire appel à la générosité publique; elle ne peut recevoir de dons ni de legs.\"",
+    "Explanation": "The article expressly limits foundations d'entreprise from soliciting the public or receiving donations/legacies. The restriction applies after the law’s commencement, is mandatory (\"ne peut\" = must not), and non-compliance is punishable by withdrawal of the administrative authorization. All required ADICO elements are therefore present, so the correct label is 1."
+  },
+  {
+    "Provision": "PERMISSIVE GOVERNANCE PROVISION 2. [Government and agency] [must] [create or empower a dispute resolution forum] such as a court [before commencement of the law] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19-11: \"Si le conseil n'a pu procéder à cette nomination ou si la dissolution résulte du retrait de l'autorisation, le liquidateur est désigné par l'autorité judiciaire.\"",
+    "Explanation": "Article 19-11 merely states that, in specific circumstances, the judicial authority will appoint a liquidator. It neither obliges the Government or an agency to create a new dispute-resolution forum nor expressly empowers an existing forum for that purpose before the law’s commencement. The ADICO elements of the matrix provision (government/agency as subject, a mandatory ‘must’, the aim of creating/empowering a dispute-resolution forum, and the timing condition) are not all present. Therefore the provision is absent, and the correct label is 0."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 3. [Government] [may] [create or empower cabinet minister to make new rules regulating CSOs on certain matters] [after law’s commencement] [or else leave the regulatory regime unchanged]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19-13 : « Un décret en Conseil d'État fixe les modalités d'application des articles 18 à 19-12 de la présente loi. »",
+    "Explanation": "The article obliges the Government to issue an implementing decree (\"fixe\" = shall/ must). The matrix provision, however, requires only a permission ('may') for the Government to adopt further rules. Because the deontic element in the statute is mandatory rather than permissive, the legal text does not match the ADICO structure of the matrix provision. Therefore the provision is absent (0), and the first-round label of 1 is incorrect."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 4. [Agency] [may] [publish certain information about a CSO, or seize CSO property and documents] [with or without reasonable cause after law’s commencement] [or else choose other tactics to receive information from CSOs]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 19-10: \"L'autorité administrative s'assure de la régularité du fonctionnement de la fondation d'entreprise; à cette fin, elle peut se faire communiquer tous documents et procéder à toutes investigations utiles.\"",
+    "Explanation": "The article explicitly empowers the administrative authority (Agency) to obtain all documents and conduct investigations. This constitutes permission to take possession of CSO documents—i.e., to seize or otherwise secure them. The deontic term \"peut\" (may) is present, the actor is the authority, and the aim (obtaining/seizing documents) matches one of the alternatives in the matrix provision. No specific condition limits the timing, so the condition element is satisfied by default. Therefore, the provision is correctly coded as present (1)."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 6. [Non-state actors] [must not] [create new CSOs] because only the state may do so [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": -1,
+    "Evidence": "Art. 19 : « Les sociétés civiles ou commerciales, les établissements publics à caractère industriel et commercial, les coopératives ou les mutuelles peuvent créer, en vue de la réalisation d’une œuvre d’intérêt général, une personne morale, à but non lucratif, dénommée fondation d’entreprise. »",
+    "Explanation": "The matrix provision would prohibit non-state actors from establishing CSOs, reserving that power to the state. Article 19 explicitly authorises various private entities (companies, cooperatives, mutual societies, etc.) to create a non-profit legal person (a corporate foundation). This directly contradicts the prohibition, thereby negating the restrictive rule. Therefore, the proper label is −1, matching the first-round coder’s assignment."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19-1: \"La fondation d'entreprise jouit de la capacité juridique à compter de la publication au Journal officiel de l'autorisation administrative qui lui confère ce statut.\"",
+    "Explanation": "Article 19-1 requires an administrative authorization in order for a corporate foundation to obtain legal personality, but it never expressly forbids foundations from acting informally prior to authorization, nor does it impose a penalty for such informal operation. Because the text lacks an explicit \"must not operate informally\" prohibition and the full ADICO components are therefore not present, the provision should be coded as absent (0), not present (1)."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 1. [Agency] [must] [follow explicit termination and dissolution provisions] [when attempting to cancel or suspended a CSO] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19-11: \"Lorsque la fondation est dissoute ... un liquidateur est nommé par le conseil d'administration. Si le conseil n'a pu procéder à cette nomination ... le liquidateur est désigné par l'autorité judiciaire.\"",
+    "Explanation": "Article 19-11 sets out what happens after a foundation is dissolved (appointment of a liquidator by the board or, failing that, by a court). It does not impose an obligation on the administrative authority to \"follow explicit termination and dissolution provisions\" when it decides to cancel or suspend a CSO. The provision regulates the foundation and the judiciary, not the agency’s conduct during cancellation. Because the text lacks an explicit mandate directed at the agency, the requirement in the matrix provision is absent; therefore the correct label is 0."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION 2. [Agency] [must] [explain precise legal definitions of CSOs that it regulates] [at law’s commencement] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 19: \"Les sociétés civiles ou commerciales, les établissements publics à caractère industriel et commercial, les coopératives ou les mutuelles peuvent créer, en vue de la réalisation d'une oeuvre d'intérêt général, une personne morale, à but non lucratif, dénommée fondation d'entreprise.\"",
+    "Explanation": "The statute itself—at the very start of the section governing foundations—sets out a precise definition of the type of CSO it regulates (a non-profit legal person called a corporate foundation, who may create it, and for what purpose). Although no separate agency is instructed to provide the definition, the obligation contained in the matrix provision is fulfilled by the law’s own text at the moment of enactment. Therefore the provision is correctly coded as present (1)."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 3. [CSOs] [must] [reregister or otherwise apply for continuation of the organization] [on a certain day, after a fixed duration, or following meaningful changes to the organization] such as renaming the society, amending its constitution, or becoming a branch of another organization [or else face penalty for non-compliance] (7)",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 19-1: \"La fondation d'entreprise fait connaître à l'autorité administrative toute modification apportée à ses statuts; ces modifications sont autorisées dans les mêmes formes que les statuts initiaux.\"  \nArt. 19-2: \"A l'expiration de cette période, les fondateurs... peuvent décider la prorogation de la fondation... La prorogation est autorisée dans les formes prévues pour l'autorisation initiale.\"",
+    "Explanation": "The law obliges the foundation to seek administrative authorization again (i) whenever its statutes are modified and (ii) when the fixed initial term expires and the founders wish to continue the organization. Both situations fit the matrix requirement that CSOs must apply for continuation after meaningful changes or after a fixed duration. Therefore the provision is explicitly present, making the first-round label of 1 correct."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 4. [CSOs] [must] [identify minimum number of founders or members] [or else the CSO is ineligible for registration or reregistration]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19: \"Le ou les fondateurs apportent la dotation initiale mentionnée à l'article 19-6…\"",
+    "Explanation": "Article 19 merely refers to \"the founder or founders\" when describing the obligation to provide the initial endowment. It does not lay down a normative rule that a CSO must have a specified minimum number of founders (e.g., at least two or three). Because the statute neither prescribes such a minimum nor states that failure to meet it bars registration, the matrix provision is not expressly implemented. Therefore the correct label is 0 (absence), not 1."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 5. [CSOs] [must] [demonstrate minimum capital requirements] such as financial, non-financial, or expertise [or else it is ineligible for registration or reregistration]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 19: \"Lors de la constitution de la fondation d'entreprise, le ou les fondateurs apportent la dotation initiale mentionnée à l'article 19-6...\"  Art. 19-6: \"La dotation initiale minimale, dont le montant est déterminé dans des conditions fixées par voie réglementaire, est comprise entre le cinquième du montant minimal du programme d'action pluriannuel...\"",
+    "Explanation": "The statute requires that, at the moment of formation, founders provide an initial endowment whose minimum amount is fixed by regulation. This imposes a mandatory minimum capital requirement on the CSO (the foundation d'entreprise) as a pre-condition for registration, satisfying all elements of the matrix provision. Therefore, the presence label (1) is correct."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 5. [Agency] [must] [review and make registration decisions within specified time period] [if an application has been submitted as prescribed] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 19-1, para. 2: \"Cette autorisation est réputée acquise à l'expiration d'un délai de quatre mois à compter du dépôt de la demande.\"",
+    "Explanation": "The statute imposes a clear four-month deadline on the competent administrative authority to act on a registration request for a corporate foundation. If the authority does not issue a decision within that period, authorization is automatically deemed granted. This provision contains: (1) the actor (administrative authority), (2) the deontic obligation (must act, otherwise approval is automatic), (3) the aim (decide on the registration/authorization), and (4) the condition (after an application has been submitted). Hence the matrix requirement that the agency review and decide within a specified time frame is explicitly implemented, so label 1 is correct."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 6. [CSOs] [must] [produce governing document for self-management] such as bylaws minimally prescribed in policy [if they seek to be a formal organization] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 19-7: \"Les statuts de la fondation d'entreprise comprennent un programme d'action pluriannuel...\"  \nArt. 19-1 (al. 3): \"La fondation d'entreprise fait connaître à l'autorité administrative toute modification apportée à ses statuts; ces modifications sont autorisées dans les mêmes formes que les statuts initiaux.\"",
+    "Explanation": "The law explicitly requires a foundation seeking legal status to have \"statuts\" (governing documents). Article 19-7 sets mandatory content for those statutes, while Article 19-1 refers to the initial statutes and obliges notification and approval of any changes. These provisions together impose a duty on the CSO to produce and maintain bylaws as a condition of formal recognition, satisfying the ADICO elements of the matrix provision. Therefore the presence label (1) is correct."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 7. [Agency] [must] [provide written explanation of registration and reregistration decision] such as certificate of approval or justification for refusal [after a CSO has applied as prescribed] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19-1: \"La fondation d'entreprise jouit de la capacité juridique à compter de la publication au Journal officiel de l'autorisation administrative qui lui confère ce statut…\"",
+    "Explanation": "The article merely states that the administrative authorization, once granted (either expressly or by silence after four months), is published in the Official Gazette. It does not impose an obligation on the competent authority to send the applicant a written certificate of approval or to provide a written justification in case of refusal. Because the legal text lacks the ADICO elements of a mandatory written explanation (aim) directed at the agency (attribute) after application (condition), the matrix provision is absent, so the correct label is 0."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 2. [CSOs] [must not] [pursue certain operational activities due to their legal type and irrespective of other matters] such as when the activity is incongruent with the legal type—e.g., public charities shall not endorse political candidates; the organization is unlawful; or the CSO’s legal status has been legally revoked [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 19-3: \"...elle ne peut acquérir ou posséder d'autres immeubles que ceux nécessaires au but qu'elle se propose.\" (The foundation may not acquire or own real estate other than that necessary to its purpose.)",
+    "Explanation": "The article applies to foundations (a category of CSO) and explicitly forbids them from engaging in a specific operational activity—owning real property beyond what is needed for their purpose—solely because of their legal type. This matches the ADICO elements of the matrix provision: Attribute (foundation/CSO), Deontic (ne peut… = must not), Aim (acquire or possess certain property), Condition (ongoing after the law’s commencement), with no ‘or-else’ required. Hence the provision is present, so label 1 is correct."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 4. [Agency] [must] [have reasonable cause and follow explicit rules when conducting inspections of CSOs] such as requesting specific documentation or investigating offenses [after law’s commencement] [or else it is overstepping its authority] (8)",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19-10 : \"L'autorité administrative s'assure de la régularité du fonctionnement de la fondation d'entreprise; à cette fin, elle peut se faire communiquer tous documents et procéder à toutes investigations utiles.\"",
+    "Explanation": "The article merely empowers the administrative authority to request documents and conduct investigations. It does not impose any obligation to possess reasonable cause or to follow explicit procedural rules, nor does it expressly state that such cause or rules are unnecessary. Because the text neither fulfills nor expressly contradicts the matrix requirement, the correct coding is absence (0), not negation (-1)."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 5. [CSO] [may] [use foreign funds for certain activities because its legal definition either expressly permits it or does not explicitly prohibit it] [after law’s commencement] [or else choose not to accept the funds] (7)",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": -1,
+    "Evidence": "Art. 19-8: \"Sous peine de retrait de l'autorisation administrative prévue à l'article 19-1, la fondation d'entreprise ne peut faire appel à la générosité publique; elle ne peut recevoir de dons ni de legs.\"",
+    "Explanation": "The provision in Art. 19-8 explicitly states that a corporate foundation (the relevant CSO) \"may not receive donations or bequests,\" which necessarily includes donations originating abroad. This is an explicit legal prohibition on accepting foreign (and domestic) funds outside the limited sources enumerated in the same article. Because the matrix provision concerns the permissive use of foreign funds and the statute expressly prohibits such funding, the correct coding is –1 (negation)."
+  },
+  {
+    "Provision": "RESTRICTIVE OPERATIONS PROVISION 6. [CSOs] [must] [follow prescribed rules regarding internal administrative matters and/or activities] such keeping registry of members, holding membership meetings at minimal internals, or requiring international CSOs to consult local boards [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 19-4: \"La fondation d'entreprise est administrée par un conseil d'administration composé pour les deux tiers au plus des fondateurs ... Les statuts déterminent les conditions de nomination et de renouvellement des membres du conseil.\"",
+    "Explanation": "The statute imposes mandatory rules on the internal governance of foundations: it specifies the composition of the board of directors and requires that the statutes set out how board members are appointed and renewed. These are prescribed rules on internal administrative matters that the CSO must follow, satisfying the matrix provision’s requirement. The ‘or else’ penalty is not required for coding presence, so the correct label is 1."
+  },
+  {
+    "Provision": "RESTRICTIVE OPERATIONS PROVISION 7. [CSOs] [must] [surrender operational assets to government] [after a project is completed or CSO is dissolved] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 19-12 : « En cas de dissolution d’une fondation d’entreprise, les ressources non employées et la dotation sont attribuées par le liquidateur à un ou plusieurs établissements publics ou reconnus d’utilité publique dont l’activité est analogue à celle de la fondation d’entreprise dissoute. »",
+    "Explanation": "The article obliges that, upon dissolution, any remaining assets must be transferred by the liquidator to public establishments (state bodies) or other entities recognised as being of public utility. This satisfies the ADICO elements: (A) the CSO/foundation, (D) must, (I) surrender unused resources and endowment, (C) when the CSO is dissolved. The ‘or else’ clause is not required for coding. The rule is present, not negated, so the correct label is 1."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 1. [CSOs] [must] [report their finances for public access] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19-9: \"Les fondations d'entreprise établissent chaque année un bilan, un compte de résultats et une annexe... Les peines prévues par l'article 439 de la même loi sont applicables au président et aux membres des conseils de fondations d'entreprise qui n'auront pas, chaque année, établi un bilan, un compte de résultat et une annexe.\" Art. 19-10: \"La fondation d'entreprise adresse, chaque année, à l'autorité administrative un rapport d'activité auquel sont joints le rapport du commissaire aux comptes et les comptes annuels.\"",
+    "Explanation": "The articles obligate foundations to prepare annual financial statements and transmit them to the administrative authority, with criminal penalties for non-compliance. However, the matrix provision requires that finances be reported \"for public access,\" i.e., made available to the general public. The cited provisions speak only of internal preparation and submission to the authority; they contain no requirement to publish or otherwise make the financial information publicly accessible. Because the aim component (public access) is missing, the provision is not fully implemented, so the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "RESTRICTIVE RESOURCES PROVISION 2. [CSOs] [must not] [receive more than a specified threshold of foreign funding] such as a fixed value or percentage of its budget [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19-8: « Sous peine de retrait de l'autorisation administrative prévue à l'article 19-1, la fondation d'entreprise ne peut faire appel à la générosité publique; elle ne peut recevoir de dons ni de legs. »",
+    "Explanation": "Article 19-8 imposes an absolute ban on donations and legacies from any source. The matrix provision, however, concerns a quantitative ceiling on foreign funding (a specified threshold above which foreign funds are prohibited). The law neither distinguishes domestic vs. foreign funding nor sets a threshold; it simply forbids all gifts and bequests. Because the specific ADICO elements—reference to foreign funding and a stated threshold—are missing, the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 2. [Private entities] [may] [take a tax-deduction for supporting certain CSOs according to their legal type] such as donations to 501(c)(3)s but not contributions to political parties [after law’s commencement] [or else choose not to take the deduction]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 5 of the 4 July 1990 law adds to CGI art. 238 bis: “... notamment quand ces versements sont faits au bénéfice d’une fondation d’entreprise, même si cette dernière porte le nom de l’entreprise fondatrice.”",
+    "Explanation": "CGI art. 238 bis already grants taxpayers (private entities) the option to deduct gifts made to qualifying organizations; the amendment expressly states that this deduction also applies when the recipient is a ‘fondation d’entreprise,’ a specific legal CSO type. This satisfies the ADICO elements: Attribute (private entities), Deontic (may), Aim (take a tax deduction for supporting certain CSOs), Condition (after law’s commencement—i.e., under the amended tax article). Therefore, the provision is explicitly implemented and the correct label is 1."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 3. [Government] [must] [ensure CSOs enjoy all the rights that accompany their legal type] such as a preferential treatment on property, sales, or payroll taxes [after law’s commencement] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 5 merely amends the Tax Code to state that donations are deductible for corporate donors \"notamment quand ces versements sont faits au bénéfice d'une fondation d'entreprise\". The text does not impose any obligation on the Government to \"ensure CSOs enjoy all the rights that accompany their legal type,\" nor does it confer a tax exemption directly on the CSO itself (it grants a deduction to donors). No deontic \"must\" directed to the Government appears, and the provision’s aim—guaranteeing CSO rights, such as preferential treatment on their own taxes—is absent.",
+    "Explanation": "For a score of 1 the statute must contain all core ADICO elements: (1) an actor (Government), (2) a deontic term (must/shall), and (3) the aim of ensuring that CSOs receive the full rights of their legal form, exemplified by preferential tax treatment for the CSO. Article 5 only extends a deduction to donors; it does not state that the Government must ensure or provide any tax or other rights to the CSO itself. Because the prescribed obligation is not present, the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "RESTRICTIVE RESOURCES PROVISION 4. [CSOs] [must] [use certain depository institutions] such as government banks [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19-3: \"Toutes les valeurs mobilières doivent être placées en titres nominatifs ... ou en valeurs admises par la Banque de France en garanties d'avances.\"",
+    "Explanation": "The article obliges foundations to hold their securities in nominative form or invest only in securities that are eligible as collateral at the Banque de France. It does not require the organization to deposit its funds in a specific depository institution (e.g., a government or central bank). The matrix provision concerns mandatory use of designated banks or similar depositories, which is not explicitly stated here. Therefore, the correct label is absence (0), not presence (1)."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 4. [CSOs] [may] [engage in unrelated business activities] such as revenue generation [after law’s commencement] [or else choose not to pursue those activities]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 19-8 (3°) : « Les ressources de la fondation d’entreprise comprennent … le produit des rétributions pour services rendus. »",
+    "Explanation": "The statute expressly lists “le produit des rétributions pour services rendus” among the permissible resources of a foundation d’entreprise. This language authorises the organisation to charge for services and thereby generate revenue—i.e., to conduct business activities producing income. The ADICO components are satisfied: (A) the actor is the foundation/CSO; (D) the law is permissive (“ressources … comprennent”), equivalent to “may”; (I) the aim is revenue generation through service fees, a form of business activity; (C) the rule applies once the law is in force. Because the law affirmatively permits such revenue-generating activity, the correct label is 1 (presence)."
+  },
+  {
+    "Provision": "RESTRICTIVE RESOURCES PROVISION 5. [CSOs] [must] [provide information on its financial matters] such as financing agreements, contracts, or employee salaries [when the regulating agency requests] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19-10 : \"L'autorité administrative s'assure de la régularité du fonctionnement de la fondation d'entreprise; à cette fin, elle peut se faire communiquer tous documents et procéder à toutes investigations utiles. La fondation d'entreprise adresse, chaque année, à l'autorité administrative un rapport d'activité auquel sont joints le rapport du commissaire aux comptes et les comptes annuels.\"",
+    "Explanation": "Article 19-10 confers on the administrative authority the power to request documents (\"elle peut se faire communiquer\"), but it does not expressly impose a correlative obligation on the foundation to comply. The only explicit obligation on the foundation is an annual, unconditional submission of its activity report and accounts, which is not contingent on a request by the authority. Because the matrix provision requires that CSOs \"must provide\" financial information *when the agency requests*, the necessary ADICO condition (provision of information upon request) is not fully and explicitly satisfied. The text therefore does not implement the matrix provision, so the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 5. [CSOs] [may] [engage in local fundraising or related business activities] such as soliciting donations or selling products/services related to their charitable mission [after law’s commencement] [or else choose not to pursue those activities]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": -1,
+    "Evidence": "Art. 19-8: \"Sous peine de retrait de l'autorisation administrative prévue à l'article 19-1, la fondation d'entreprise ne peut faire appel à la générosité publique; elle ne peut recevoir de dons ni de legs.\"",
+    "Explanation": "The matrix provision grants CSOs permission to raise funds locally, for example by soliciting donations. Article 19-8 explicitly states that a corporate foundation \"cannot appeal to public generosity\" and \"cannot receive donations or legacies,\" under penalty of losing its authorization. This is an explicit prohibition on a central form of local fundraising. Because the statute affirmatively forbids (rather than permits) this fundraising activity, it negates the matrix permission. Therefore the correct label is -1, matching the first-round coder."
+  },
+  {
+    "Provision": "RESTRICTIVE RESOURCES PROVISION 6. [CSOs] [must not] [receive foreign funding from certain sources] such as foreign governments or private sponsors explicitly stated [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19-8: \"Sous peine de retrait de l'autorisation administrative prévue à l'article 19-1, la fondation d'entreprise ne peut faire appel à la générosité publique; elle ne peut recevoir de dons ni de legs.\"",
+    "Explanation": "Article 19-8 indeed prohibits corporate foundations from receiving any donations or legacies, but the matrix provision specifically targets FOREIGN funding from clearly identified foreign sources (e.g., foreign governments, foreign private sponsors). The cited article contains no reference to foreign donors or any other explicit source-based restriction; it is a blanket ban on all donations. Because the ‘foreign-source’ element of the Aim is not explicitly present, the ADICO structure for this matrix provision is incomplete. Therefore the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "RESTRICTIVE RESOURCES PROVISION 8. [CSOs] [must not] [receive any foreign funding under any circumstances] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Art. 19-8 : « …sous peine de retrait de l’autorisation administrative prévue à l’article 19-1, la fondation d’entreprise ne peut faire appel à la générosité publique ; elle ne peut recevoir de dons ni de legs. »",
+    "Explanation": "The article bars foundations from soliciting the public and from accepting any gifts or legacies, but it never mentions foreign sources or foreign funding. The matrix provision requires an explicit prohibition on “foreign funding.” Because the element “foreign” is absent from the legal text, all ADICO components are not satisfied and the correct coding is 0 (absence)."
+  }
+]

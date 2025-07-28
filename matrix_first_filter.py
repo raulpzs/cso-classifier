@@ -25,13 +25,14 @@ schema = {
     "additionalProperties": False
 }
 
-def verify_provision(provision, law_text):
+def verify_provision(provision, law_text=None):
     prompt = f"""
     The first-round coder usually does a good job finding the section of the law that addresses the provision's topic, but tends to overuse the presence (1) or negation (-1) label instead of absence (0).
     In order for a provision to be labeled 1 or -1, it must be explicitly implemented or explicitly negated in the legal text, and all components of the ADICO structure from the matrix provision must be present (excluding the 'or else' clause, which is optional).
 
     In some instances, the provisions in the matrix do not regulate CSOs directly, but rather the regulating body, government, or other entities.
-    In these cases, the provision can still be correctly labeled as 1 or -1 if the legal text itself fulfills the obligation—even if it is the legislature, not an agency, performing the act.
+    However, the provision must be satisfied by the law text itself, even if it does not assign a specific duty to an agency.
+    In these cases, the provision can still be correctly labeled as 1 or -1 if the legal text itself fulfills the obligation, even if it is the legislature performing the act rather than the agency, or an ADICO element is missing.
 
     Here are a few examples to guide your coding:
 
@@ -63,11 +64,28 @@ def verify_provision(provision, law_text):
     OUTPUT
     And your output should be a JSON file that looks like this:
     {{
-    "Provision": "2. RESTRICTIVE FORMATION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
+    "Provision": "RESTRICTIVE FORMATION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
     "FirstRoundCoderLabel": 1,
     "CorrectLabel": 0,
     "Evidence": "Art. 19-1: 'The company Foundation enjoys the legal capacity from the publication in the Official Gazette of the administrative authorization that him confers it this status.'",
     "Explanation": "While Art. 19-1 requires administrative authorization and publication for legal capacity, the matrix provision is about prohibiting informal operation It does not explicitly forbid informal association, it only requires registration for legal recognition."
+    }}
+
+    c) INPUT:
+    {{
+    "Provision": " PERMISSIVE GOVERNANCE 2. [Government and agency] [must] [create or empower a dispute resolution forum] such as a court [before commencement of the law] [or else it is negligent in its duties]",
+    "Code": 1,
+    "Evidence": "Art. 9: 'The decision on the refusal of the state registration of a charitable organization may be appealed against with the court.'",
+    "Explanation": "The law provides for judicial review of agency decisions."
+    }}
+
+    OUTPUT
+    {{
+    "Provision": "PERMISSIVE GOVERNANCE 2. [Government and agency] [must] [create or empower a dispute resolution forum] such as a court [before commencement of the law] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Art. 9: 'The decision on the refusal of the state registration of a charitable organization may be appealed against with the court.'",
+    "Explanation": "The law provides for judicial review of agency decisions, thus fulfilling the matrix provision's requirement for a dispute resolution forum."
     }}
 
     === Matrix provision ===
@@ -82,7 +100,7 @@ def verify_provision(provision, law_text):
     === Explanation ===
     {provision.get('Explanation')}
 
-    === Legal text ===
+    === Law text ===
     {law_text}
 
     """

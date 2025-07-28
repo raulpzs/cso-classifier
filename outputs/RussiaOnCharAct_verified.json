@@ -1,0 +1,191 @@
+[
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 1. [Government] [must] [create or appoint agency to implement and enforce the law] [at law’s commencement] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 19(2): \"The body that has rendered a decision on state registration of a charitable organization shall exert control over the compliance of activity of the charitable organization with the goals for the sake of which it has been established.\"",
+    "Explanation": "The statute itself designates the same authority that performs state registration as the body responsible for ongoing control and enforcement of the law. By assigning this mandate in the text that comes into force with the law, the legislature has effectively *appointed* an implementing-and-enforcing agency at the moment of the law’s commencement. This satisfies the ADICO elements: (A) Government/legislature, (D) shall, (I) appoint an enforcement body, (C) built into the law’s entry into force. Therefore the provision is correctly coded as present (1)."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 2. [CSOs] [must] [accept restricted freedoms on certain matters] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 12(3): \"A charitable organization shall have the right to engage in business activities only to achieve the goals, for the sake of which it was set up…\"; Article 12(5): \"A charitable organization shall not have the right to spend its means and to use its property for rendering support to the political parties, movements, groups and campaigns.\"",
+    "Explanation": "The statute imposes explicit substantive limits on what charitable organizations may do: they may conduct business activities only for their statutory goals and are prohibited from financially supporting political parties or campaigns. These clauses clearly require CSOs to accept restrictions on their freedom of action after the law’s commencement. All ADICO elements are present (Attribute: CSOs; Deontic: shall/shall not; Aim: accept limitations on business and political activities; Condition: ongoing after the law’s entry into force; Or-else: penalties provided elsewhere in the law). Therefore the provision is correctly coded as present (1)."
+  },
+  {
+    "Provision": "PERMISSIVE GOVERNANCE PROVISION 2. [Government and agency] [must] [create or empower a dispute resolution forum] such as a court [before commencement of the law] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Article 9(3): \"The decision on the refusal of the state registration of a charitable organization ... may be appealed against with the court.\"",
+    "Explanation": "The cited sentence merely states that a registration refusal can be appealed to an already-existing court. Nowhere in the statute is the Government or any agency obligated to establish or formally empower a new dispute-resolution body, nor is there any requirement that this be done before the law takes effect. Because the ADICO elements of the matrix rule (government/agency duty + creation/empowerment of forum + timing) are not explicitly present, the provision is absent rather than implemented. Therefore the correct label is 0."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 3. [Government] [may] [create or empower cabinet minister to make new rules regulating CSOs on certain matters] [after law’s commencement] [or else leave the regulatory regime unchanged]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 25: \"To propose to the President of the Russian Federation and to order to the Government of the Russian Federation that they bring their legal acts into correspondence with the present Federal Law.\"",
+    "Explanation": "Article 25 expressly instructs (and therefore authorises) the Government to issue or amend its own normative legal acts so that they comply with and implement this CSO law. This empowerment to adopt new regulatory acts will necessarily occur after the law’s commencement, fulfilling the matrix’s attribute (Government), deontic (permission/authority—indeed an obligation, which subsumes ‘may’), and aim (create new rules regulating CSOs). Hence the provision is present; the coder’s label 1 is correct, although Article 3(1) was not the best citation."
+  },
+  {
+    "Provision": "PERMISSIVE GOVERNANCE PROVISION 3. [CSOs] [may] [adopt standards for self-regulation through associations] [after law’s commencement] [or else choose not to be self-regulated]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Article 14(1): \"The charitable organizations shall have the right to unite into associations and unions...\"",
+    "Explanation": "Art. 14(1) only grants charitable organizations the option to join together in associations or unions; it says nothing about those associations setting or adopting self-regulatory standards. The required Aim element—“adopt standards for self-regulation through associations”—is therefore missing. Because the legal text does not explicitly authorize CSOs to adopt such standards, the provision is not implemented and should be coded 0 (absence)."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 4. [Agency] [may] [publish certain information about a CSO, or seize CSO property and documents] [with or without reasonable cause after law’s commencement] [or else choose other tactics to receive information from CSOs]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Article 19(4): “The body that has rendered a decision on the state registration of a charitable organization shall provide for an open access, including for the mass media, to the given charitable organizations' annual reports it has received.”",
+    "Explanation": "The matrix provision contemplates a discretionary power (deontic = “may”) for the agency to publish information or seize property/documents.  Article 19(4) instead imposes a mandatory duty on the registering body (“shall provide for an open access”).  Because the deontic element in the legal text is “shall/must,” the specific ADICO rule articulated in the matrix (which requires “may”) is not present.  Therefore the correct coding is absence (0), not presence (1)."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 6. [Non-state actors] [must not] [create new CSOs] because only the state may do so [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": -1,
+    "Evidence": "Article 8: \"The founders of a charitable organization, depending on its form, shall be the natural and (or) the legal persons. The state power bodies and the local self-government bodies, as well as the state-run and the municipal unitary enterprises, the state and the municipal institutions, shall not be the founders of a charitable organization.\"",
+    "Explanation": "The statute expressly authorises natural and legal persons (i.e., non-state actors) to found charitable organisations and simultaneously bars state entities from doing so. This directly contradicts the matrix rule that only the state may create CSOs, thereby explicitly negating the restrictive governance provision. Hence the appropriate label is -1, matching the first-round coder’s assessment."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 1. [Agency] [must] [follow explicit termination and dissolution provisions] [when attempting to cancel or suspended a CSO] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 11(1): “The reorganization and the liquidation of a charitable organization shall be effected in conformity with the law-stipulated procedure.”",
+    "Explanation": "The statute imposes a binding obligation (“shall be effected”) that any body carrying out the reorganization or liquidation of a charitable organization follow the detailed procedure set out in law. The condition (when a CSO is being terminated) is present, the deontic element (“shall”) expresses a mandatory duty, and the aim is to comply with the explicit dissolution procedure. This satisfies the matrix requirement that the competent authority must follow the termination provisions, so the presence label 1 assigned by the first-round coder is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 2. [CSOs] [must not] [appeal the registration denial or deregistration order] [after such a decision has been communicated] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": -1,
+    "Evidence": "Article 9(3): \"The decision on the refusal of the state registration of a charitable organization ... may be appealed against with the court.\"",
+    "Explanation": "The matrix provision would prohibit CSOs from appealing a denial or deregistration. Article 9(3) instead expressly grants charitable organizations the right to appeal such a refusal to a court—clearly the opposite of a prohibition. Thus the legal text explicitly negates the matrix rule, satisfying the requirements for a -1 label."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 2. [Agency] [must] [explain precise legal definitions of CSOs that it regulates] [at law’s commencement] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Section I, Article 6(1): \"The charitable organization shall be a nongovernment (non-state and non-municipal) nonprofit organization, set up to realize the goals stipulated by the present Federal Law ...\" (See also Article 7 listing legal forms).",
+    "Explanation": "The statute itself opens with a series of definitional articles that precisely state what a “charitable organization” is and what legal forms it may take. Although no implementing agency is named, the legislative text fulfills the obligation to provide clear legal definitions at the outset of the law, satisfying all required ADIC elements of the matrix provision. Therefore, the presence label (1) assigned by the first-round coder is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 3. [CSOs] [must] [reregister or otherwise apply for continuation of the organization] [on a certain day, after a fixed duration, or following meaningful changes to the organization] such as renaming the society, amending its constitution, or becoming a branch of another organization [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 24: \"The reregistration of the charitable organizations, set up before the present Federal Law has come into force, shall be carried out before July 1, 1999, ... The charitable organizations, which fail to undergo the reregistration within the said term, shall be liable to liquidation through the court on the demand of the registering body.\"",
+    "Explanation": "The law expressly requires existing charitable organizations (CSOs) to reregister by a specified date (before July 1, 1999) and provides a sanction—court-ordered liquidation—for failure to comply. All required ADICO elements are present: (A) CSOs established before the law; (D) must/shall; (I) reregister; (C) by a fixed deadline; (O) liquidation penalty. Hence the provision is correctly coded as present (1)."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 3. [Agency] [must not] [reject registration for reasons other than those explicitly stated] [after law’s commencement] [or else it is overstepping its authority]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Article 9(2): \"The refusal of the state registration of a charitable organization in connection with its legal address being given to it by a citizen at the place of his residence shall be inadmissible.\"",
+    "Explanation": "Art. 9(2) forbids the registration authority from refusing registration on one particular ground (use of a founder’s residential address). It does not establish a general rule that the authority may only refuse registration on grounds explicitly enumerated in the law, nor does it bar all other unspecified grounds for refusal. Because the text does not contain the full ADICO content of the matrix provision—namely, a prohibition on rejecting registration for ANY non-enumerated reason—the provision is not implemented. Therefore the correct label is 0 (absence), not 1."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 4. [Agency] [must not] [make registration unnecessarily complex or burdensome] [after law’s commencement] [or else it is overstepping its authority]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Article 9(2): “The refusal of the state registration of a charitable organization in connection with its legal address being given to it by a citizen at the place of his residence shall be inadmissible.”",
+    "Explanation": "The cited sentence bars the registration authority from refusing an application on one narrow ground (the use of a residential address). The matrix provision, however, requires a general rule that the authority must not make the overall registration process unnecessarily complex or burdensome. Because the statute addresses only a single refusal ground and does not establish a broader obligation to avoid unnecessary complexity, the ADICO elements of the matrix rule are not fully met. Therefore the provision is not implemented, and the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 6. [CSOs] [must] [produce governing document for self-management] such as bylaws minimally prescribed in policy [if they seek to be a formal organization] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Article 10(1): \"... formed in conformity with the procedure, stipulated by the Rules of the charitable organization.\"",
+    "Explanation": "Article 10(1) merely refers to the existence of “Rules” (by-laws) that determine how the higher management body is formed.  It does not impose an explicit requirement that founding members must draft or submit those Rules as a condition for the organization’s legal formation or registration.  Because the law excerpt lacks a clear deontic obligation on CSOs to produce governing documents when seeking formal status, the ADICO elements of the matrix provision are not fully met.  Therefore the provision is not present in the cited text and the correct label is 0."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 7. [Agency] [must] [provide written explanation of registration and reregistration decision] such as certificate of approval or justification for refusal [after a CSO has applied as prescribed] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Article 9(3): \"The decision on the refusal of the state registration of a charitable organization, and also its avoidance of such registration, may be appealed against with the court.\"",
+    "Explanation": "Article 9(3) only states that a refusal decision can be appealed; it does not obligate the registering authority to issue a written certificate or to justify its decision in writing. No other excerpt in the provided law imposes such a duty. Therefore, the required ADICO elements (agency must provide written explanation after application) are not explicitly present, so the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 1. [CSOs] [must] [produce summary of operations and activities for public access] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 19(1): \"A charitable organization shall conduct bookkeeping accounting and shall prepare reports…\"; Article 19(5): \"The charitable organization shall provide for an open access, including for the mass media, to its annual reports.\"",
+    "Explanation": "The law obliges charitable organizations (CSOs) to (a) prepare reports on their activities and finances and (b) make those reports openly accessible to the public. This fulfills the ADICO elements: Attribute – charitable organizations; Deontic – \"shall\" (must); Aim – prepare and disclose a summary of operations/activities (annual report); Condition – ongoing after the law’s commencement; Or-else – enforcement is provided elsewhere in the statute (e.g., Art. 20 on liability). Therefore, the provision is explicitly present, so the correct label remains 1."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 2. [CSOs] [must not] [pursue certain operational activities due to their legal type and irrespective of other matters] such as when the activity is incongruent with the legal type—e.g., public charities shall not endorse political candidates; the organization is unlawful; or the CSO’s legal status has been legally revoked [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 12(5) of Federal Law No. 135-FZ: \"A charitable organization shall not have the right to spend its means and to use its property for rendering support to the political parties, movements, groups and campaigns.\"",
+    "Explanation": "The law explicitly addresses charitable organizations (a specific CSO legal type) and prohibits them from using their resources to support political parties or campaigns—an operational activity incongruent with their charitable status. The ADICO elements are present: Attribute (charitable organizations), Deontic (shall not have the right), Aim (spend means/use property to support political entities), Condition (the rule applies under the law after its commencement), while the ‘or else’ clause is optional. Hence the provision is clearly implemented, so the correct label is 1."
+  },
+  {
+    "Provision": "RESTRICTIVE OPERATIONS PROVISION 3. [CSOs] [must not] [exceed specific threshold of budget spent on overhead] such as a certain percentage of budgets spent on administrative costs [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 16(3): \"A charitable organization shall not have the right to use for the remuneration of the labour of the administrative-managerial personnel over 20 per cent of the financial means which this organization spends in the course of the fiscal year.\"",
+    "Explanation": "The statute applies to charitable organizations (CSOs) and contains a clear deontic \"shall not have the right\" forbidding them from spending more than 20 % of their annual expenditures on administrative-managerial personnel—i.e., overhead. This matches every required element of the matrix provision: (1) the regulated actor (CSOs), (2) the prohibition (must not), (3) the specific overhead threshold (20 %), and (4) an implicit timing—ongoing after the law’s commencement. The optional sanction clause is not necessary. Hence the presence label (1) is correct."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 5. [CSO] [may] [use foreign funds for certain activities because its legal definition either expressly permits it or does not explicitly prohibit it] [after law’s commencement] [or else choose not to accept the funds]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 21(4) of Federal Law No. 135-FZ: “A charitable organization shall have the right to accept charity donations from the foreign citizens, from the stateless persons, and also from the foreign and international organizations.”",
+    "Explanation": "The statute explicitly grants charitable organizations (a type of CSO) the right (‘shall have the right’ = may) to accept donations from foreign natural and legal persons. This directly authorizes the use of foreign funds and therefore satisfies the ADICO elements of the matrix provision. No contrary prohibition appears. Hence the correct code is presence (1)."
+  },
+  {
+    "Provision": "RESTRICTIVE OPERATIONS PROVISION 6. [CSOs] [must] [follow prescribed rules regarding internal administrative matters and/or activities] such keeping registry of members, holding membership meetings at minimal internals, or requiring international CSOs to consult local boards [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 10(1)–(2): “The higher management body of a charitable organization shall be its collegiate body, formed in conformity with the procedure stipulated by the Rules of the charitable organization. Referred to the authority of the higher management body … shall be: the amendment of the Rules … the approval of the annual plan, of the budget … the adoption of the decisions on the reorganization and on the liquidation…”",
+    "Explanation": "The statute obliges every charitable organization (a type of CSO) to establish and operate a specific internal governance structure—its higher management collegiate body—according to procedures set in its Rules, and enumerates functions that this body must perform. These are explicit, legally mandated internal administrative requirements; hence the provision is present (label 1)."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 6. [CSO] [may] [conduct activities without notifying local governments] [after law’s commencement] [or else notify government or not conduct activities]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Article 4(2): “Citizens and legal entities shall have the right to freely perform charitable activities, individually or in cooperation with or without setting up a charitable organization.”",
+    "Explanation": "The cited clause confers a general freedom to engage in charitable activity, but it does not expressly state that CSOs may do so WITHOUT NOTIFYING local governments. The matrix provision requires an explicit permission covering the absence of any notification duty. Because the text is silent on notification (it neither affirms nor negates such a requirement), the necessary aim component of the ADICO rule is missing, so the provision is absent rather than present."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 1. [CSOs] [must] [report their finances for public access] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 19(5): \"The charitable organization shall provide for an open access, including for the mass media, to its annual reports.\"  \nArticle 19(2): \"The charitable organization shall annually present ... a report on its activity, containing the information on: the financial and economic activity ...\"",
+    "Explanation": "Charitable organizations (CSOs) are explicitly required (\"shall\") to prepare annual reports that include financial information and to ensure those reports are openly accessible to the public, satisfying the deontic and aim elements of the matrix provision. The obligation is ongoing after the law’s commencement (annual), meeting the condition element. A sanction framework exists elsewhere in Art. 20 for violations, so the provision is fully present; the original label of 1 is correct."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 4. [CSOs] [may] [engage in unrelated business activities] such as revenue generation [after law’s commencement] [or else choose not to pursue those activities]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": -1,
+    "Evidence": "Article 12(3): \"A charitable organization shall have the right to engage in business activities only to achieve the goals, for the sake of which it was set up and which correspond to these goals.\"",
+    "Explanation": "The matrix provision envisions a permission for CSOs to conduct business activities that are unrelated to their statutory purposes. Article 12(3) instead expressly confines any business activities to those that serve the organization’s own goals, thereby prohibiting unrelated business operations. Because the statute explicitly negates the permission contemplated by the matrix provision, the appropriate label is -1, matching the first-round coder’s assessment."
+  },
+  {
+    "Provision": "RESTRICTIVE RESOURCES PROVISION 5. [CSOs] [must] [provide information on its financial matters] such as financing agreements, contracts, or employee salaries [when the regulating agency requests] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Article 19(2) obliges each charitable organization to \"annually present\" a report to the registration body containing information on its financial-economic activity and other details.",
+    "Explanation": "The matrix provision requires a duty that arises specifically \"when the regulating agency requests\" the information.  Article 19(2) instead imposes an unconditional, routine annual reporting obligation; it does not tie disclosure to a request by the agency.  Because the stated condition in the ADICO structure (submission upon request) is missing, the legal text does not fully implement the matrix provision.  Therefore the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 5. [CSOs] [may] [engage in local fundraising or related business activities] such as soliciting donations or selling products/services related to their charitable mission [after law’s commencement] [or else choose not to pursue those activities]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 15: \"The sources of formation of the property of a charitable organization may be the following: ... launching campaigns to collect charity donations, holding lotteries and auctions ...\"; Article 12(2)-(3): \"A charitable organization shall have the right to engage in the activity involved in attracting resources ... [and] engage in business activities only to achieve the goals, for the sake of which it was set up.\"",
+    "Explanation": "The law explicitly states that charitable (non-profit) organizations have the right (\"shall have the right\" = may) to raise funds through campaigns, lotteries, auctions and to conduct business activities related to their mission. This satisfies the Attribute (CSOs), Deontic (may/shall have the right), Aim (engage in fundraising and related business activities), and Condition (after the law’s commencement is implicit because the permission is granted within the operative provisions of the statute). Therefore the provision is present, so the first-round coder’s label of 1 is correct."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 6. [CSOs] [may] [appeal decisions that disadvantage their positioning on financial and non-financial matters] such as orders regarding fines, taxes, foreign funding, and ownership of property [after such decisions are communicated] [or else accept the decision]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Article 20(2): \"...the body which has registered the charitable organization shall send it a warning in written form, which the charitable organization may appeal against in the court.\"  Article 9(3): \"The decision on the refusal of the state registration of a charitable organization ... may be appealed against with the court.\"",
+    "Explanation": "The statute expressly grants charitable organizations (CSOs) the right to challenge adverse administrative acts in court. The language \"may appeal\" satisfies the deontic element; the subject is the CSO; the object of the appeal is an administrative decision that harms the organization (non-financial in Article 9, potential dissolution in Article 20); and the right arises once the written decision/warning is issued, satisfying the temporal condition. Therefore the provision is present, so the first-round label of 1 is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE RESOURCES PROVISION 8. [CSOs] [must not] [receive any foreign funding under any circumstances] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": -1,
+    "Evidence": "Article 21(4): \"A charitable organization shall have the right to accept charity donations from the foreign citizens, from the stateless persons, and also from the foreign and international organizations.\"",
+    "Explanation": "The matrix provision calls for an absolute prohibition on foreign funding. Article 21(4) instead grants charitable organizations an explicit right to receive donations from foreign individuals and entities, directly contradicting (negating) the matrix rule. Thus the appropriate label is -1, matching the first-round coder’s choice."
+  }
+]

@@ -63,7 +63,7 @@ def code_law(law_text):
         - Code as -1 if one or more sections of the law EXPLICITLY NEGATE or forbid the rule.
         - Code as 0 if the law is silent on the matter or does not clearly address the rule.
 
-        If a provision is 1 or -1, you MUST include “evidence”, a verbatim quotation (60 words max) from the statute proving your decision.
+        If a provision is 1 or -1, you MUST include “evidence”, a verbatim quotation from the statute proving your decision.
         If no such quotation exists, you MUST label the provision 0, with a brief explanation when possible.
         When uncertain, pick 0.
 
@@ -92,24 +92,29 @@ def code_law(law_text):
         "Objective": "This law establishes the legal framework for corporate foundations in France, allowing companies to create nonprofit entities to support public interest activities with defined governance and funding rules.",
         "Provisions": [
             {{
-            "Provision": "1. PERMISSIVE RESOURCES 4. [CSOs] [may] [engage in unrelated business activities] such as revenue generation [after law's commencement] [or else choose not to pursue those activities]",
+            "Provision": "PERMISSIVE RESOURCES 4. [CSOs] [may] [engage in unrelated business activities] such as revenue generation [after law's commencement] [or else choose not to pursue those activities]",
             "Code": 1,,
             "Evidence": "Art. 19-8: 'The resources of the company Foundation include [...] the remuneration for services rendered.'",
             "Explanation": "Art. 19-8 explicitly includes proceeds of services rendered under their resources, allowing them to participate in other business activities."
             }},
             {{
-            "Provision": "2. RESTRICTIVE FORMATION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
+            "Provision": "RESTRICTIVE FORMATION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
             "Code": 0,
             "Evidence": null,
             "Explanation": "While Art. 19-1 requires administrative authorization and publication for legal capacity, it does not explicitly forbid informal association, it only requires registration for legal recognition."
             }},
             {{
-            "Provision": "3. PERMISSIVE OPERATIONS 4. [Agency] [must] [have reasonable cause and follow explicit rules when conducting inspections of CSOs] such as requesting specific documentation or investigating offenses [after law's commencement] [or else it is overstepping its authority] ",
+            "Provision": "PERMISSIVE OPERATIONS 4. [Agency] [must] [have reasonable cause and follow explicit rules when conducting inspections of CSOs] such as requesting specific documentation or investigating offenses [after law's commencement] [or else it is overstepping its authority] ",
             "Code": -1,
             "Evidence": "Art. 19-10: 'to this end, it can be given all documents and carry out any useful investigations.'",
             "Explanation": "Article 19-10 states that the administrative authority may 'carry out any useful investigation', effectively removing the requirement for reasonable cause or specific rules."
+            }},
+            {{
+            "Provision": "PERMISSIVE GOVERNANCE 1. [Agency] [must] [explain penalty for particular offenses, or explain a 'general penalty' for offenses where no penalty is expressly provided] [before commencement of the law] [or else it is negligent in its duties]",
+            "Code": 1,
+            "Evidence": "Art. 20: 'In case of sending to it repeated warnings in written form, the charitable organization may be liquidated in conformity with the procedure, stipulated by the Civil Code.'",
+            "Explanation": "Article 20 states that if a charitable organization receives repeated warnings in writing, it may be liquidated according to the procedure set out in the Civil Code, thus providing a general penalty for offenses where no specific penalty is provided."
             }}
-        ]
         }}
 
         The CSO Regulatory Regime Matrix is as follows: {matrix_typology}

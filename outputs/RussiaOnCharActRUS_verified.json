@@ -1,0 +1,205 @@
+[
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 1. [Government] [must] [create or appoint agency to implement and enforce the law] [at law’s commencement] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 19(2): \"Орган, принявший решение о государственной регистрации благотворительной организации, осуществляет контроль за соответствием её деятельности целям, ради которых она создана.\"",
+    "Explanation": "The statute itself designates the body that performs state registration of a charitable organization as the entity responsible for monitoring compliance with the law. By assigning enforcement authority to this registration body within the text of the law, the government has effectively appointed an agency to implement and enforce the statute from the moment of its commencement. Hence the provision is present (label 1)."
+  },
+  {
+    "Provision": "PERMISSIVE GOVERNANCE PROVISION 1. [Agency] [must] [explain penalty for particular offenses, or explain a ‘general penalty’ for offenses where no penalty is expressly provided] [before commencement of the law] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 20 (п.1-4): \"В случаях нарушения настоящего Федерального закона благотворительная организация и участники добровольческой (волонтерской) деятельности несут ответственность в соответствии с законодательством Российской Федерации\"; п.2-4 описывают письменные предупреждения, возможную ликвидацию организации и взыскание средств в доход бюджета.",
+    "Explanation": "The statute itself lays down a general penalty clause (liability under Russian law) and further specifies sanctions such as written warnings, forced liquidation and confiscation of unlawfully earned funds. Although no separate agency is directed to issue these explanations, the law text fulfils the matrix requirement of providing a general explanation of penalties prior to the law’s commencement. Therefore the presence label 1 assigned by the first-round coder is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 2. [CSOs] [must] [accept restricted freedoms on certain matters] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 12(5): \"Благотворительная организация не вправе расходовать свои средства и использовать свое имущество для поддержки политических партий, движений, групп и кампаний.\"",
+    "Explanation": "The law explicitly prohibits (\"не вправе\") charitable organizations from using their assets to support political parties, movements, groups and campaigns. This is a post-commencement restriction that CSOs must accept on how they may use their resources, satisfying the matrix requirement that CSOs must accept restricted freedoms on certain matters. General liability for breaches is provided elsewhere in the statute (e.g., Art. 20), so the provision is present. Hence the correct code is 1."
+  },
+  {
+    "Provision": "PERMISSIVE GOVERNANCE PROVISION 2. [Government and agency] [must] [create or empower a dispute resolution forum] such as a court [before commencement of the law] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 9(3): \"Решение об отказе в государственной регистрации благотворительной организации, а также уклонение от такой регистрации могут быть обжалованы в судебном порядке.\"",
+    "Explanation": "The statute expressly grants the right to appeal registration refusals to the courts, thereby designating (i.e., empowering) a judicial forum to resolve CSO-related disputes from the moment the law is in force. This satisfies the matrix requirement that a dispute-resolution forum be created or empowered. Hence the presence label (1) given by the first-round coder is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 3. [Government] [may] [create or empower cabinet minister to make new rules regulating CSOs on certain matters] [after law’s commencement] [or else leave the regulatory regime unchanged]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 173(1): \"Правительство Российской Федерации осуществляет ... полномочия в сфере добровольчества (волонтерства): 1) утверждает общие требования к порядку взаимодействия федеральных органов исполнительной власти... с добровольческими (волонтерскими) организациями; 2) утверждает перечень видов деятельности...\"",
+    "Explanation": "Article 173 expressly authorises the Government to issue general requirements and lists governing interaction with CSOs and to approve further lists of activities. This is a clear empowerment for the Government to adopt new regulatory rules concerning CSOs after the law’s commencement. The provision therefore satisfies the matrix’s attribute (Government), deontic (may/has the power), and aim (issue new rules), so the presence label 1 assigned by the first-round coder is correct."
+  },
+  {
+    "Provision": "PERMISSIVE GOVERNANCE PROVISION 3. [CSOs] [may] [adopt standards for self-regulation through associations] [after law’s commencement] [or else choose not to be self-regulated]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Статья 7(1): \"Благотворительные и добровольческие (волонтерские) организации могут объединяться в ассоциации и союзы, создаваемые на договорной основе, для расширения своих возможностей в реализации уставных целей.\"",
+    "Explanation": "Article 7 only gives CSOs permission to unite in associations and unions; it does not address the adoption of self-regulatory standards or codes by those associations. Because the legal text lacks the Aim element of the matrix rule (\"adopt standards for self-regulation\"), the provision is not fully implemented. Hence the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 4. [Agency] [may] [publish certain information about a CSO, or seize CSO property and documents] [with or without reasonable cause after law’s commencement] [or else choose other tactics to receive information from CSOs]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 19(4): орган, принявший решение о государственной регистрации благотворительной организации, \"обеспечивает открытый доступ, включая доступ средств массовой информации, к полученным им ежегодным отчетам\".",
+    "Explanation": "Норма прямо уполномочивает (и обязывает) регистрирующий орган раскрывать сведения об организации, обеспечивая широкий публичный доступ к её годовому отчёту. Тем самым агентство имеет право (и обязанность) публиковать определённую информацию о КСО. Это соответствует цели матричной нормы – предоставление агентству полномочий на разглашение информации о КСО. Поэтому метка «1 – присутствует» является корректной."
+  },
+  {
+    "Provision": "RESTRICTIVE GOVERNANCE PROVISION 6. [Non-state actors] [must not] [create new CSOs] because only the state may do so [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": -1,
+    "Evidence": "Art. 4(2): \"Граждане и юридические лица вправе свободно осуществлять благотворительную и добровольческую (волонтерскую) деятельность индивидуально или объединившись, с образованием или без образования организации.\"  \nArt. 8: \"Учредителями благотворительной организации ... могут выступать физические и (или) юридические лица. Органы государственной власти и органы местного самоуправления ... не могут выступать учредителями благотворительной организации.\"",
+    "Explanation": "The matrix provision would forbid non-state actors from founding CSOs, reserving that power to the state. The statute explicitly affirms that citizens and legal entities may freely form organizations, and it even bars state bodies from being founders. Thus the legal text directly contradicts (negates) the restrictive rule, so the proper label is -1, matching the first-round coder."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": -1,
+    "Evidence": "Статья 4(2): \"Граждане и юридические лица вправе свободно осуществлять благотворительную и добровольческую (волонтерскую) деятельность индивидуально или объединившись, с образованием или без образования организации.\"",
+    "Explanation": "The statute expressly states that citizens and legal entities may carry out charitable and volunteer activities \"with or without forming an organization,\" i.e., operating informally is allowed. This directly contradicts (negates) the matrix provision that would forbid informal operation and require registration. Therefore the correct coding is -1 (explicit negation)."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 1. [Agency] [must] [follow explicit termination and dissolution provisions] [when attempting to cancel or suspended a CSO] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Статья 11(1): \"Реорганизация и ликвидация благотворительной организации осуществляются в установленном законом порядке.\"",
+    "Explanation": "Article 11(1) merely states that reorganization and liquidation take place according to the procedure established by law; it does not impose an explicit duty on the competent agency to follow specific termination rules when it cancels or suspends a CSO, nor does it tie the requirement to the agency’s attempt to cancel or suspend. The actor (agency) and the condition (when the agency seeks cancellation/suspension) are missing. Therefore the matrix provision is not fully implemented, and the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 2. [CSOs] [must not] [appeal the registration denial or deregistration order] [after such a decision has been communicated] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": -1,
+    "Evidence": "Статья 9(3): \"Решение об отказе в государственной регистрации благотворительной организации, а также уклонение от такой регистрации могут быть обжалованы в судебном порядке.\"",
+    "Explanation": "The matrix provision would ban CSOs from appealing denials or deregistration. Article 9(3) of the law expressly grants CSOs the right to challenge a registration refusal (and even inaction) in court. This is the direct opposite (negation) of the restrictive rule, so the appropriate label is -1, matching the first-round coder’s decision."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 2. [Agency] [must] [explain precise legal definitions of CSOs that it regulates] [at law’s commencement] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 6(1): \"Благотворительной организацией является неправительственная ... некоммерческая организация, созданная для реализации предусмотренных настоящим Федеральным законом целей...\"; а также Статья 5(7) определяет \"добровольческая (волонтерская) организация\" и другие формы.",
+    "Explanation": "В начале закона содержится точное юридическое определение ключевой регулируемой формы НКО – \"благотворительной организации\", а также других относящихся к сфере закона CSO-форм. Тем самым требование матричного положения о предоставлении чётких правовых дефиниций при принятии закона выполнено. Поэтому метка 1 верна."
+  },
+  {
+    "Provision": "RESTRICTIVE FORMATION PROVISION 3. [CSOs] [must] [reregister or otherwise apply for continuation of the organization] [on a certain day, after a fixed duration, or following meaningful changes to the organization] such as renaming the society, amending its constitution, or becoming a branch of another organization [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 24: \"Перерегистрация благотворительных организаций, созданных до вступления в силу настоящего Федерального закона, должна быть проведена до 1 июля 1999 года... Благотворительные организации, не прошедшие перерегистрацию в течение указанного срока, подлежат ликвидации в судебном порядке по требованию регистрирующего органа.\"",
+    "Explanation": "The article obliges all pre-existing charitable (non-profit) organizations to reregister by the fixed deadline of 1 July 1999 and prescribes liquidation in court for failure to comply. This fits the matrix requirement that CSOs must reregister on a certain date and face a penalty for non-compliance, satisfying all ADICO elements (actor, deontic, aim, condition, or-else). Therefore the presence label (1) is correct."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 3. [Agency] [must not] [reject registration for reasons other than those explicitly stated] [after law’s commencement] [or else it is overstepping its authority]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Статья 9(2): \"Не допускается отказ в государственной регистрации благотворительной организации в связи с предоставлением ей юридического адреса гражданином по месту его жительства.\"",
+    "Explanation": "Article 9(2) merely forbids the registration authority from relying on one specific ground (the use of a private residence as the legal address). The law does not contain a comprehensive clause limiting refusal exclusively to an exhaustively enumerated list of reasons. Because the statute does not state that rejection is permitted only for explicitly stated grounds, it does not satisfy the matrix provision that the agency \"must not reject registration for reasons other than those explicitly stated.\" Therefore the correct label is absence (0), not presence (1)."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 4. [Agency] [must not] [make registration unnecessarily complex or burdensome] [after law’s commencement] [or else it is overstepping its authority]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Статья 9(2) лишь запрещает отказывать в регистрации благотворительной организации по мотиву того, что юридический адрес предоставлен гражданином по месту его жительства («Не допускается отказ…»).",
+    "Explanation": "Перечисленная норма адресует только один конкретный повод для отказа и не содержит общего запрета на установление чрезмерно сложной или обременительной процедуры регистрации. Закон в целом не формулирует обязанности органа регистрации воздерживаться от любых «необходимых» или «чрезмерных» требований. Следовательно, правило из матрицы не реализовано, и правильной меткой должна быть 0 – отсутствие."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 6. [CSOs] [must] [produce governing document for self-management] such as bylaws minimally prescribed in policy [if they seek to be a formal organization] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Статья 10(1) merely states that the highest governing body is formed \"в порядке, предусмотренном уставом благотворительной организации\" (in the manner provided by the organisation’s charter). The law nowhere contains a clause that obliges the founders or the organisation to draft/adopt a charter as a condition of formation or registration.",
+    "Explanation": "The matrix provision requires an explicit duty on CSOs to create a governing document (charter/by-laws) when seeking formal status. Article 10 presupposes the existence of a charter, but it does not impose a deontic obligation to produce one; nor is such a requirement stated elsewhere in the cited law text. Because the mandatory element (\"must produce\") is not expressly found, the provision is absent in this statute. Therefore the correct label is 0, not 1."
+  },
+  {
+    "Provision": "PERMISSIVE FORMATION PROVISION 7. [Agency] [must] [provide written explanation of registration and reregistration decision] such as certificate of approval or justification for refusal [after a CSO has applied as prescribed] [or else it is negligent in its duties]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Статья 9(3): \"Решение об отказе в государственной регистрации благотворительной организации, а также уклонение от такой регистрации могут быть обжалованы в судебном порядке.\"",
+    "Explanation": "Article 9(3) merely states that a refusal (or evasion) of registration may be appealed to a court. It does not oblige the registering authority to issue a written certificate of approval or a written, reasoned notice of refusal. The coder’s inference that a written explanation is “implied” is insufficient; the provision in the matrix requires an explicit duty to provide such a written explanation. Because the legal text provided contains no explicit requirement, the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 1. [CSOs] [must] [produce summary of operations and activities for public access] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 19(5): \"Благотворительная организация обеспечивает открытый доступ, включая доступ средств массовой информации, к своим ежегодным отчетам.\" (см. также ч.2 той же статьи, устанавливающей содержание отчёта о деятельности).",
+    "Explanation": "The statute obliges each charitable organization (a category of CSO) to make its annual activity report publicly accessible. This meets the provision’s elements: (1) Attribute – applies to CSOs (charitable organisations); (2) Deontic – \"обеспечивает\" establishes a mandatory duty; (3) Aim – production and public availability of a summary of operations (annual report containing information on activities and finances, per Art.19(2)); (4) Condition – obligation applies continuously after the law’s commencement; (5) Or-else – general liability for violation is provided in Art.20, satisfying the optional sanction element. Therefore the provision is expressly present, making label 1 correct."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 2. [CSOs] [must not] [pursue certain operational activities due to their legal type and irrespective of other matters] such as when the activity is incongruent with the legal type—e.g., public charities shall not endorse political candidates; the organization is unlawful; or the CSO’s legal status has been legally revoked [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 12(5): \"Благотворительная организация не вправе расходовать свои средства и использовать свое имущество для поддержки политических партий, движений, групп и кампаний.\"",
+    "Explanation": "The statute expressly forbids charitable organizations from using their funds or property to support political parties. This is a prohibition on a specific operational activity that is tied to the organization’s legal type (charitable organization). The deontic ‘не вправе’ corresponds to ‘must not.’ All required elements are present, so the provision is correctly coded as present (1)."
+  },
+  {
+    "Provision": "RESTRICTIVE OPERATIONS PROVISION 3. [CSOs] [must not] [exceed specific threshold of budget spent on overhead] such as a certain percentage of budgets spent on administrative costs [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 16(3): \"Благотворительная организация не вправе использовать на оплату труда административно-управленческого персонала более 20 процентов финансовых средств, расходуемых этой организацией за финансовый год.\"",
+    "Explanation": "The law explicitly states that charitable organizations (a category of CSOs) \"не вправе\" (must not) spend more than 20 % of their financial resources on administrative-management personnel costs, establishing a concrete overhead cap. This matches the matrix provision’s requirement for a prohibition on exceeding a specified percentage of the budget for overhead. Therefore, the correct label is 1 (presence)."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 5. [CSO] [may] [use foreign funds for certain activities because its legal definition either expressly permits it or does not explicitly prohibit it] [after law’s commencement] [or else choose not to accept the funds]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 21(4): \"Благотворительная организация имеет право на получение благотворительных пожертвований от иностранных граждан, лиц без гражданства, а также от иностранных и международных организаций.\"",
+    "Explanation": "The statute explicitly grants charitable (non-profit) organizations the right (“имеет право”) to receive donations from foreign individuals and entities, thereby permitting the use of foreign funds. This satisfies the ADICO elements: Attribute (charitable organization/CSO), Deontic (may/имеет право), Aim (receive and thus use foreign funds), Condition (applies generally after the law’s commencement), with no explicit prohibition expressed elsewhere. Hence the correct coding is 1 (presence)."
+  },
+  {
+    "Provision": "RESTRICTIVE OPERATIONS PROVISION 6. [CSOs] [must] [follow prescribed rules regarding internal administrative matters and/or activities] such keeping registry of members, holding membership meetings at minimal internals, or requiring international CSOs to consult local boards [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 10(1–3): \"Высшим органом управления благотворительной организацией является её коллегиальный орган, формируемый в порядке, предусмотренном уставом благотворительной организации... К компетенции высшего органа управления относятся: изменение устава, образование исполнительных органов, утверждение годового плана, бюджета и годового отчёта... В составе высшего органа управления может быть не более одного работника её исполнительных органов\".",
+    "Explanation": "The statute expressly sets mandatory internal governance rules for charitable organizations: it obliges them to establish a collegial supreme governing body, specifies how it is formed, and enumerates its exclusive powers and membership limits. These are prescribed rules concerning internal administration that CSOs must follow, fulfilling the matrix provision’s requirement. Therefore the presence label (1) assigned by the first-round coder is correct."
+  },
+  {
+    "Provision": "PERMISSIVE OPERATIONS PROVISION 6. [CSO] [may] [conduct activities without notifying local governments] [after law’s commencement] [or else notify government or not conduct activities]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Статья 4(1): \"Граждане и юридические лица вправе беспрепятственно осуществлять благотворительную и добровольческую (волонтерскую) деятельность на основе добровольности и свободы выбора её целей.\"",
+    "Explanation": "Although Article 4(1) affirms a general right to engage in charitable activity, it does not expressly state that CSOs may do so \"without notifying local governments.\" The text is silent on any notification requirement rather than explicitly waiving it. Because the matrix provision requires an affirmative statement permitting activity without notification, the legal text does not fully satisfy the ADICO elements. Therefore the correct label is 0 (absence), not 1."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 1. [CSOs] [must] [report their finances for public access] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 19 (2): благотворительная организация ежегодно представляет ... отчёт о своей деятельности, содержащий сведения о финансово-хозяйственной деятельности; Статья 19 (5): благотворительная организация обеспечивает открытый доступ ... к своим ежегодным отчётам.",
+    "Explanation": "Article 19 imposes a duty on every charity (a type of CSO) to submit an annual report that includes financial information and, in addition, obliges the organization itself to provide open public access to those reports. Thus the law explicitly requires both reporting of finances and their public availability, satisfying the ADICO elements of the matrix provision. Therefore the presence label 1 is correct."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 4. [CSOs] [may] [engage in unrelated business activities] such as revenue generation [after law’s commencement] [or else choose not to pursue those activities]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": -1,
+    "Evidence": "Статья 12(3): \"Благотворительная организация вправе осуществлять предпринимательскую деятельность только для достижения целей, ради которых она создана, и соответствующую этим целям.\"",
+    "Explanation": "The matrix provision expects the law to allow CSOs to run business activities that are unrelated to their statutory goals. Article 12(3) explicitly limits any entrepreneurial activity to purposes that directly serve the organization’s goals, i.e., it forbids unrelated business. This is the negation of the permissive provision. Therefore, the correct label is -1, not 1."
+  },
+  {
+    "Provision": "RESTRICTIVE RESOURCES PROVISION 5. [CSOs] [must] [provide information on its financial matters] such as financing agreements, contracts, or employee salaries [when the regulating agency requests] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 0,
+    "Evidence": "Статья 19(2): \"...благотворительная организация ежегодно представляет ... отчет о своей деятельности, содержащий сведения о: финансово-хозяйственной деятельности...\"",
+    "Explanation": "Article 19(2) obliges charities to file a detailed annual report that includes financial information. The matrix provision, however, requires CSOs to supply such information specifically when the regulating body requests it. The cited article imposes a routine, calendar-based reporting duty, not a duty contingent on an agency’s request. Because the condition component (\"when the regulating agency requests\") is not met, the legal text does not fully implement the ADICO rule. Therefore the correct label is 0 (absence)."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 5. [CSOs] [may] [engage in local fundraising or related business activities] such as soliciting donations or selling products/services related to their charitable mission [after law’s commencement] [or else choose not to pursue those activities]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 12(2): \"Благотворительная организация вправе заниматься деятельностью по привлечению ресурсов...\"; Статья 15 (источники формирования имущества): \"...поступления от деятельности по привлечению ресурсов (проведение кампаний... по сбору благотворительных пожертвований...)\"",
+    "Explanation": "The statute explicitly states that charitable (non-profit) organizations are entitled (вправе) to conduct resource-mobilisation activities and lists fundraising campaigns among permitted sources of income. This grants CSOs permission to raise funds locally and carry out related activities, satisfying the permissive provision. Therefore the original label of presence (1) is correct."
+  },
+  {
+    "Provision": "PERMISSIVE RESOURCES PROVISION 6. [CSOs] [may] [appeal decisions that disadvantage their positioning on financial and non-financial matters] such as orders regarding fines, taxes, foreign funding, and ownership of property [after such decisions are communicated] [or else accept the decision]",
+    "FirstRoundCoderLabel": 1,
+    "CorrectLabel": 1,
+    "Evidence": "Статья 9(3): \"Решение об отказе в государственной регистрации благотворительной организации, а также уклонение от такой регистрации могут быть обжалованы в судебном порядке.\"",
+    "Explanation": "The law explicitly authorizes charitable organizations (a type of CSO) to file a court appeal against an adverse administrative decision (refusal of state registration). This meets the ADICO elements: the attribute (CSOs), deontic (may), aim (appeal), and condition (after the decision is issued). Although the example decisions in the matrix focus on resource issues, the text covers a disadvantageous administrative decision of a non-financial nature, which is sufficient for the permissive appeal provision. Therefore the presence label (1) assigned by the first-round coder is correct."
+  },
+  {
+    "Provision": "RESTRICTIVE RESOURCES PROVISION 8. [CSOs] [must not] [receive any foreign funding under any circumstances] [after law’s commencement] [or else face penalty for non-compliance]",
+    "FirstRoundCoderLabel": -1,
+    "CorrectLabel": -1,
+    "Evidence": "Статья 21(4): \"Благотворительная организация имеет право на получение благотворительных пожертвований от иностранных граждан, лиц без гражданства, а также от иностранных и международных организаций.\"",
+    "Explanation": "The statute expressly grants CSOs (charitable organisations) the right to receive donations from foreign individuals and organisations. This directly contradicts and therefore negates the matrix provision’s absolute prohibition on any foreign funding. Hence the appropriate label is -1 (explicit negation)."
+  }
+]
