@@ -91,7 +91,7 @@ def code_law(law_text):
         ## EXAMPLE
         ### INPUT: (will be the full text of the law, not shown here for brevity)
     
-        ### OUTPUT: (only 4 provisions are shown here for brevity, but you will code all 56 provisions)
+        ### OUTPUT: (only 5 provisions are shown here for brevity, but you will code all 56 provisions)
         {{
         "Name": "Act No. 90-559",
         "Jurisdiction": "France",

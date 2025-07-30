@@ -19,8 +19,8 @@ def main():
     print(f"Processing: {LAW_PATH}")
 
     # First-round coding
-    #first_round_data = code_law(law_text)
-    first_round_data = code_law_find_context(law_text)
+    first_round_data = code_law(law_text)
+    #first_round_data = code_law_find_context(law_text)
 
     # Save first-round output
     with open(FIRST_ROUND_OUTPUT, "w", encoding="utf-8") as f:
@@ -29,11 +29,11 @@ def main():
     print(f"Saved first-round coding to {FIRST_ROUND_OUTPUT}")
 
     # Filter and verify non-zero provisions
-    #nonzero_provisions = extract_nonzero_provisions(first_round_data)
+    nonzero_provisions = extract_nonzero_provisions(first_round_data)
     verified = []
 
-    #for provision in nonzero_provisions:
-    for provision in first_round_data["Provisions"]:
+    for provision in nonzero_provisions:
+    #for provision in first_round_data["Provisions"]:
         print(f"Verifying: {provision['Provision'][:80]}...")
         #verified_result = verify_provision(provision, law_text)
         verified_result = verify_provision_context(provision)
