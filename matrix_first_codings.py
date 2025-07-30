@@ -52,8 +52,9 @@ def code_law(law_text):
     """
 
     system_instructions = f"""
+        # INSTRUCTIONS
         You are a legal analyst trained to analyze civil society regulation. 
-        You will code a legal regime by checking for the presence, absence, or negation of standard regulatory provisions.
+        You will code a legal regime by checking for the presence (1), absence (0), or negation (-1) of standard regulatory provisions.
         The provisions are from the CSO Regulatory Regime Matrix, which follow an ADICO syntax (Attributes, Deontic, Aim, Conditions, Or Else).
 
         TASK:
@@ -63,12 +64,13 @@ def code_law(law_text):
         - Code as -1 if one or more sections of the law EXPLICITLY NEGATE or forbid the rule.
         - Code as 0 if the law is silent on the matter or does not clearly address the rule.
 
-        If a provision is 1 or -1, you MUST include “evidence”, a verbatim quotation from the statute proving your decision.
+        If a provision is 1 or -1, you MUST include “evidence”, a verbatim quotation (60 words max) from the statute proving your decision.
         If no such quotation exists, you MUST label the provision 0, with a brief explanation when possible.
         When uncertain, pick 0.
 
         Important: The law may use a different terminology, but the matrix uses CSO (Civil Society Organization) as an umbrella term that includes terms such as charity, foundation, non-profit organizations and other kinds of voluntary associations.
 
+        ## Step 1
         Before coding the law, provide:
             Name: Name of law (if available)
             Jurisdiction: Where the law applies
@@ -76,14 +78,20 @@ def code_law(law_text):
             Language: The language the provided statute is in
             Objective: What the statute is intended to regulate, and if it's related to CSO activity
 
+        ## Step 2
         Then, for each matrix provision, provide:
             Matrix provision with ID (exactly as it appears in matrix)
             Code: 1, 0, or -1
             Evidence: Verbatim quotation from the statute (60 words max) if applicable
             Brief explanation (1-2 sentences)
 
-        Use this examples to guide your coding, the output shall be in a JSON file with the following structure:
+        You will receive a full statute text which is extensive, so you will need to read it carefully to find the relevant sections.
+        Use these examples to guide your coding, the output shall be in a JSON file with the following structure:
 
+        ## EXAMPLE
+        ### INPUT: (will be the full text of the law, not shown here for brevity)
+    
+        ### OUTPUT: (only 4 provisions are shown here for brevity, but you will code all 56 provisions)
         {{
         "Name": "Act No. 90-559",
         "Jurisdiction": "France",
@@ -100,7 +108,7 @@ def code_law(law_text):
             {{
             "Provision": "RESTRICTIVE FORMATION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
             "Code": 0,
-            "Evidence": null,
+            "Evidence": "Art. 19-1: 'The company Foundation enjoys the legal capacity from the publication in the Official Gazette of the administrative authorization that him confers it this status.'",
             "Explanation": "While Art. 19-1 requires administrative authorization and publication for legal capacity, it does not explicitly forbid informal association, it only requires registration for legal recognition."
             }},
             {{
@@ -114,11 +122,17 @@ def code_law(law_text):
             "Code": 1,
             "Evidence": "Art. 20: 'In case of sending to it repeated warnings in written form, the charitable organization may be liquidated in conformity with the procedure, stipulated by the Civil Code.'",
             "Explanation": "Article 20 states that if a charitable organization receives repeated warnings in writing, it may be liquidated according to the procedure set out in the Civil Code, thus providing a general penalty for offenses where no specific penalty is provided."
+            }},
+            {{
+            "Provision": "RESTRICTIVE RESOURCES 4. [CSOs] [must] [use certain depository institutions] such as government banks [after law's commencement] [or else face penalty for non-compliance] ",
+            "Code": 0,
+            "Evidence": "Art. 19-3: 'All securities must be placed in registered securities, in securities for which the nominative reference slip is provided for in the article 55 of Act No. 87-416 of 17 June, 1987 on savings or in securities accepted by the Banque de France as advance guarantees.'",
+            "Explanation": "Article 19-3 merely limits the types of securities the foundation may hold. It does not direct the CSO to open accounts or deposit its funds in a particular bank or other designated depository institution."
             }}
         }}
-
+        
+        Remember that in order for a provision to be coded as 1 or -1, the rule must be clearly established in the law, and you MUST provide evidence from the law text; otherwise it's a 0.
         The CSO Regulatory Regime Matrix is as follows: {matrix_typology}
-
     """
     start_time = time.time()
 
