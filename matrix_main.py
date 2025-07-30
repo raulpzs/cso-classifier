@@ -1,13 +1,13 @@
 import os
 import json
-from matrix_first_codings import code_law
-from matrix_first_filter import extract_nonzero_provisions, verify_provision
+from matrix_first_codings import code_law, code_law_find_context
+from matrix_first_filter import extract_nonzero_provisions, verify_provision, verify_provision_context
 
 # Configuration
-LAW_PATH = "inputs/RussiaOnCharActRUS.txt"
+LAW_PATH = "inputs/FrancecpENG.txt"
 OUTPUT_DIR = "outputs"
-FIRST_ROUND_OUTPUT = os.path.join(OUTPUT_DIR, "RussiaOnCharActRUS_first_round.json")
-VERIFIED_OUTPUT = os.path.join(OUTPUT_DIR, "RussiaOnCharActRUS_verified.json")
+FIRST_ROUND_OUTPUT = os.path.join(OUTPUT_DIR, "FrancecpENG_first_round_context_only.json")
+VERIFIED_OUTPUT = os.path.join(OUTPUT_DIR, "FrancecpENG_verified_context_only.json")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -19,7 +19,8 @@ def main():
     print(f"Processing: {LAW_PATH}")
 
     # First-round coding
-    first_round_data = code_law(law_text)
+    #first_round_data = code_law(law_text)
+    first_round_data = code_law_find_context(law_text)
 
     # Save first-round output
     with open(FIRST_ROUND_OUTPUT, "w", encoding="utf-8") as f:
@@ -28,12 +29,14 @@ def main():
     print(f"Saved first-round coding to {FIRST_ROUND_OUTPUT}")
 
     # Filter and verify non-zero provisions
-    nonzero_provisions = extract_nonzero_provisions(first_round_data)
+    #nonzero_provisions = extract_nonzero_provisions(first_round_data)
     verified = []
 
-    for provision in nonzero_provisions:
+    #for provision in nonzero_provisions:
+    for provision in first_round_data["Provisions"]:
         print(f"Verifying: {provision['Provision'][:80]}...")
-        verified_result = verify_provision(provision, law_text)
+        #verified_result = verify_provision(provision, law_text)
+        verified_result = verify_provision_context(provision)
         verified.append(verified_result)
 
     # Save verified output

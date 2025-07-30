@@ -1,0 +1,345 @@
+{
+  "Name": "Act No. 90-559 of 4 July, 1990 establishing the foundations of enterprises and amending the provisions of Act No. 87-571 of 23 July, 1987 on the development of patronage relating to foundations",
+  "Jurisdiction": "France",
+  "Year": 1990,
+  "Language": "French (translated to English for analysis)",
+  "Objective": "This law establishes the legal framework for the creation, operation, and regulation of corporate foundations in France, including their formation, governance, resources, and dissolution. It amends previous legislation to clarify the requirements for recognition, reporting, and oversight of foundations, particularly those created by companies for public interest purposes.",
+  "Provisions": [
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE 1. [Government] [must] [create or appoint agency to implement and enforce the law] [at law’s commencement] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Art. 19-10. - The administrative authority shall ensure the regularity of the operation of the company Foundation; to this end, it can be given all documents and carry out any useful investigations. ... Art. 19-13. - A decree in Council of State lays down detailed rules for the application of articles 18 to 19-12 of this law.",
+      "Explanation": "The law assigns oversight and enforcement to an administrative authority and provides for further implementation by decree, fulfilling the requirement to appoint an agency."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE 1. [Agency] [must] [explain penalty for particular offenses, or explain a ‘general penalty’ for offenses where no penalty is expressly provided] [before commencement of the law] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Art. 20.- ... Presidents, directors or directors of groups who violate the provisions of this article shall be punished by a fine of 5000F to 15000F and, in the case of recidivism, by a fine of 10,000F to 30,000F.",
+      "Explanation": "Article 20 provides explicit penalties for violations, fulfilling the requirement for explanation of penalties."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE 2. [CSOs] [must] [accept restricted freedoms on certain matters] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Art. 19-8. ... Under penalty of withdrawal of the administrative authorization provided for in the article 19-1, the company Foundation cannot make call to the public generosity; it cannot receive donations nor bequests.",
+      "Explanation": "The law restricts company foundations from public fundraising and receiving donations/bequests, with penalties for non-compliance."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE 2. [Government and agency] [must] [create or empower a dispute resolution forum] such as a court [before commencement of the law] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Art. 19-11. ... If the Board has not been able to proceed with this nomination or if the dissolution results from the withdrawal of authorization, the liquidator is designated the judicial authority.",
+      "Explanation": "The law empowers the judicial authority to act in disputes regarding dissolution, fulfilling the requirement for a dispute resolution forum."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE 3. [Government] [may] [create or empower cabinet minister to make new rules regulating CSOs on certain matters] [after law’s commencement] [or else leave the regulatory regime unchanged]",
+      "Code": 1,
+      "Evidence": "Art. 19-13. - A decree in Council of State lays down detailed rules for the application of articles 18 to 19-12 of this law.",
+      "Explanation": "The law allows for further regulation by decree, empowering the executive to make new rules."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE 3. [CSOs] [may] [adopt standards for self-regulation through associations] [after law’s commencement] [or else choose not to be self-regulated]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "The law does not address self-regulation by CSOs through associations."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE 4. [Agency] [may] [publish certain information about a CSO, or seize CSO property and documents] [with or without reasonable cause after law’s commencement] [or else choose other tactics to receive information from CSOs]",
+      "Code": 1,
+      "Evidence": "Art. 19-10. - The administrative authority shall ensure the regularity of the operation of the company Foundation; to this end, it can be given all documents and carry out any useful investigations.",
+      "Explanation": "The administrative authority is empowered to obtain documents and conduct investigations."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE 4. [Government and agency] [must] [create or empower self-regulation forum for CSO self-governance] [after law’s commencement] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Art. 20-1.- A National Council of foundations is established with the task of: “- gathering and disseminating information on the merits; “- establishing an annual report on this subject matter; “- proposing to the public authorities actions aimed at the development of the sponsorship (patronage) of foundations.",
+      "Explanation": "The law creates a National Council of foundations, which can serve as a forum for self-governance."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE 5. [Government] [may] [use unorthodox process to pass new CSO laws] [after law’s commencement] [or else follow normal pathway to change regulatory regime]",
+      "Code": 1,
+      "Evidence": "Art. 19-13. - A decree in Council of State lays down detailed rules for the application of articles 18 to 19-12 of this law.",
+      "Explanation": "The law allows for regulatory details to be set by decree, which is an alternative to the normal legislative process."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE 5. [CSO self-regulator] [must] [create a code of conduct] to license, supervise, or sanction members if such actions are warranted [after law’s commencement] [or else use other legal means of self-regulation]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "There is no mention of a CSO self-regulator or code of conduct."
+    },
+    {
+      "Provision": "RESTRICTIVE GOVERNANCE 6. [Non-state actors] [must not] [create new CSOs] because only the state may do so [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "Art. 19. - Civil or commercial companies, public establishments of an industrial and commercial nature, cooperatives or mutual funds may create, with a view to the realization of a work of general interest, a not for-profit legal person, called the corporate Foundation.",
+      "Explanation": "The law allows non-state actors (companies, cooperatives, etc.) to create foundations."
+    },
+    {
+      "Provision": "PERMISSIVE GOVERNANCE 6. [Agency] [must not] [regulate CSOs without oversight] such as an oversight board of CSO participants, a nomination & approval process, or clear accountability to elected officials [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 1,
+      "Evidence": "Art. 20-1.- A National Council of foundations is established ... The composition and operating procedures of this Council shall be set by Decree in Council of State.",
+      "Explanation": "The National Council provides oversight and accountability for the regulation of foundations."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION 1. [CSOs] [must not] [operate as informal, voluntary associations] and instead must register with the government [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Art. 19-1. - The company Foundation enjoys the legal capacity from the publication in the Official Gazette of the administrative authorization that him confers it this status.",
+      "Explanation": "Legal capacity is only granted upon administrative authorization and publication, requiring formal registration."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION 1. [Agency] [must] [follow explicit termination and dissolution provisions] [when attempting to cancel or suspended a CSO] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Art. 19-11.- When the Foundation is dissolved, ... a liquidator is appointed by the Board of Directors. If the Board has not been able to proceed with this nomination or if the dissolution results from the withdrawal of authorization, the liquidator is designated the judicial authority. The appointment of the liquidator is published in the Official Gazette.",
+      "Explanation": "The law provides explicit procedures for dissolution and liquidation."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION 2. [CSOs] [must not] [appeal the registration denial or deregistration order] [after such a decision has been communicated] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "The law does not address the right to appeal registration denial or deregistration."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION 2. [Agency] [must] [explain precise legal definitions of CSOs that it regulates] [at law’s commencement] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Art. 19. - Civil or commercial companies, public establishments of an industrial and commercial nature, cooperatives or mutual funds may create, with a view to the realization of a work of general interest, a not for-profit legal person, called the corporate Foundation.",
+      "Explanation": "The law provides a clear definition of the corporate foundation."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION 3. [CSOs] [must] [reregister or otherwise apply for continuation of the organization] [on a certain day, after a fixed duration, or following meaningful changes to the organization] such as renaming the society, amending its constitution, or becoming a branch of another organization [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Art. 19-1. ... The company Foundation shall make known to the administrative authority any changes made to its statutes; these changes are permitted in the same forms as the original statutes. ... Art. 19-2. ... Upon expiry of this period, the founders or some of them only may decide the extension of the Foundation for a period of at least five years. In the event of an extension, the founders undertake a new multiannual action program ... The extension is permitted in the forms provided for in the initial authorization.",
+      "Explanation": "The law requires notification and reauthorization for changes and extensions."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION 3. [Agency] [must not] [reject registration for reasons other than those explicitly stated] [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "The law does not specify that registration can only be denied for explicit reasons."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION 4. [CSOs] [must] [identify minimum number of founders or members] [or else the CSO is ineligible for registration or reregistration]",
+      "Code": 0,
+      "Evidence": "Art. 19. - ... the founder or founders bring the initial allocation ...",
+      "Explanation": "The law allows for one or more founders but does not specify a minimum number."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION 4. [Agency] [must not] [make registration unnecessarily complex or burdensome] [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "The law does not address the complexity or burden of the registration process."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION 5. [CSOs] [must] [demonstrate minimum capital requirements] such as financial, non-financial, or expertise [or else it is ineligible for registration or reregistration]",
+      "Code": 1,
+      "Evidence": "Art. 19-6. - The minimum initial allocation, the amount of which is determined under conditions laid down through regulatory means is between the fifth of the minimum amount of the multiannual program of action referred to in the article 19-7 and the fifth of the amount of the multiannual action program of the company Foundation.",
+      "Explanation": "The law requires a minimum initial allocation for registration."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION 5. [Agency] [must] [review and make registration decisions within specified time period] [if an application has been submitted as prescribed] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Art. 19-1. ... Such authorization shall be deemed to have been granted by the end of four months from the date of the request.",
+      "Explanation": "The law sets a four-month period for registration decisions."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION 6. [CSOs] [must] [have government agency partner] such as a sponsorship or memo of understanding [or else the CSO is ineligible for registration or reregistration]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "There is no requirement for a government agency partner."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION 6. [CSOs] [must] [produce governing document for self-management] such as bylaws minimally prescribed in policy [if they seek to be a formal organization] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Art. 19-7. - The statutes of the company Foundation include a multiannual action program, the amount of which may not be less than the prescribed amount through regulatory means.",
+      "Explanation": "The law requires statutes (governing documents) for the foundation."
+    },
+    {
+      "Provision": "RESTRICTIVE FORMATION 7. [CSOs] [must] [pay processing/application fee] [in addition to an application that must be completed as prescribed] [or else the registration or reregistration application will not be reviewed]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No mention of a required application fee."
+    },
+    {
+      "Provision": "PERMISSIVE FORMATION 7. [Agency] [must] [provide written explanation of registration and reregistration decision] such as certificate of approval or justification for refusal [after a CSO has applied as prescribed] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Art. 19-1. - The company Foundation enjoys the legal capacity from the publication in the Official Gazette of the administrative authorization that him confers it this status.",
+      "Explanation": "The law requires publication of the authorization, which serves as written explanation."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS 1. [CSOs] [must] [obtain government permission, “permits”, for individual projects] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No requirement for project-specific permits."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS 1. [CSOs] [must] [produce summary of operations and activities for public access] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "Art. 19-10. ... The company Foundation shall, each year, address to the administrative authority a report on the status of its activities to which is attached the report of the auditor and annual accounts.",
+      "Explanation": "Reporting is required to the administrative authority, not for public access."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS 2. [CSOs] [must] [comply with agency’s interference regarding external operations or prescribed coordination across multiple CSOs] [when instructions are communicated with or without reasonable cause] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Art. 19-10. - The administrative authority shall ensure the regularity of the operation of the company Foundation; to this end, it can be given all documents and carry out any useful investigations.",
+      "Explanation": "The administrative authority has broad powers to oversee and intervene in operations."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS 2. [CSOs] [must not] [pursue certain operational activities due to their legal type and irrespective of other matters] such as when the activity is incongruent with the legal type—e.g., public charities shall not endorse political candidates; the organization is unlawful; or the CSO’s legal status has been legally revoked [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Art. 19-3. - The company Foundation may, subject to the provisions of article 19-8, make all acts of the civil life that is not prohibited by its statutes, but it cannot acquire or possess other buildings other than those necessary for the purpose it proposes.",
+      "Explanation": "The law restricts certain activities based on the legal type of the foundation."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS 3. [CSOs] [must not] [exceed specific threshold of budget spent on overhead] such as a certain percentage of budgets spent on administrative costs [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No mention of overhead or administrative cost thresholds."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS 3. [CSOs] [must] [obtain a license to repeatedly perform a general activity] as opposed to obtaining a permit each time it plans to perform the activity [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No mention of general activity licenses."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS 4. [CSOs] [must not] [engage in specified activities] such as activism [if it receives foreign funds that exceed a threshold] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No mention of restrictions on activities based on foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS 4. [Agency] [must] [have reasonable cause and follow explicit rules when conducting inspections of CSOs] such as requesting specific documentation or investigating offenses [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": -1,
+      "Evidence": "Art. 19-10. - The administrative authority shall ensure the regularity of the operation of the company Foundation; to this end, it can be given all documents and carry out any useful investigations.",
+      "Explanation": "The law allows the administrative authority to conduct investigations without specifying reasonable cause or explicit rules."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS 5. [CSOs] [must] [obtain operational approvals—i.e. general licenses or individual permits—from multiple government units] such as multiple agencies, administrative jurisdictions, or a combination of both [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No requirement for multiple operational approvals."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS 5. [CSO] [may] [use foreign funds for certain activities because its legal definition either expressly permits it or does not explicitly prohibit it] [after law’s commencement] [or else choose not to accept the funds]",
+      "Code": 0,
+      "Evidence": "Art. 19-8. ... it cannot receive donations nor bequests.",
+      "Explanation": "The law prohibits company foundations from receiving donations or bequests, which would include foreign funds."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS 6. [CSOs] [must] [follow prescribed rules regarding internal administrative matters and/or activities] such keeping registry of members, holding membership meetings at minimal internals, or requiring international CSOs to consult local boards [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Art. 19-9. - Company foundations establish an annual balance sheet, an income statement and an annex. ... They appoint at least one auditor and one substitute ...",
+      "Explanation": "The law prescribes rules for internal administration, including financial reporting and audits."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS 6. [CSO] [may] [conduct activities without notifying local governments] [after law’s commencement] [or else notify government or not conduct activities]",
+      "Code": -1,
+      "Evidence": "Art. 19-10. ... The company Foundation shall, each year, address to the administrative authority a report on the status of its activities ...",
+      "Explanation": "The law requires annual reporting to the administrative authority, so activities cannot be conducted without notification."
+    },
+    {
+      "Provision": "RESTRICTIVE OPERATIONS 7. [CSOs] [must] [surrender operational assets to government] [after a project is completed or CSO is dissolved] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Art. 19-12. - In the event of dissolution of a company Foundation, the unused resources and endowment shall be allocated by the liquidator to one or many public or recognized public institutions whose activity is analogous to that of the dissolved company Foundation.",
+      "Explanation": "Upon dissolution, assets are transferred to public or recognized institutions."
+    },
+    {
+      "Provision": "PERMISSIVE OPERATIONS 7. [Agency] [must not] [hold CSOs to different requirements for staff than other employers] [after law’s commencement] [or else it is overstepping its authority]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No mention of staff requirements."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES 1. [CSOs] [must] [acquire one-time approval to receive foreign funding that is separate from formal registration] [after law’s commencement] [or else it cannot receive those resources without facing penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "Art. 19-8. ... it cannot receive donations nor bequests.",
+      "Explanation": "The law prohibits company foundations from receiving donations or bequests, so no approval process is provided."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES 1. [CSOs] [must] [report their finances for public access] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "Art. 19-9. ... Company foundations establish an annual balance sheet, an income statement and an annex. ... The company Foundation shall, each year, address to the administrative authority a report on the status of its activities ...",
+      "Explanation": "Financial reporting is required to the administrative authority, not for public access."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES 2. [CSOs] [must not] [receive more than a specified threshold of foreign funding] such as a fixed value or percentage of its budget [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "Art. 19-8. ... it cannot receive donations nor bequests.",
+      "Explanation": "The law prohibits all donations and bequests, not just those above a threshold."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES 2. [Private entities] [may] [take a tax-deduction for supporting certain CSOs according to their legal type] such as donations to 501(c)(3)s but not contributions to political parties [after law’s commencement] [or else choose not to take the deduction]",
+      "Code": 1,
+      "Evidence": "Art. 5. - The first sentence of the first of the article 238bis of the General Tax Code is supplemented by the words: “especially when these payments are made to the benefit of a company Foundation, even if the latter bears the name of the founding company.”",
+      "Explanation": "The law allows tax deductions for payments to company foundations."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES 3. [CSOs] [must] [acquire government approval for each financial transaction or project] [after law’s commencement] [or else it cannot receive those resources without facing penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No requirement for approval of each financial transaction."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES 3. [Government] [must] [ensure CSOs enjoy all the rights that accompany their legal type] such as a preferential treatment on property, sales, or payroll taxes [after law’s commencement] [or else it is negligent in its duties]",
+      "Code": 1,
+      "Evidence": "Art. 5. ... especially when these payments are made to the benefit of a company Foundation ...",
+      "Explanation": "The law provides tax benefits to company foundations."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES 4. [CSOs] [must] [use certain depository institutions] such as government banks [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "Art. 19-3. ... All securities must be placed in registered securities, in securities for which the nominative reference slip is provided for in the article 55 of Act No. 87-416 of 17 June, 1987 on savings or in securities accepted by the Banque de France as advance guarantees.",
+      "Explanation": "The law restricts the types of securities but does not require use of specific depository institutions for all funds."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES 4. [CSOs] [may] [engage in unrelated business activities] such as revenue generation [after law’s commencement] [or else choose not to pursue those activities]",
+      "Code": 1,
+      "Evidence": "Art. 19-8. The resources of the company Foundation include: ... 3° the remuneration for services rendered; ...",
+      "Explanation": "The law allows company foundations to earn income from services rendered."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES 5. [CSOs] [must] [provide information on its financial matters] such as financing agreements, contracts, or employee salaries [when the regulating agency requests] [or else face penalty for non-compliance]",
+      "Code": 1,
+      "Evidence": "Art. 19-10. - The administrative authority shall ensure the regularity of the operation of the company Foundation; to this end, it can be given all documents and carry out any useful investigations.",
+      "Explanation": "The law requires company foundations to provide documents to the administrative authority."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES 5. [CSOs] [may] [engage in local fundraising or related business activities] such as soliciting donations or selling products/services related to their charitable mission [after law’s commencement] [or else choose not to pursue those activities]",
+      "Code": -1,
+      "Evidence": "Art. 19-8. ... Under penalty of withdrawal of the administrative authorization ... the company Foundation cannot make call to the public generosity; it cannot receive donations nor bequests.",
+      "Explanation": "The law explicitly prohibits company foundations from soliciting donations."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES 6. [CSOs] [must not] [receive foreign funding from certain sources] such as foreign governments or private sponsors explicitly stated [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No mention of restrictions on foreign funding from specific sources."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES 6. [CSOs] [may] [appeal decisions that disadvantage their positioning on financial and non-financial matters] such as orders regarding fines, taxes, foreign funding, and ownership of property [after such decisions are communicated] [or else accept the decision]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No mention of an appeal process for financial or non-financial decisions."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES 7. [CSOs] [must] [pay taxes on foreign funding] [when similar funding from domestic sources would not be taxed] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No mention of tax treatment of foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES 7. [International CSOs] [must not] [crowd-out local CSO from funding opportunities] such as winning grants or not partnering with domestic CSOs [when funding opportunities are announced] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No mention of international CSOs or crowding out local CSOs."
+    },
+    {
+      "Provision": "RESTRICTIVE RESOURCES 8. [CSOs] [must not] [receive any foreign funding under any circumstances] [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "Art. 19-8. ... it cannot receive donations nor bequests.",
+      "Explanation": "The law prohibits all donations and bequests, but does not specifically address foreign funding."
+    },
+    {
+      "Provision": "PERMISSIVE RESOURCES 8. [CSOs] [must] [pay taxes on unrelated business activities] such as revenue earned on sales of products/services unrelated to their charitable mission [after law’s commencement] [or else face penalty for non-compliance]",
+      "Code": 0,
+      "Evidence": "N/A",
+      "Explanation": "No mention of tax treatment for unrelated business activities."
+    }
+  ]
+}
