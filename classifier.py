@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import os
 from openai import OpenAI
 #from dotenv import load_dotenv
